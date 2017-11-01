@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-22"
+lastupdated: "2017-11-01"
 
 ---
 
@@ -30,7 +30,7 @@ The following {{site.data.keyword.watson}} SDKs are supported by {{site.data.key
 * [.NET SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/dotnet-standard-sdk){: new_window}
 * [Unity SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/unity-sdk){: new_window}
 
-The [API reference ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/developer/watson/resources){: new_window} for each service includes information and examples for the Java, Node.js, and Python SDKs.
+The [API reference ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/developer/watson/documentation){: new_window} for each service includes information and examples for the Java, Node.js, and Python SDKs.
 {: tip}
 
 ## Community SDKs
