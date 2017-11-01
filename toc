@@ -33,7 +33,7 @@ Watson
     getting-started-variables.md
     getting-started-sdks.md
     [Watson GitHub repos](https://github.com/watson-developer-cloud/)
-    [Watson docs](https://console.bluemix.net/developer/watson/resources)
+    [Watson docs](https://console.bluemix.net/developer/watson/documentation)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
