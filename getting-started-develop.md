@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-21"
+lastupdated: "2017-11-16"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2017-08-21"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Programming models for Watson services
+# Programming models for {{site.data.keyword.watson}} services
 
 {{site.data.keyword.watson}} services support two typical programming models for HTTP communications: Relaying requests via a proxy and Direct interaction with a service.
 
@@ -105,6 +105,6 @@ The communications paths now diverge.
 - 2: The client application requests an authentication token from the {{site.data.keyword.Bluemix_notm}} application, typically via an HTTP `GET` request.
 - 3: The {{site.data.keyword.Bluemix_notm}} application sends an HTTP `GET` request to the  authentication component of the DataPower Edge Router. The request includes the HTTP basic authentication credentials for the service obtained from the `VCAP_SERVICES` environment variable.The Edge  Router responds with a time-limited authentication token that the  client can use to make requests to the service.
 - 4: The {{site.data.keyword.Bluemix_notm}} application returns the authentication token to  the client. The client then communicates with the {{site.data.keyword.Bluemix_notm}} application only when it needs to refresh its token.
-- 5: The client sends requests directly to the service via the service's  REST API. The client must pass its authentication token with each  request via the `X-Watson-Authorization-Token` request header, the  `watson-token` query parameter, or as a cookie.
+- 5: The client sends requests directly to the service via the service's  REST API. The client must pass its authentication token with each  request via the `X-Watson-Authorization-Token` request header, the `watson-token` query parameter, or as a cookie.
 - 6: All requests pass through the DataPower Edge Router. The Edge Router  validates the client's token and routes the request to the service.
 - 7: The service responds directly to the client.

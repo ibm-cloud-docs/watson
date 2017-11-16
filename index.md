@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-21"
+lastupdated: "2017-11-16"
 
 ---
 
@@ -17,48 +17,35 @@ lastupdated: "2017-08-21"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Getting started with Watson and Bluemix
+# Getting started with Watson and {{site.data.keyword.Bluemix_notm}}
 {: #about}
 
 You're just a few steps away from getting started with {{site.data.keyword.ibmwatson}}.
 {: shortdesc}
 
-## Step 1: Getting a free Bluemix account
+## Step 1: Getting a free {{site.data.keyword.Bluemix_notm}} account
 {: #free-account}
 
-Create a free 30-day trial account on {{site.data.keyword.Bluemix}}. [Sign-up for free ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}. You'll receive an email to activate your account.
+Create an account on {{site.data.keyword.cloud_notm}} to try services for free with no time restrictions. [Sign-up for free ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}. You'll receive an email to confirm and activate your account.
 
-{{site.data.keyword.Bluemix}} is the cloud platform that hosts {{site.data.keyword.watson}} services. [Learn more](/docs/overview/whatisbluemix.html).
+## Step 2: Finding a starter kit or service
+{: #access-console}
 
-## Step 2: Setting up your Bluemix account
+After you activate your account and log in, pick a {{site.data.keyword.watson}} starter kit that fits your needs, or select from one of the {{site.data.keyword.watson}} services.
 
-After you activate your account and log in, you go through a simple process to set up your environment. A wizard takes you through the process:
+If you're not already at the {{site.data.keyword.watson}} console, select **Watson** from the menu. ([Take me there ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/developer/watson/){: new_window})
 
-![Create org wizard](images/bm-create-org-wizard.png)
+![Click Menu, and then click Watson](images/bm-access-console.gif)
 
-## Step 3: Finding a service
-Next, you pick a {{site.data.keyword.watson}} service to work with.
+## Step 3: Creating a project
+{: #create-project}
 
-If you're not already there, select **Catalog** and then **{{site.data.keyword.watson}}** to get to the list of services.
+A project provides resources to your applications. Create a project from your starter kit or services and start using it for free.
 
-![Click Catalog, and then Watson](images/bm-catalog-watson.gif)
-
-## Step 4: Creating a service instance
-{{site.data.keyword.Bluemix_notm}} provides resources to your applications through a *service instance*. Create your own instance.
-
-Select a service from the {{site.data.keyword.watson}} catalog and start using it for free by clicking **Create**.
-
-![Create a service instance by clicking Catalog, then Watson, then the service, then Create.](images/bm-create-discovery.gif)
-
-## Step 5: Getting service credentials
-{: #get-service-credentials}
-
-Click **Service credentials** and then **View credentials** in the Service credentials section to get your authentication information. You'll use the information that is displayed as the credentials to authenticate to your service instance from your app.
-
-Here's how to find the credential information later from your {{site.data.keyword.Bluemix_notm}} dashboard.
-
-![Get service credentials by clicking Dashboard, then your instance, then View Credentials](images/bm-get-credentials.gif)
+![Create a service instance by clicking Catalog, then Watson, then the service, then Create.](images/bm-create-project.gif)
 
 ## Next steps: Starting to code
 
-You're ready to go. You have the account and service information that you need. Start [building with {{site.data.keyword.watson}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/watson/){: new_window}!
+You're ready to go. Your project has the details that you need.
+
+Use the link in the **Knowledge Guide** to get started, and start [building with {{site.data.keyword.watson}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/developer/watson/dashboard){: new_window}!
