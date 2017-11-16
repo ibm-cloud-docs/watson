@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-22"
+lastupdated: "2017-11-15"
 
 ---
 
@@ -22,7 +22,7 @@ lastupdated: "2017-08-22"
 You can use the `cf` command-line interface (CLI) tool to work with {{site.data.keyword.Bluemix}} applications on your local system. The tool provides a rich interface for a full development experience.
 {: shortdesc}
 
-For more information about working with Cloud Foundry tools for application development, see [How Bluemix Cloud Foundry works](/docs/overview/cf.html) and the [Cloud Foundry Documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://docs.cloudfoundry.org/){: new_window}.
+For more information about working with Cloud Foundry tools for application development, see [How Cloud Foundry works with {{site.data.keyword.cloud_notm}}](/docs/overview/cf.html) and the [Cloud Foundry Documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://docs.cloudfoundry.org/){: new_window}.
 
 ## Installing the cf command-line interface
 
@@ -36,7 +36,7 @@ Make sure to include the command on your `PATH` environment variable after you i
 
 ## Commands for service instances
 
-Useful `cf` commands for managing existing {{site.data.keyword.watson}} service instances in {{site.data.keyword.Bluemix_notm}}:
+Useful `cf` commands for managing existing {{site.data.keyword.watson}} service instances in {{site.data.keyword.cloud_notm}}:
 
 - [**cf services**](/docs/cli/reference/cfcommands/index.html#cf_services) Lists of service instances in the current space.
 
@@ -52,7 +52,7 @@ Useful `cf` commands for managing existing {{site.data.keyword.watson}} service 
   ```
   {: pre}
 
-- [**cf create-service**](/docs/cli/reference/cfcommands/index.html#cf_create-service): Create an instance of the service you can bind to your application that you run in {{site.data.keyword.Bluemix_notm}}:
+- [**cf create-service**](/docs/cli/reference/cfcommands/index.html#cf_create-service): Create an instance of the service you can bind to your application that you run in {{site.data.keyword.cloud_notm}}:
 
     ```bash
     cf create-service {service-name} {service-plan} {service-instance-name}
@@ -62,18 +62,18 @@ Useful `cf` commands for managing existing {{site.data.keyword.watson}} service 
     - For *{service-name}* and *{service-plan}* arguments, use the output of the `cf marketplace` command.
     - Specify the {service-instance-name} that you want to create. For many applications, the name is specified in the `manifest.yml` or other configuration file for the application.
 
-    - **cf delete-service**: Delete a service instance:
+- **cf delete-service**: Delete a service instance:
 
     ```bash
     cf delete-service {service-instance-name}
     ```
     {: pre}
 
-    By deleting a service that you no longer need, you free up resources in {{site.data.keyword.Bluemix_notm}} that you don't need.
+    By deleting a service that you no longer need, you free up resources in {{site.data.keyword.cloud_notm}} that you don't need.
 
 ## Commands to deploy and run applications
 
-Common `cf` commands to deploy and run applications in {{site.data.keyword.Bluemix_notm}}:
+Common `cf` commands to deploy and run applications in {{site.data.keyword.cloud_notm}}:
 
 - [**cf api**](/docs/cli/reference/cfcommands/index.html#cf_api): Specify the location of the {{site.data.keyword.watson}} APIs:
 
@@ -82,21 +82,21 @@ Common `cf` commands to deploy and run applications in {{site.data.keyword.Bluem
   ```
   {: pre}
 
-- [**cf login**](/docs/cli/reference/cfcommands/index.html#cf_login). Log in to {{site.data.keyword.Bluemix_notm}} with your {{site.data.keyword.Bluemix_notm}} ID and password:
+- [**cf login**](/docs/cli/reference/cfcommands/index.html#cf_login). Log into {{site.data.keyword.cloud_notm}} with your {{site.data.keyword.ibmid}} and password:
 
   ```bash
   cf login -u {username} -p {password}
   ```
   {: pre}
 
-- [**cf marketplace**](/docs/cli/reference/cfcommands/index.html#cf_marketplace): List the services in the {{site.data.keyword.Bluemix_notm}} catalog that you can connect to:
+- [**cf marketplace**](/docs/cli/reference/cfcommands/index.html#cf_marketplace): List the services in the {{site.data.keyword.cloud_notm}} catalog that you can connect to:
 
   ```bash
   cf marketplace
   ```
   {: pre}
 
-  The output includes the name of each service and the list of plans under which the service is available. You need this information when you create an instance of the service for your application running in {{site.data.keyword.Bluemix_notm}}.
+  The output includes the name of each service and the list of plans under which the service is available. You need this information when you create an instance of the service for your application running in {{site.data.keyword.cloud_notm}}.
 
   If you know the name of the service, use the `-s` option. For example,
 
@@ -105,7 +105,7 @@ Common `cf` commands to deploy and run applications in {{site.data.keyword.Bluem
   ```
   {: pre}
 
-- [**cf push**](/docs/cli/reference/cfcommands/index.html#cf_push): Deploy or update an application to {{site.data.keyword.Bluemix_notm}}. The output includes the URL to access your application.
+- [**cf push**](/docs/cli/reference/cfcommands/index.html#cf_push): Deploy or update an application to {{site.data.keyword.cloud_notm}}. The output includes the URL to access your application.
 
   ```bash
   cf push {application-name}
@@ -116,7 +116,7 @@ Common `cf` commands to deploy and run applications in {{site.data.keyword.Bluem
 
 ## Commands for existing applications
 
-Useful `cf` commands for managing existing applications in {{site.data.keyword.Bluemix_notm}}:
+Useful `cf` commands for managing existing applications in {{site.data.keyword.cloud_notm}}:
 
 - [**cf apps**](/docs/cli/reference/cfcommands/index.html#cf_apps) List the applications that are deployed in the current space.
 
@@ -132,14 +132,14 @@ Useful `cf` commands for managing existing applications in {{site.data.keyword.B
   ```
   {: pre}
 
-- **cf restage**: Reload and restart your application in {{site.data.keyword.Bluemix_notm}}:
+- **cf restage**: Reload and restart your application in {{site.data.keyword.cloud_notm}}:
 
   ```bash
   cf restage {application-name}
   ```
   {: pre}
 
-Thi s command restarts the application as it exists in {{site.data.keyword.Bluemix_notm}}. To upload the latest version of the application to {{site.data.keyword.Bluemix_notm}} before restarting it, use the `cf push` command instead.
+Thi s command restarts the application as it exists in {{site.data.keyword.cloud_notm}}. To upload the latest version of the application to {{site.data.keyword.cloud_notm}} before restarting it, use the `cf push` command instead.
 
 - [**cf delete**](/docs/cli/reference/cfcommands/index.html#cf_delete) Delete an application:
 
@@ -148,7 +148,7 @@ Thi s command restarts the application as it exists in {{site.data.keyword.Bluem
   ```
   {: pre}
 
-  By deleting an app, you free up {{site.data.keyword.Bluemix_notm}} memory and quota to use for other applications.
+  By deleting an app, you free up {{site.data.keyword.cloud_notm}} memory and quota to use for other applications.
 
 - [**cf bind-service**](/docs/cli/reference/cfcommands/index.html#cf_bind-service) Binds a service to an application.
 

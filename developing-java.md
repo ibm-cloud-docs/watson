@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-22"
+lastupdated: "2017-11-15"
 
 ---
 
@@ -17,14 +17,14 @@ lastupdated: "2017-08-22"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Developing a Watson application in Java
+# Developing a {{site.data.keyword.watson}} application in Java
 
 To demonstrate the use of its REST API, each {{site.data.keyword.ibmwatson}} service provides sample web-based applications in Java in the {{site.data.keyword.watson}} GitHub project.
 {: shortdesc}
 
 ## Before you begin
 
-- Create a {{site.data.keyword.Bluemix}} account, or use an existing account. [Sign-up for free ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}.
+- Create an account on {{site.data.keyword.cloud_notm}}, or use an existing account. [Sign-up for free ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}.
 - Install the [Cloud Foundry ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/cloudfoundry/cli#downloads){: new_window} command-line client.  If you have it installed already, make sure that your version is up to date.
 - Install the [Apache ant compiler ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ant.apache.org/bindownload.cgi){: new_window}.  Expand (`unzip`, `gunzip`, or `untar`) the installation package and install the contents in a directory on your local machine. Make sure to include the `bin` directory for the compiler on your `PATH` environment variable after installation.
 - Install the [IBM WebSphere Liberty profile ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/wasdev/downloads/){: new_window}.  You can download just the runtime version of the WebSphere Liberty profile or download a version as a plugin for the Eclipse IDE. Also install and configure either the *Java JDK* or the *Eclipse IDE*.
@@ -35,10 +35,10 @@ Visit the [{{site.data.keyword.watson}} GitHub ![External link icon](../../icons
 ## Installing locally
 If you want to modify the app or use it as a basis for building your own app, install it locally. You can then deploy your modified version of the app to {{site.data.keyword.Bluemix_notm}}.
 
-### Setting up a Watson service
+### Setting up a {{site.data.keyword.watson}} service
 
 1.  At the command line, go to the local project directory of the app you cloned.
-1.  Log in to {{site.data.keyword.Bluemix_notm}}:
+1.  Log into {{site.data.keyword.Bluemix_notm}}:
 
     ```bash
     cf login -a api https://api.ng.bluemix.net
@@ -135,7 +135,7 @@ These instructions use the runtime version of the WebSphere Liberty profile. You
 
 If the server fails to start properly or fails to respond, examine the log files in the directory `wlp-installation/usr/servers/server-name/logs` to determine the cause.
 
-## Deploying to Bluemix
+## Deploying to {{site.data.keyword.Bluemix_notm}}
 
 You can use Cloud Foundry to deploy your local version of the app to {{site.data.keyword.Bluemix_notm}}.
 
@@ -164,7 +164,7 @@ You can use Cloud Foundry to deploy your local version of the app to {{site.data
         ```
         {: codeblock}
 
-1.  Log in to {{site.data.keyword.Bluemix_notm}}:
+1.  Log into {{site.data.keyword.Bluemix_notm}}:
 
     ```bash
     cf login -a api https://api.ng.bluemix.net

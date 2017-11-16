@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-11-15"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2017-08-10"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Controlling request logging for Watson services
+# Controlling request logging for {{site.data.keyword.watson}} services
 
 By default, all {{site.data.keyword.ibmwatson}} services log requests and their results. Logging is done only to improve the services for future users. The logged data is not shared or made public.
 {: shortdesc}

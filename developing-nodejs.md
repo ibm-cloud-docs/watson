@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-22"
+lastupdated: "2017-11-15"
 
 ---
 
@@ -17,14 +17,14 @@ lastupdated: "2017-08-22"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Developing a Watson application in Node.js
+# Developing a {{site.data.keyword.watson}} application in Node.js
 
 To demonstrate the use of its REST API, each {{site.data.keyword.ibmwatson}} service provides sample web-based applications in Node.js in {{site.data.keyword.watson}} GitHub project.
 {: shortdesc}
 
 ## Before you begin
 
-- Create a {{site.data.keyword.Bluemix}} account, or use an existing account. [Sign-up for free ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}. Your account must have space for at least 1 app and 1 service.
+- Create an account on {{site.data.keyword.cloud_notm}}, or use an existing account. [Sign-up for free ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}. Your account must have space for at least 1 app and 1 service.
 - The [Node.js runtime ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://nodejs.org/#download){: new_window},  including the [npm](https://www.npmjs.com/){: new_window}. package manager.  Make sure to include the command on your `PATH` environment variable after installation.
 - The [Cloud Foundry ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/cloudfoundry/cli#downloads){: new_window} command-line client.  If you installed it earlier, make sure that your version is up to date.
 
@@ -35,10 +35,10 @@ Visit the [{{site.data.keyword.watson}} Github ![External link icon](../../icons
 ## Installing locally
 If you want to modify the app or use it as a basis for building your own app, install it locally. You can then deploy your modified version of the app to {{site.data.keyword.Bluemix_notm}}.
 
-### Setting up a Watson service
+### Setting up a {{site.data.keyword.watson}} service
 
 1.  At the command line, go to the local project directory of the app you cloned.
-1.  Log in to {{site.data.keyword.Bluemix_notm}}:
+1.  Log into {{site.data.keyword.Bluemix_notm}}:
 
     ```bash
     cf login -a api https://api.ng.bluemix.net
@@ -115,7 +115,7 @@ If you want to modify the app or use it as a basis for building your own app, in
 
 1.  Point your browser to http://localhost:3000 to try out the app. The port is specified in the `app.js` file.
 
-## Deploying to Bluemix
+## Deploying to {{site.data.keyword.Bluemix_notm}}
 
 You can use Cloud Foundry to deploy your local version of the app to {{site.data.keyword.Bluemix_notm}}.
 
@@ -144,7 +144,7 @@ You can use Cloud Foundry to deploy your local version of the app to {{site.data
         ```
         {: codeblock}
 
-1.  Log in to {{site.data.keyword.Bluemix_notm}}:
+1.  Log into {{site.data.keyword.Bluemix_notm}}:
 
     ```bash
     cf login -a api https://api.ng.bluemix.net
