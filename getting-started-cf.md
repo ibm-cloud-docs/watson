@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-11-15"
+lastupdated: "2017-11-16"
 
 ---
 
@@ -139,7 +139,7 @@ Useful `cf` commands for managing existing applications in {{site.data.keyword.c
   ```
   {: pre}
 
-Thi s command restarts the application as it exists in {{site.data.keyword.cloud_notm}}. To upload the latest version of the application to {{site.data.keyword.cloud_notm}} before restarting it, use the `cf push` command instead.
+This command restarts the application as it exists in {{site.data.keyword.cloud_notm}}. To upload the latest version of the application to {{site.data.keyword.cloud_notm}} before restarting it, use the `cf push` command instead.
 
 - [**cf delete**](/docs/cli/reference/cfcommands/index.html#cf_delete) Delete an application:
 

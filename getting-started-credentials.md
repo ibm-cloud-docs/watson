@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-11-15"
+lastupdated: "2017-11-16"
 
 ---
 
@@ -64,7 +64,7 @@ For details about how to update an application with new credentials with minimal
 
 In an [{{site.data.keyword.Bluemix_dedicated_notm}}](/docs/dedicated/index.html#dedicated) instance, service tiles are implemented so that only one tile is permitted per service in an organization.
 
-Follow these steps to refer to a service in their your own {{site.data.keyword.Bluemix_dedicated_notm}} workspace:
+Follow these steps to refer to a service in your own {{site.data.keyword.Bluemix_dedicated_notm}} workspace:
 
 1.  Create a set of credentials for the reference tile for the service that you want to use.
 1.  Create a custom user-provided service that uses those credentials:
