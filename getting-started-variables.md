@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-08-21"
+  years: 2015, 2018
+lastupdated: "2018-01-04"
 
 ---
 
@@ -62,12 +62,12 @@ The following table describes the contents of the `VCAP_SERVICES` environment va
 | password | The password from the HTTP basic authentication credentials used to connect to the service |
 | url      | The connection URL for the service                                                         |
 | username | The username from the HTTP basic authentication credentials used to connect to the service |
-| label    | The name associated with the service in {{site.data.keyword.Bluemix_notm}}                                            |
+| label    | The name associated with the service in {{site.data.keyword.cloud_notm}}                                            |
 | name     | The name of the service instance                                                           |
-| plan     | The plan available for the service in {{site.data.keyword.Bluemix_notm}}                                              |
+| plan     | The plan available for the service in {{site.data.keyword.cloud_notm}}                                              |
 | tags     | Additional information about the service                                                   |
 ## Viewing environment variables
-You can retrieve information about the variable from either the Cloud Foundry tool or from within the {{site.data.keyword.Bluemix_notm}} interface.
+You can retrieve information about the variable from either the Cloud Foundry tool or from within the {{site.data.keyword.cloud_notm}} interface.
 
 - With the Cloud Foundry command-line tool: Use the `cf env` command after you have created a service and bound it to your application:
 
@@ -76,4 +76,4 @@ You can retrieve information about the variable from either the Cloud Foundry to
     ```
     {: pre}
 
-- From the {{site.data.keyword.Bluemix_notm}} interface: Information about environment variables is available from the summary page for an application.
+- From the {{site.data.keyword.cloud_notm}} interface: Information about environment variables is available from the summary page for an application.
