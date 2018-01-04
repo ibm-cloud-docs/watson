@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-16"
+  years: 2015, 2018
+lastupdated: "2018-01-04"
 
 ---
 
@@ -17,13 +17,13 @@ lastupdated: "2017-11-16"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Getting started with Watson and {{site.data.keyword.Bluemix_notm}}
+# Getting started with Watson and {{site.data.keyword.cloud_notm}}
 {: #about}
 
 You're just a few steps away from getting started with {{site.data.keyword.ibmwatson}}.
 {: shortdesc}
 
-## Step 1: Getting a free {{site.data.keyword.Bluemix_notm}} account
+## Step 1: Getting a free {{site.data.keyword.cloud_notm}} account
 {: #free-account}
 
 Create an account on {{site.data.keyword.cloud_notm}} to try services for free with no time restrictions. [Sign-up for free ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}. You'll receive an email to confirm and activate your account.

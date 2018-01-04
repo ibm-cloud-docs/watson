@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-16"
+  years: 2015, 2018
+lastupdated: "2018-01-04"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2017-11-16"
 
 # {{site.data.keyword.cloud_notm}} development approaches
 
-{{site.data.keyword.Bluemix}} supports a few different approaches for developing applications for {{site.data.keyword.watson}} services applications and running them in Bluemix. The approaches are functionally equivalent and work equally well, so choose the method with which you are most comfortable.
+{{site.data.keyword.Bluemix}} supports a few different approaches for developing applications for {{site.data.keyword.watson}} services applications and running them in {{site.data.keyword.cloud_notm}}. The approaches are functionally equivalent and work equally well, so choose the method with which you are most comfortable.
 
 If you develop your application outside of {{site.data.keyword.cloud_notm}}, you don't need to use these approaches. However, you do need an account on {{site.data.keyword.cloud_notm}} to create instances of {{site.data.keyword.watson}} services.
 {: tip}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-16"
+  years: 2015, 2018
+lastupdated: "2018-01-04"
 
 ---
 
@@ -34,15 +34,15 @@ Direct communication with tokens offers a powerful programming model. In some ca
 
 This model requires that the client and the service communicate via a server-side proxy application that resides in {{site.data.keyword.Bluemix}}. The approach relies on HTTP basic authentication credentials for the service for secure communications.
 
-In this model, the client and the service do not communicate directly. They instead relay all communications through the {{site.data.keyword.Bluemix_notm}} proxy application. The proxy application is responsible for receiving requests from the client, passing them to the service, getting a response from the service, and passing the results to the client. The proxy must include the authentication credentials in each request to the service.
+In this model, the client and the service do not communicate directly. They instead relay all communications through the {{site.data.keyword.cloud_notm}} proxy application. The proxy application is responsible for receiving requests from the client, passing them to the service, getting a response from the service, and passing the results to the client. The proxy must include the authentication credentials in each request to the service.
 
 For more information, see [Service credentials for {{site.data.keyword.watson}} services](/docs/services/watson/getting-started-credentials.html).
 
 ### Advantages of relaying requests
 
-Data is made available in {{site.data.keyword.Bluemix_notm}}, where it can be stored and used with multiple services. With direct interaction, data is available only at the client.
+Data is made available in {{site.data.keyword.cloud_notm}}, where it can be stored and used with multiple services. With direct interaction, data is available only at the client.
 
-The authentication model  is simpler than for direct interaction. Because the model requires authentication only from {{site.data.keyword.Bluemix_notm}}, it can safely use HTTP basic authentication credentials for a service.
+The authentication model  is simpler than for direct interaction. Because the model requires authentication only from {{site.data.keyword.cloud_notm}}, it can safely use HTTP basic authentication credentials for a service.
 
 ### Disadvantages of relaying requests
 
@@ -52,7 +52,7 @@ Latency and performance are likely to suffer because of the need to establish ad
 
 ## Direct interaction with a service
 
-With this model, a client communicates directly with a service without going through a proxy application in {{site.data.keyword.Bluemix_notm}}. The model relies on authentication tokens to enable secure communications. A server-side application still resides in {{site.data.keyword.Bluemix_notm}}, but this application acts only as an authentication proxy for the client.
+With this model, a client communicates directly with a service without going through a proxy application in {{site.data.keyword.cloud_notm}}. The model relies on authentication tokens to enable secure communications. A server-side application still resides in {{site.data.keyword.cloud_notm}}, but this application acts only as an authentication proxy for the client.
 
 The client sends an HTTP request to the proxy when it needs to obtain or refresh its token. The proxy in turn sends an HTTP `GET` request to the DataPower Edge Router to obtain the token. In addition to transparently routing all requests to {{site.data.keyword.watson}} services, the Edge Router includes a component that handles authentication for all services, including granting and validating tokens.
 
@@ -84,27 +84,27 @@ The following diagram presents a high-level overview of the two programming mode
 
 <strong style="color:black; font-weight:bold">Common path (black path):</strong>
 
-- 1: The server-side application binds to an instance of the service in {{site.data.keyword.Bluemix_notm}}.
+- 1: The server-side application binds to an instance of the service in {{site.data.keyword.cloud_notm}}.
     - For relaying requests via proxy, this application  handles all communications between the client and the service.
     - For relaying requests via proxy, this application  handles all communications between the client and the service.
 
-    When bound to the service, the {{site.data.keyword.Bluemix_notm}} application can access its `VCAP_SERVICES` [environment variable](/docs/services/watson/getting-started-variables.html). This variable includes the connection URL for the service, the client's basic authentication credentials for the service, and other information associated with the application.
+    When bound to the service, the {{site.data.keyword.cloud_notm}} application can access its `VCAP_SERVICES` [environment variable](/docs/services/watson/getting-started-variables.html). This variable includes the connection URL for the service, the client's basic authentication credentials for the service, and other information associated with the application.
 
 The communications paths now diverge.
 
 <strong style="color:red; font-weight:bold">Relaying via a proxy model (red path):</strong>
 
-- 2: The client application sends requests to the {{site.data.keyword.Bluemix_notm}} application over an API that is defined by the application developer.
-- 3: The {{site.data.keyword.Bluemix_notm}} application passes the request from the client to the service by using the service's REST API. The request must include the HTTP basic authentication credentials for the service obtained from the `VCAP_SERVICES` [environment variable](/docs/services/watson/getting-started-variables.html).
+- 2: The client application sends requests to the {{site.data.keyword.cloud_notm}} application over an API that is defined by the application developer.
+- 3: The {{site.data.keyword.cloud_notm}} application passes the request from the client to the service by using the service's REST API. The request must include the HTTP basic authentication credentials for the service obtained from the `VCAP_SERVICES` [environment variable](/docs/services/watson/getting-started-variables.html).
 - 4: All requests pass through the DataPower Edge Router. The Edge Router validates the authentication credentials and routes the request to the service.
-- 5: The service sends the results of the request to the {{site.data.keyword.Bluemix_notm}} proxy application.
-- 6: The {{site.data.keyword.Bluemix_notm}} application returns the results to the client over the application-defined API.
+- 5: The service sends the results of the request to the {{site.data.keyword.cloud_notm}} proxy application.
+- 6: The {{site.data.keyword.cloud_notm}} application returns the results to the client over the application-defined API.
 
 <strong style="color:blue; font-weight:bold">Direct interaction (blue path):</strong>
 
-- 2: The client application requests an authentication token from the {{site.data.keyword.Bluemix_notm}} application, typically via an HTTP `GET` request.
-- 3: The {{site.data.keyword.Bluemix_notm}} application sends an HTTP `GET` request to the  authentication component of the DataPower Edge Router. The request includes the HTTP basic authentication credentials for the service obtained from the `VCAP_SERVICES` environment variable.The Edge  Router responds with a time-limited authentication token that the  client can use to make requests to the service.
-- 4: The {{site.data.keyword.Bluemix_notm}} application returns the authentication token to  the client. The client then communicates with the {{site.data.keyword.Bluemix_notm}} application only when it needs to refresh its token.
+- 2: The client application requests an authentication token from the {{site.data.keyword.cloud_notm}} application, typically via an HTTP `GET` request.
+- 3: The {{site.data.keyword.cloud_notm}} application sends an HTTP `GET` request to the  authentication component of the DataPower Edge Router. The request includes the HTTP basic authentication credentials for the service obtained from the `VCAP_SERVICES` environment variable.The Edge  Router responds with a time-limited authentication token that the  client can use to make requests to the service.
+- 4: The {{site.data.keyword.cloud_notm}} application returns the authentication token to  the client. The client then communicates with the {{site.data.keyword.cloud_notm}} application only when it needs to refresh its token.
 - 5: The client sends requests directly to the service via the service's  REST API. The client must pass its authentication token with each  request via the `X-Watson-Authorization-Token` request header, the `watson-token` query parameter, or as a cookie.
 - 6: All requests pass through the DataPower Edge Router. The Edge Router  validates the client's token and routes the request to the service.
 - 7: The service responds directly to the client.

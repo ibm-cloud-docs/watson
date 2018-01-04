@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-08-21"
+  years: 2015, 2018
+lastupdated: "2018-01-04"
 
 ---
 
@@ -48,7 +48,7 @@ curl -X GET --user {username}:{password} \
 ```
 {: pre}
 
-The `--user` option passes the concatenation of your *username* and *password* for the service, which you can obtain from {{site.data.keyword.Bluemix_notm}} or from the `VCAP_SERVICES` environment variable for an application that is bound to an instance of the service. Make sure to use your service credentials, not your {{site.data.keyword.Bluemix_notm}} login ID and password.
+The `--user` option passes the concatenation of your *username* and *password* for the service, which you can obtain from {{site.data.keyword.cloud_notm}} or from the `VCAP_SERVICES` environment variable for an application that is bound to an instance of the service. Make sure to use your service credentials, not your {{site.data.keyword.cloud_notm}} login ID and password.
 
 The method returns the token as a one-kilobyte Base64 encoding of an encrypted payload. If an error occurs, the call returns one of the following error codes:
 

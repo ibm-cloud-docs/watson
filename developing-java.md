@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-16"
+  years: 2015, 2018
+lastupdated: "2018-01-04"
 
 ---
 
@@ -33,12 +33,12 @@ To demonstrate the use of its REST API, each {{site.data.keyword.ibmwatson}} ser
 Visit the [{{site.data.keyword.watson}} GitHub ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud){: new_window} project to see the sample Java apps that are available for {{site.data.keyword.watson}}. Then use GitHub to clone a repository locally.
 
 ## Installing locally
-If you want to modify the app or use it as a basis for building your own app, install it locally. You can then deploy your modified version of the app to {{site.data.keyword.Bluemix_notm}}.
+If you want to modify the app or use it as a basis for building your own app, install it locally. You can then deploy your modified version of the app to {{site.data.keyword.cloud_notm}}.
 
 ### Setting up a {{site.data.keyword.watson}} service
 
 1.  At the command line, go to the local project directory of the app you cloned.
-1.  Log into {{site.data.keyword.Bluemix_notm}}:
+1.  Log into {{site.data.keyword.cloud_notm}}:
 
     ```bash
     cf login -a api https://api.ng.bluemix.net
@@ -52,7 +52,7 @@ If you want to modify the app or use it as a basis for building your own app, in
     ```
     {: pre}
 
-1.  Create an instance of the service in {{site.data.keyword.Bluemix_notm}}: `cf create-service {service-name} {service-plan} {service-instance-name}`. For service-name and service-plan use the information from the manifest file or the `cf marketplace` command.
+1.  Create an instance of the service in {{site.data.keyword.cloud_notm}}: `cf create-service {service-name} {service-plan} {service-instance-name}`. For service-name and service-plan use the information from the manifest file or the `cf marketplace` command.
 
     For example, issue the following command to create the service instance for the Personality Insights service:
 
@@ -135,9 +135,9 @@ These instructions use the runtime version of the WebSphere Liberty profile. You
 
 If the server fails to start properly or fails to respond, examine the log files in the directory `wlp-installation/usr/servers/server-name/logs` to determine the cause.
 
-## Deploying to {{site.data.keyword.Bluemix_notm}}
+## Deploying to {{site.data.keyword.cloud_notm}}
 
-You can use Cloud Foundry to deploy your local version of the app to {{site.data.keyword.Bluemix_notm}}.
+You can use Cloud Foundry to deploy your local version of the app to {{site.data.keyword.cloud_notm}}.
 
 1.  In the project root directory, open the manifest.yml file:
     1. In the `applications` section of the `manifest.yml` file, change the name value to a unique name for your version of the app.
@@ -164,14 +164,14 @@ You can use Cloud Foundry to deploy your local version of the app to {{site.data
         ```
         {: codeblock}
 
-1.  Log into {{site.data.keyword.Bluemix_notm}}:
+1.  Log into {{site.data.keyword.cloud_notm}}:
 
     ```bash
     cf login -a api https://api.ng.bluemix.net
     ```
     {: pre}
 
-1.  Push the app to {{site.data.keyword.Bluemix_notm}} and specify the name of your app from the `manifest.yml` file. For example,
+1.  Push the app to {{site.data.keyword.cloud_notm}} and specify the name of your app from the `manifest.yml` file. For example,
 
     ```bash
     cf push personality-insights-app-test1
