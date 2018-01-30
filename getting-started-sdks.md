@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-01-12"
+  years: 2015, 2018
+lastupdated: "2018-01-30"
 
 ---
 
@@ -29,6 +29,7 @@ The following {{site.data.keyword.watson}} SDKs are supported by {{site.data.key
 * [Salesforce SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/salesforce-sdk){: new_window}
 * [Swift SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/swift-sdk){: new_window}
 * [.NET SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/dotnet-standard-sdk){: new_window}
+* [OpenWhisk SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/openwhisk-sdk/){: new_window}
 * [Unity SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/unity-sdk){: new_window}
 
 The [API reference ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/developer/watson/documentation){: new_window} for each service includes information and examples for the Java, Node.js, and Python SDKs.
