@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-16"
+  years: 2015, 2018
+lastupdated: "2018-05-02"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2017-11-16"
 
 # Cloud Foundry command-line interface
 
-You can use the `cf` command-line interface (CLI) tool to work with {{site.data.keyword.Bluemix}} applications on your local system. The tool provides a rich interface for a full development experience.
+You can use the `cf` command-line interface (CLI) tool to work with {{site.data.keyword.cloud}} applications on your local system. The tool provides a rich interface for a full development experience.
 {: shortdesc}
 
 For more information about working with Cloud Foundry tools for application development, see [How Cloud Foundry works with {{site.data.keyword.cloud_notm}}](/docs/overview/cf.html) and the [Cloud Foundry Documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://docs.cloudfoundry.org/){: new_window}.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-01-04"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -28,25 +28,26 @@ Your application needs the URL and the HTTP basic authentication service credent
 A running application typically reads these environment variables, after a service is bound to it, to extract the required name-value pairs. For information about the variables, see [Deploying apps](/docs/manageapps/depapps.html#app_env) and search for "Environment variables."
 
 ## Example
-This example shows the `VCAP_SERVICES` environment variable for the Tradeoff Analytics service bound to an application:
+This example shows the `VCAP_SERVICES` environment variable for the {{site.data.keyword.personalityinsightsshort}}  service bound to an application:
 
 ```json
 {
   "VCAP_SERVICES": {
-    "tradeoff_analytics": [
+    "personality_insights": [
       {
         "credentials": {
           "password": "xxxxxxxxxxxx",
-          "url": "https://gateway.watsonplatform.net/tradeoff-analytics/api",
+          "url": "https://gateway.watsonplatform.net/personality-insights/api",
           "username": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
         },
-        "label": "tradeoff_analytics",
-        "name": "tradeoff-analytics-service",
+        "label": "personality_insights",
+        "name": "personality-insights-service",
         "plan": "standard",
         "tags": [
           "watson",
           "ibm_created",
-          "ibm_dedicated_public"
+          "ibm_dedicated_public",
+          "lite"
         ]
       }
     ]
@@ -66,6 +67,7 @@ The following table describes the contents of the `VCAP_SERVICES` environment va
 | name     | The name of the service instance                                                           |
 | plan     | The plan available for the service in {{site.data.keyword.cloud_notm}}                                              |
 | tags     | Additional information about the service                                                   |
+
 ## Viewing environment variables
 You can retrieve information about the variable from either the Cloud Foundry tool or from within the {{site.data.keyword.cloud_notm}} interface.
 

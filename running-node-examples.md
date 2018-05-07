@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-08-21"
+  years: 2015, 2018
+lastupdated: "2018-05-02"
 
 ---
 
@@ -51,7 +51,7 @@ The {{site.data.keyword.watson}} Node.js Software Development Kit (SDK) includes
     ```
     {: codeblock}
 
-    You might have to make other changes. For example, here you add enough text for Personality Insights to analyze.
+    You might have to make other changes. For example, here you add enough text for {{site.data.keyword.personalityinsightsshort}} to analyze.
 
 1.  Issue the command `node {example_application.vn}.js` to run the code. For example,
 
@@ -60,7 +60,7 @@ The {{site.data.keyword.watson}} Node.js Software Development Kit (SDK) includes
     ```
     {: pre}
 
-    The response includes information from the service. For example, with the Personality Insights service, you see output similar to this truncated example:
+    The response includes information from the service. For example, with the {{site.data.keyword.personalityinsightsshort}} service, you see output similar to this truncated example:
 
     ```json
     {

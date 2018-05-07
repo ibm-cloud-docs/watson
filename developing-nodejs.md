@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-01-04"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -54,7 +54,7 @@ If you want to modify the app or use it as a basis for building your own app, in
 
 1.  Create an instance of the service in {{site.data.keyword.cloud_notm}}: `cf create-service {service-name} {service-plan} {service-instance-name}`. For service-name and service-plan use the information from the manifest file or the `cf marketplace` command.
 
-    For example, issue the following command to create the service instance for the Personality Insights service:
+    For example, issue the following command to create the service instance for the {{site.data.keyword.personalityinsightsshort}} service:
 
     ```bash
     cf create-service personality_insights standard my-personality-insights-service
