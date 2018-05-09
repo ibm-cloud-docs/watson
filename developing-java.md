@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-01-04"
+lastupdated: "2018-05-09"
 
 ---
 
@@ -26,7 +26,7 @@ To demonstrate the use of its REST API, each {{site.data.keyword.ibmwatson}} ser
 
 - Create an account on {{site.data.keyword.cloud_notm}}, or use an existing account. [Sign-up for free ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}.
 - Install the [Cloud Foundry ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/cloudfoundry/cli#downloads){: new_window} command-line client.  If you have it installed already, make sure that your version is up to date.
-- Install the [Apache ant compiler ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://ant.apache.org/bindownload.cgi){: new_window}.  Expand (`unzip`, `gunzip`, or `untar`) the installation package and install the contents in a directory on your local machine. Make sure to include the `bin` directory for the compiler on your `PATH` environment variable after installation.
+- Download and install [Apache Maven ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://maven.apache.org/download.cgi){: new_window}.
 - Install the [IBM WebSphere Liberty profile ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/wasdev/downloads/){: new_window}.  You can download just the runtime version of the WebSphere Liberty profile or download a version as a plugin for the Eclipse IDE. Also install and configure either the *Java JDK* or the *Eclipse IDE*.
 
 ## Getting the source code
@@ -54,10 +54,10 @@ If you want to modify the app or use it as a basis for building your own app, in
 
 1.  Create an instance of the service in {{site.data.keyword.cloud_notm}}: `cf create-service {service-name} {service-plan} {service-instance-name}`. For service-name and service-plan use the information from the manifest file or the `cf marketplace` command.
 
-    For example, issue the following command to create the service instance for the Personality Insights service:
+    For example, issue the following command to create the service instance for the {{site.data.keyword.personalityinsightsshort}} service:
 
     ```bash
-    cf create-service personality_insights standard my-personality-insights-service
+    cf create-service personality_insights tiered my-personality-insights-service
     ```
     {: pre}
 
@@ -102,15 +102,12 @@ If you want to modify the app or use it as a basis for building your own app, in
 These instructions use the runtime version of the WebSphere Liberty profile. You'll need to modify the steps if you use the Eclipse plugin.
 {: tip}
 
-1.  Build the app.
-    1.  Change to the working directory of the app,
-    1.  Run the Apache `ant` compiler. The first command cleans up from a previous build, and the second builds the app and generates the `webApp.war` file:
+1.  Build the app by running the following Maven command from the working directory of the app:
 
-        ```java
-        ant clean
-        ant build
-        ```
-        {: codeblock}
+    ```java
+    mvn clean package
+    ```
+    {: codeblock}
 
 1.  Issue the WebSphere Liberty profile `server create` command to create the server for your application. The name of the server specified as the argument to the command is arbitrary, but it must be unique in your local WebSphere Liberty profile environment.
 
@@ -150,7 +147,7 @@ You can use Cloud Foundry to deploy your local version of the app to {{site.data
         declared-services:
           my-personality-insights-service:
             label: personality_insights
-            plan: standard
+            plan: tiered
         applications:
         - name: personality-insights-app-test1
           command: npm start
