@@ -26,7 +26,7 @@ To demonstrate the use of its REST API, each {{site.data.keyword.ibmwatson}} ser
 
 - Create an account on {{site.data.keyword.cloud_notm}}, or use an existing account. [Sign-up for free ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}.
 - Install the [Cloud Foundry ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/cloudfoundry/cli#downloads){: new_window} command-line client.  If you have it installed already, make sure that your version is up to date.
-- Download an install [Apache Maven ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://maven.apache.org/download.cgi){: new_window}.
+- Download and install [Apache Maven ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://maven.apache.org/download.cgi){: new_window}.
 - Install the [IBM WebSphere Liberty profile ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/wasdev/downloads/){: new_window}.  You can download just the runtime version of the WebSphere Liberty profile or download a version as a plugin for the Eclipse IDE. Also install and configure either the *Java JDK* or the *Eclipse IDE*.
 
 ## Getting the source code
