@@ -107,7 +107,7 @@ These instructions use the runtime version of the WebSphere Liberty profile. You
     ```java
     mvn clean package
     ```
-    {: codeblock}
+    {: pre}
 
 1.  Issue the WebSphere Liberty profile `server create` command to create the server for your application. The name of the server specified as the argument to the command is arbitrary, but it must be unique in your local WebSphere Liberty profile environment.
 
