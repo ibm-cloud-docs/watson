@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-05-02"
+lastupdated: "2018-05-17"
 
 ---
 
@@ -112,7 +112,7 @@ Common `cf` commands to deploy and run applications in {{site.data.keyword.cloud
   ```
   {: pre}
 
-  The command finds often uses the `manifest.yml` or other configuration file to find file to be pushed (for example, a `.war` file for Java or a `.zip` file for Node.js). However, you can specify the pathname of the application file by using `-p` option.
+  The command uses the `manifest.yml` file or other configuration file to identify the file to be pushed (for example, a `.war` file for Java or a `.zip` file for Node.js). However, you can specify the pathname of the application file by using `-p` option.
 
 ## Commands for existing applications
 
