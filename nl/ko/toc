@@ -1,0 +1,45 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="watson" audience="service" href="/docs/services/watson/index.html"}
+Watson
+
+    {: .navgroup id="learn"}
+    index.md
+    getting-started-bluemix.md
+    getting-started-develop.md
+
+    {: .topicgroup}
+    추가 리소스
+        [블로그](https://developer.ibm.com/watson/blog/)
+        [웨비나](https://www.ibm.com/watson/webinars/)
+        [Watson 동영상](https://www.youtube.com/user/IBMWatsonSolutions)
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    getting-started-credentials.md
+    getting-started-tokens.md
+    getting-started-logging.md
+
+    {: topicgroup}
+    Watson SDK 사용
+        running-node-examples.md
+        developing-nodejs.md
+        developing-java.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    getting-started-cf.md
+    getting-started-variables.md
+    getting-started-sdks.md
+    [Watson GitHub repos](https://github.com/watson-developer-cloud/)
+    [Watson docs](https://console.bluemix.net/developer/watson/documentation)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    개발자 커뮤니티
+        [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-watson-cognitive)
+        [developerWorks Answers](https://developer.ibm.com/answers/topics/watson/)
+        [Slack 커뮤니티에 참여](http://wdc-slack-inviter.mybluemix.net/)
+    {: .navgroup-end}
