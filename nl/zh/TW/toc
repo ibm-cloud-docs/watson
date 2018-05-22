@@ -1,0 +1,45 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="watson" audience="service" href="/docs/services/watson/index.html"}
+Watson
+
+    {: .navgroup id="learn"}
+    index.md
+    getting-started-bluemix.md
+    getting-started-develop.md
+
+    {: .topicgroup}
+    其他資源
+        [部落格](https://developer.ibm.com/watson/blog/)
+        [網路研討會](https://www.ibm.com/watson/webinars/)
+        [Watson 視訊](https://www.youtube.com/user/IBMWatsonSolutions)
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    getting-started-credentials.md
+    getting-started-tokens.md
+    getting-started-logging.md
+
+    {: topicgroup}
+    使用 Watson SDK
+        running-node-examples.md
+        developing-nodejs.md
+        developing-java.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    getting-started-cf.md
+    getting-started-variables.md
+    getting-started-sdks.md
+    [Watson GitHub 儲存庫](https://github.com/watson-developer-cloud/)
+    [Watson 文件](https://console.bluemix.net/developer/watson/documentation)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    開發人員社群
+        [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-watson-cognitive)
+        [developerWorks Answers](https://developer.ibm.com/answers/topics/watson/)
+        [加入 Slack 社群](http://wdc-slack-inviter.mybluemix.net/)
+    {: .navgroup-end}
