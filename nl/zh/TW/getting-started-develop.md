@@ -19,7 +19,7 @@ lastupdated: "2018-05-03"
 
 # {{site.data.keyword.watson}} 服務的程式設計模型
 
-{{site.data.keyword.watson}} 服務支援兩種 HTTP 通訊用的一般程式設計模型：透過 Proxy 中繼傳遞要求，以及直接與服務互動。
+{{site.data.keyword.watson}} 服務支援兩種 HTTP 通訊用的一般程式設計模型：透過 Proxy 轉遞要求，以及直接與服務互動。
 
 所有 {{site.data.keyword.watson}} 服務都提供 REST 介面。部分服務也提供其他程式設計介面。例如，{{site.data.keyword.speechtotextshort}} 服務包含 WebSocket 介面，您可以用它來建立與服務的持續性連線。若要進一步瞭解服務的可用介面，請參閱其說明文件。
 {: shortdesc}
@@ -30,25 +30,25 @@ lastupdated: "2018-05-03"
 
 使用記號進行直接通訊提供了強大的程式設計模型。在某些情況下，它會提供其他功能，例如 {{site.data.keyword.speechtotextshort}} 服務的 WebSocket 介面。但搭配您的應用程式使用記號時，請特別小心。
 
-## 透過 Proxy 中繼傳遞要求
+## 透過 Proxy 轉遞要求
 
 這個模型需要用戶端和服務透過位於 {{site.data.keyword.cloud}} 中的伺服器端 Proxy 應用程式來進行通訊。該方法依賴於服務的 HTTP 基本鑑別認證來進行安全通訊。
 
-在此模型中，用戶端和服務不會直接通訊。它們會改為透過 {{site.data.keyword.cloud_notm}} Proxy 應用程式來中繼傳遞所有通訊。Proxy 應用程式負責接收來自用戶端的要求、將要求傳遞給服務、取得服務的回應，以及將結果傳遞給用戶端。Proxy 必須在給服務的每個要求中包含鑑別認證。
+在此模型中，用戶端和服務不會直接通訊。它們會改為透過 {{site.data.keyword.cloud_notm}} Proxy 應用程式來轉遞所有通訊。Proxy 應用程式負責接收來自用戶端的要求、將要求傳遞給服務、取得服務的回應，以及將結果傳遞給用戶端。Proxy 必須在給服務的每個要求中包含鑑別認證。
 
 如需相關資訊，請參閱 [{{site.data.keyword.watson}} 服務的服務認證](/docs/services/watson/getting-started-credentials.html)。
 
-### 中繼傳遞要求的優點
+### 轉遞要求的優點
 
 資料可在 {{site.data.keyword.cloud_notm}} 中使用，在這裡可以儲存並與多個服務搭配使用。透過直接互動，資料僅可在用戶端上使用。
 
 鑑別模型比直接互動簡單。因為模型只需要來自 {{site.data.keyword.cloud_notm}} 的鑑別，所以它可以安全地將 HTTP 基本鑑別認證用於服務。
 
-### 中繼傳遞要求的缺點
+### 轉遞要求的缺點
 
 這個方法需要開發伺服器端 Proxy 應用程式，而這個 Proxy 和用戶端必須建立一個通訊協定，以便能夠交換要求和結果。這個 Proxy 應用程式遠比直接互動所使用的相對簡單鑑別 Proxy 更為複雜。
 
-因為需要建立額外的連線及透過 Proxy 伺服器中繼傳遞資訊，所以可能會導致延遲及效能受到影響。
+因為需要建立額外的連線及透過 Proxy 伺服器轉遞資訊，所以可能會導致延遲及效能受到影響。
 
 ## 與服務的直接互動
 
@@ -78,7 +78,7 @@ Proxy 會將記號傳回給用戶端。之後，用戶端會使用記號來進�
 
 ![{{site.data.keyword.watson}} 服務的程式設計模型](images/programming_models.svg "三個方框以雙邊箭頭連接：IBM Cloud 應用程式、Watson 服務，以及用戶端應用程式。「服務分配管理系統」方框只連接「IBM Cloud 應用程式」方框。")
 
-- 透過 Proxy 伺服器**中繼傳遞要求**的特定通訊以數字標示。
+- 透過 Proxy 伺服器**轉遞要求**的特定通訊以數字標示。
 - **直接互動**的通訊以字母標示。
 
 ### 一般路徑
@@ -89,7 +89,7 @@ Proxy 會將記號傳回給用戶端。之後，用戶端會使用記號來進�
 
 現在有多種通訊路徑。
 
-### 透過 Proxy 模型進行中繼傳遞（以數字標示）
+### 透過 Proxy 模型進行轉遞（以數字標示）
 
 - 1：用戶端應用程式透過應用程式開發人員所定義的 API，傳送要求給 {{site.data.keyword.cloud_notm}} 應用程式。
 - 2：{{site.data.keyword.cloud_notm}} 應用程式使用服務的 REST API，將要求從用戶端傳遞至服務。要求必須包含從 `VCAP_SERVICES` [環境變數](/docs/services/watson/getting-started-variables.html)取得之服務的 HTTP 基本鑑別認證。
