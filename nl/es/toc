@@ -1,0 +1,45 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="watson" audience="service" href="/docs/services/watson/index.html"}
+Watson
+
+    {: .navgroup id="learn"}
+    index.md
+    getting-started-bluemix.md
+    getting-started-develop.md
+
+    {: .topicgroup}
+    Recursos adicionales
+        [Blog](https://developer.ibm.com/watson/blog/)
+        [Webinars](https://www.ibm.com/watson/webinars/)
+        [Vídeos de Watson](https://www.youtube.com/user/IBMWatsonSolutions)
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    getting-started-credentials.md
+    getting-started-tokens.md
+    getting-started-logging.md
+
+    {: topicgroup}
+    Uso de SDK de Watson
+        running-node-examples.md
+        developing-nodejs.md
+        developing-java.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    getting-started-cf.md
+    getting-started-variables.md
+    getting-started-sdks.md
+    [Watson GitHub repos](https://github.com/watson-developer-cloud/)
+    [Watson docs](https://console.bluemix.net/developer/watson/documentation)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Comunidad de desarrolladores
+        [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-watson-cognitive)
+        [developerWorks Answers](https://developer.ibm.com/answers/topics/watson/)
+        [Únase a la comunidad de Slack](http://wdc-slack-inviter.mybluemix.net/)
+    {: .navgroup-end}
