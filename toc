@@ -17,6 +17,7 @@ Watson
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
+    getting-started-iam.md
     getting-started-credentials.md
     getting-started-tokens.md
     getting-started-logging.md
