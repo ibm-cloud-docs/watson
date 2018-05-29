@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-05-25"
+lastupdated: "2018-05-29"
 
 ---
 
@@ -60,7 +60,7 @@ It is recommended that you use authentication to generate the access token. The 
 
 ```bash
 curl -k -X POST \
-  --header 'Authorization: Basic Yng6Yng='
+  --header "Authorization: Basic Yng6Yng="
   --header "Content-Type: application/x-www-form-urlencoded" \
   --header "Accept: application/json" \
   --data-urlencode "grant_type=urn:ibm:params:oauth:grant-type:apikey" \
@@ -115,10 +115,10 @@ The refresh token can be used to extend the life of the access token. The follow
 
 ```bash
 curl -k -X POST \
-  --header 'Authorization: Basic Yng6Yng=' \
+  --header "Authorization: Basic Yng6Yng=" \
   --data-urlencode "grant_type=refresh_token" \
   --data-urlencode "refresh_token={refresh-token}" \
-  "https://iam.stage1.bluemix.net/identity/token"
+  "https://iam.bluemix.net/identity/token"
 ```
 {: pre}
 
