@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-05-29"
+lastupdated: "2018-06-09"
 
 ---
 
@@ -36,6 +36,9 @@ To access API methods by using IAM, you must first collect the credentials from 
 
 You can access {{site.data.keyword.ibmwatson}} service APIs by using the API keys that were generated in the service instance credentials. The API key is used to generate an IAM access token. You also use this process if you are developing an application that needs to work with other {{site.data.keyword.cloud_notm}} services.
 
+For detailed information and tips about securely using API keys, see [Watson service API keys](/docs/services/watson/apikey-bp.html).
+{: tip}
+
 1. The following cURL command uses the `POST identity/token` method to generate an IAM token by passing an API key.
 
 **Headers:**
@@ -60,7 +63,7 @@ It is recommended that you use authentication to generate the access token. The 
 
 ```bash
 curl -k -X POST \
-  --header "Authorization: Basic Yng6Yng="
+  --header "Authorization: Basic Yng6Yng=" \
   --header "Content-Type: application/x-www-form-urlencoded" \
   --header "Accept: application/json" \
   --data-urlencode "grant_type=urn:ibm:params:oauth:grant-type:apikey" \
