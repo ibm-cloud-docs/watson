@@ -22,7 +22,7 @@ lastupdated: "2018-05-24"
 You use tokens to write applications that make authenticated requests to {{site.data.keyword.ibmwatson}} services without embedding service credentials in every call.
 {: shortdesc}
 
-**Important:** To access {site.data.keyword.ibmwatson}} service API methods using IAM token authenication, use the procedure detailed in [Authenticating with IAM tokens](/docs/services/watson/getting-started-iam.html#iam).
+**Important:** To access {{site.data.keyword.ibmwatson}} service API methods using IAM token authenication, use the procedure detailed in [Authenticating with IAM tokens](/docs/services/watson/getting-started-iam.html#iam).
 
 You can write an authentication proxy in {{site.data.keyword.cloud}} that obtains and returns a token to your client application, which can then use the token to call the service directly. This proxy eliminates the need to channel all service requests through an intermediate server-side application, which is otherwise necessary to avoid exposing your service credentials from your client application.
 

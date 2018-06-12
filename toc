@@ -18,6 +18,7 @@ Watson
 
     {: .navgroup id="howto"}
     getting-started-iam.md
+    apikey-bp.md
     getting-started-credentials.md
     getting-started-tokens.md
     getting-started-logging.md
