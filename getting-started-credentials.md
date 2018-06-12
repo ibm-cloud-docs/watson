@@ -18,7 +18,7 @@ lastupdated: "2017-11-16"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Service credentials for Watson services
-{: #creating-credentils}
+{: #creating-credentials}
 
 Service credentials for an {{site.data.keyword.ibmwatson}} service provide authentication to a service in {{site.data.keyword.cloud}}. A set of credentials can be used only with the service for which they are created.
 {: shortdesc}
