@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-05-24"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -22,7 +22,11 @@ lastupdated: "2018-05-24"
 You use tokens to write applications that make authenticated requests to {{site.data.keyword.ibmwatson}} services without embedding service credentials in every call.
 {: shortdesc}
 
-**Important:** To access {{site.data.keyword.ibmwatson}} service API methods using IAM token authenication, use the procedure detailed in [Authenticating with IAM tokens](/docs/services/watson/getting-started-iam.html#iam).
+---
+
+**Important:** {{site.data.keyword.cloud_notm}} is migrating to token-based Identity and Access Management (IAM) authentication. The tokens described here work with Cloud Foundry services. For IAM authentication, use the procedure detailed in [Authenticating with IAM tokens](/docs/services/watson/getting-started-iam.html#iam).
+
+---
 
 You can write an authentication proxy in {{site.data.keyword.cloud}} that obtains and returns a token to your client application, which can then use the token to call the service directly. This proxy eliminates the need to channel all service requests through an intermediate server-side application, which is otherwise necessary to avoid exposing your service credentials from your client application.
 

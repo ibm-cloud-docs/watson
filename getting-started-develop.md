@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-05-03"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -20,6 +20,12 @@ lastupdated: "2018-05-03"
 # Programming models for {{site.data.keyword.watson}} services
 
 {{site.data.keyword.watson}} services support two typical programming models for HTTP communications: Relaying requests via a proxy and Direct interaction with a service.
+
+---
+
+**Important:** {{site.data.keyword.cloud_notm}} is migrating to token-based Identity and Access Management (IAM) authentication. The approaches described here work with Cloud Foundry services. For IAM authentication, use the procedure detailed in [Authenticating with IAM tokens](/docs/services/watson/getting-started-iam.html#iam).
+
+---
 
 All {{site.data.keyword.watson}} services offer REST interfaces. Some services offer other programming interfaces, as well. For example, the {{site.data.keyword.speechtotextshort}} service includes a WebSocket interface that you can use to establish a persistent connection with the service. To learn more about the available interfaces for service, see its documentation.
 {: shortdesc}
