@@ -28,6 +28,8 @@ Watson
         running-node-examples.md
         developing-nodejs.md
         developing-java.md
+
+    getting-started-gdpr-sar.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
