@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-06-21"
+lastupdated: "2018-06-22"
 
 ---
 
@@ -26,7 +26,7 @@ See the following sections to request support for {{site.data.keyword.cloud}} {{
 -   For {{site.data.keyword.ibmwatson}} resources that are created in the European Union (EU), see [Requesting support for {{site.data.keyword.cloud_notm}} {{site.data.keyword.watson}} resources created in the European Union](#request-EU).
 -   For {{site.data.keyword.ibmwatson_notm}} resources that are created outside of the EU, see [Requesting support for resources outside the European Union](#request-non-EU).
 
-## Requesting support for IBM Watson Cloud resources created in the European Union
+## Requesting support for IBM Cloud Watson resources created in the European Union
 {: #request-EU}
 
 European Union support is provided 24 hours a day, 7 days a week by IBM support engineers who are located in Europe for customers who have created a resource in the Germany region and have selected the EU Supported option. Global teams provide additional support only at the discretion and under the direction of the EU support team. Global teams might be contacted, for example, when issues are not resolved by the Level 1 or Level 2 support team in the EU and expertise is needed from a global Level 3 support team member.
