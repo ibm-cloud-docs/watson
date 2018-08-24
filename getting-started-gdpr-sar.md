@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-06-22"
+lastupdated: "2018-08-24"
 
 ---
 
@@ -63,6 +63,8 @@ If multiple {{site.data.keyword.watson}} services are required to fulfill the en
 
 If you have a valid {{site.data.keyword.cloud_notm}} account, submit a support request to **gdprceur@us.ibm.com**. Provide the following information in your email request:
 
+1.  Email subject: `GDPR SAR Request`.
+1.  Your {{site.data.keyword.cloud_notm}} account {{site.data.keyword.ibmid}}.
 1.  Type of request
     -   Customer Data Request
     -   Audit Log Request
@@ -99,6 +101,8 @@ If multiple {{site.data.keyword.watson}} services are required to fulfill the en
 
 If you have a valid {{site.data.keyword.cloud_notm}} account, submit a support request to **gdprcreq@us.ibm.com**. Provide the following information in your email request:
 
+1.  Email subject: `GDPR SAR Request`.
+1.  Your {{site.data.keyword.cloud_notm}} account {{site.data.keyword.ibmid}}.
 1.  Type of request
     -   Customer Data Request
     -   Audit Log Request
