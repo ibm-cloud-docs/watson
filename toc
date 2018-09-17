@@ -44,6 +44,6 @@ Watson
     {: .topicgroup}
     Developer community
         [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-watson-cognitive)
-        [developerWorks Answers](https://developer.ibm.com/answers/topics/watson/)
+        [IBM Developer Answers](https://developer.ibm.com/answers/topics/watson/)
         [Join the Slack community](http://wdc-slack-inviter.mybluemix.net/)
     {: .navgroup-end}
