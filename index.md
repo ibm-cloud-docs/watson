@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-05-02"
+lastupdated: "2018-10-14"
 
 ---
 
@@ -32,12 +32,9 @@ Create an account on {{site.data.keyword.cloud_notm}} to try services for free w
 ## Step 2: Finding and creating a service instance
 {: #access-console}
 
-1.  After you activate your account and log in, click **Browse Services** from the {{site.data.keyword.watson}} console.
+1.  After you activate your account and log in, click **[Browse Services ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/developer/watson/services){: new_window}** from the {{site.data.keyword.watson}} console.
 1.  Select a service that fits your needs.
 1.  Create an instance of the service for free.
-
-If you're not already at the {{site.data.keyword.watson}} console, select **Watson** from the menu. ([Take me there ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/developer/watson/){: new_window})
-{: tip}
 
 ![Click Menu, and then click Watson](images/ic-create-service.gif){: gif}
 
@@ -45,7 +42,7 @@ If you're not already at the {{site.data.keyword.watson}} console, select **Wats
 
 You're ready to go.
 
-- If your see **Launch tool**, click it and experience an integrated environment.
+- If you see **Launch tool**, click it and experience an integrated environment.
 - Run through the **Getting started tutorial**.
-- View the **API reference**
+- View the **[API reference]**
 
