@@ -1,13 +1,11 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="watson" audience="service" href="/docs/services/watson/index.html"}
+{: .toc subcollection="watson" audience="service" href="/docs/services/watson/index.html" path="services/watson"}
 Watson
 
     {: .navgroup id="learn"}
     index.md
-    getting-started-bluemix.md
-    getting-started-develop.md
 
     {: .topicgroup}
     Additional resources
@@ -17,25 +15,23 @@ Watson
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    getting-started-iam.md
-    apikey-bp.md
-    getting-started-credentials.md
-    getting-started-tokens.md
+    {: .topicgroup}
+    Resource group (IAM) authentication
+        getting-started-iam.md
+        apikey-bp.md
+
+    {: .topicgroup}
+    Cloud Foundry authentication
+        getting-started-credentials.md
+        getting-started-tokens.md
+
+    getting-started-sdks.md
     getting-started-logging.md
-
-    {: topicgroup}
-    Using Watson SDKs
-        running-node-examples.md
-        developing-nodejs.md
-        developing-java.md
-
     getting-started-gdpr-sar.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    getting-started-cf.md
     getting-started-variables.md
-    getting-started-sdks.md
     [Watson GitHub repos](https://github.com/watson-developer-cloud/)
     [Watson docs](https://console.bluemix.net/developer/watson/documentation)
     {: .navgroup-end}
