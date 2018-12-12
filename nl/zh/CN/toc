@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="watson" audience="service" href="/docs/services/watson/index.html"}
+{: .toc subcollection="watson" audience="service" href="/docs/services/watson/index.html" path="services/watson"}
 Watson
 
     {: .navgroup id="learn"}
