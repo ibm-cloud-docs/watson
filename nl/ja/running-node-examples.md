@@ -24,7 +24,7 @@ lastupdated: "2018-05-02"
 
 ## 始める前に
 
-1.  {{site.data.keyword.Bluemix}} アカウントを作成するか、既存のアカウントを使用します。[こちらから無料でお申し込みいただけます ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}。
+1.  {{site.data.keyword.Bluemix}} アカウントを作成するか、既存のアカウントを使用します。[こちらから無料でお申し込みいただけます ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}。
 1.  実行する {{site.data.keyword.watson}} サービスのサービス資格情報を取得します。詳細については、[{{site.data.keyword.watson}} サービスのサービス資格情報](/docs/services/watson/getting-started-credentials.html#getting-credentials-manually)を参照してください。
 1.  [Node.js ランタイム ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://nodejs.org/#download){: new_window} ([npm ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.npmjs.com/){: new_window} パッケージ・マネージャーも含む) がインストールされていることを確認します。インストール後に、必ず `PATH` 環境変数にコマンドを含めてください。
 

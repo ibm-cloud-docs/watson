@@ -31,8 +31,8 @@ lastupdated: "2017-11-16"
 
 {{site.data.keyword.cloud_notm}} Web インターフェースからサービス資格情報を確認できます。
 
-1.  [{{site.data.keyword.cloud_notm}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window} にログインします。
-1.  既存のサービスに移動します。([ここからアクセスしてください ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.{DomainName}/developer/watson/existing-services){: new_window})
+1.  [{{site.data.keyword.cloud_notm}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window} にログインします。
+1.  既存のサービスに移動します。([ここからアクセスしてください ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/developer/watson/existing-services){: new_window})
 
     1.  左上のメニューを選択し、**「{{site.data.keyword.watson}}」**を選択して、{{site.data.keyword.watson}} コンソールに移動します。
     1.  **「Watson サービス」**から**「既存のサービス」**を選択して、サービスとプロジェクトのリストを表示します。
@@ -45,8 +45,8 @@ lastupdated: "2017-11-16"
 
 サービス・ダッシュボードから、既存のサービス・インスタンスのサービス資格情報を更新できます。
 
-1.  [{{site.data.keyword.cloud_notm}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window} にログインします。
-1.  既存のサービスに移動します。([ここからアクセスしてください ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.{DomainName}/developer/watson/existing-services){: new_window})
+1.  [{{site.data.keyword.cloud_notm}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window} にログインします。
+1.  既存のサービスに移動します。([ここからアクセスしてください ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/developer/watson/existing-services){: new_window})
 
     1.  左上のメニューを選択し、**「{{site.data.keyword.watson}}」**を選択して、{{site.data.keyword.watson}} コンソールに移動します。
     1.  **「Watson サービス」**から**「既存のサービス」**を選択して、サービスのリストを表示します。

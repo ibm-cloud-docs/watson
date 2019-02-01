@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-20"
+  years: 2015, 2019
+lastupdated: "2019-02-01"
 
 ---
 
@@ -42,6 +42,7 @@ Create an account on {{site.data.keyword.cloud_notm}} to try {{site.data.keyword
 ![Click Menu, and then click Watson](images/ic-create-service.gif){: gif}
 
 ## Next steps
+{: #gs-index-next-steps}
 
 You're ready to go.
 

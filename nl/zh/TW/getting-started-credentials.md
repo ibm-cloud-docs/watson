@@ -31,8 +31,8 @@ lastupdated: "2017-11-16"
 
 您可以從 {{site.data.keyword.cloud_notm}} Web 介面找到服務認證。
 
-1.  登入 [{{site.data.keyword.cloud_notm}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}。
-1.  移至現有的服務。（[帶我過去 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.{DomainName}/developer/watson/existing-services){: new_window}）：
+1.  登入 [{{site.data.keyword.cloud_notm}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}。
+1.  移至現有的服務。（[帶我過去 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/developer/watson/existing-services){: new_window}）：
     1.  選取左上方功能表，然後選取 **{{site.data.keyword.watson}}** 以前往 {{site.data.keyword.watson}} 主控台。
     1.  從 **Watson Services** 中選取 **Existing Services**，以檢視您的服務和專案清單。
 1.  檢視認證：
@@ -44,8 +44,8 @@ lastupdated: "2017-11-16"
 
 您可以從服務儀表板更新現有服務實例的服務認證。
 
-1.  登入 [{{site.data.keyword.cloud_notm}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}。
-1.  移至現有的服務。（[帶我過去 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.{DomainName}/developer/watson/existing-services){: new_window}）：
+1.  登入 [{{site.data.keyword.cloud_notm}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}。
+1.  移至現有的服務。（[帶我過去 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/developer/watson/existing-services){: new_window}）：
     1.  選取左上方功能表，然後選取 **{{site.data.keyword.watson}}** 以前往 {{site.data.keyword.watson}} 主控台。
     1.  從 **Watson Services** 中選取 **Existing Services**，以檢視您的服務清單。
 1.  選取您要檢視或更新的服務，然後選取**服務認證**。

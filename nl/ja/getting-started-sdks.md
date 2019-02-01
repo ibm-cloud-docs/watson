@@ -32,7 +32,7 @@ lastupdated: "2018-01-30"
 * [OpenWhisk SDK ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://github.com/watson-developer-cloud/openwhisk-sdk/){: new_window}
 * [Unity SDK ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://github.com/watson-developer-cloud/unity-sdk){: new_window}
 
-各サービスの [API リファレンス ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.{DomainName}/developer/watson/documentation){: new_window} には、Java SDK、Node.js SDK、Python SDK の情報とサンプルが含まれています。
+各サービスの [API リファレンス ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/developer/watson/documentation){: new_window} には、Java SDK、Node.js SDK、Python SDK の情報とサンプルが含まれています。
 {: tip}
 
 ## コミュニティー SDK

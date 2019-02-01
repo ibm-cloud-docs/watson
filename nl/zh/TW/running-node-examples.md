@@ -24,7 +24,7 @@ lastupdated: "2018-05-02"
 
 ## 開始之前
 
-1.  建立 {{site.data.keyword.Bluemix}} 帳戶，或使用現有帳戶。[免費註冊 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}。
+1.  建立 {{site.data.keyword.Bluemix}} 帳戶，或使用現有帳戶。[免費註冊 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}。
 1.  取得您要執行之 {{site.data.keyword.watson}} 服務的服務認證。如需詳細資料，請參閱 [{{site.data.keyword.watson}} 服務的服務認證](/docs/services/watson/getting-started-credentials.html#getting-credentials-manually)。
 1.  確定您已安裝 [Node.js 運行環境 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://nodejs.org/#download){: new_window}，包括 [npm ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.npmjs.com/){: new_window} 套件管理程式。請確定在安裝之後，在 `PATH` 環境變數上包含指令。
 

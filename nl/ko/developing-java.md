@@ -24,7 +24,7 @@ REST API의 사용을 보여주기 위해 각 {{site.data.keyword.ibmwatson}} �
 
 ## 시작하기 전에
 
-- {{site.data.keyword.cloud_notm}}의 계정을 작성하거나 기존 계정을 사용하십시오. [무료로 등록하십시오. ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window} 
+- {{site.data.keyword.cloud_notm}}의 계정을 작성하거나 기존 계정을 사용하십시오. [무료로 등록하십시오. ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window} 
 - [Cloud Foundry ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://github.com/cloudfoundry/cli#downloads){: new_window} 명령행 클라이언트를 설치하십시오. 이미 설치되어 있는 경우 해당 버전이 최신 상태인지 확인하십시오.
 - [Apache Maven ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://maven.apache.org/download.cgi){: new_window}을 다운로드하여 설치하십시오.
 - [IBM WebSphere Liberty 프로파일 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/wasdev/downloads/){: new_window}을 설치하십시오. 런타임 버전의 WebSphere Liberty 프로파일만 다운로드하거나 버전을 Eclipse IDE용 플러그인으로 다운로드할 수 있습니다. 또한 *Java JDK* 또는 *Eclipse IDE*를 설치 및 구성하십시오.

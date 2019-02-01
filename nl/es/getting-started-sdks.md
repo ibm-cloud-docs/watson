@@ -32,7 +32,7 @@ Los siguientes SDK de {{site.data.keyword.watson}} están soportados por {{site.
 * [SDK de OpenWhisk ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://github.com/watson-developer-cloud/openwhisk-sdk/){: new_window}
 * [SDK de Unity ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://github.com/watson-developer-cloud/unity-sdk){: new_window}
 
-La [referencia de API ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.{DomainName}/developer/watson/documentation){: new_window} para cada servicio incluye información y ejemplos para los SDK de Java, Node.js y Python.
+La [referencia de API ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/developer/watson/documentation){: new_window} para cada servicio incluye información y ejemplos para los SDK de Java, Node.js y Python.
 {: tip}
 
 ## SDK de comunidad

@@ -31,8 +31,8 @@ Serviceberechtigungsnachweise sind Berechtigungsnachweise für die HTTP-Basisaut
 
 Sie finden die Serviceberechtigungsnachweise in der {{site.data.keyword.cloud_notm}}-Webschnittstelle.
 
-1.  Melden Sie sich bei [{{site.data.keyword.cloud_notm}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window} an.
-1.  Gehen Sie zu den vorhandenen Services. ([Aufrufen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.{DomainName}/developer/watson/existing-services){: new_window}):
+1.  Melden Sie sich bei [{{site.data.keyword.cloud_notm}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window} an.
+1.  Gehen Sie zu den vorhandenen Services. ([Aufrufen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/developer/watson/existing-services){: new_window}):
     1.  Wählen Sie das Menü links oben aus und wählen Sie dann **{{site.data.keyword.watson}}** aus, um die {{site.data.keyword.watson}}-Konsole aufzurufen.
     1.  Wählen Sie **Bestehende Services** aus **Watson-Services** aus, um eine Liste Ihrer Services und Projekte aufzulisten.
 1.  Zeigen Sie die Berechtigungsnachweise an:
@@ -44,8 +44,8 @@ Sie finden die Serviceberechtigungsnachweise in der {{site.data.keyword.cloud_no
 
 Sie können die Serviceberechtigungsnachweise für eine vorhandene Serviceinstanz über das Service-Dashboard aktualisieren.
 
-1.  Melden Sie sich bei [{{site.data.keyword.cloud_notm}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window} an.
-1.  Gehen Sie zu den vorhandenen Services. ([Aufrufen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.{DomainName}/developer/watson/existing-services){: new_window}):
+1.  Melden Sie sich bei [{{site.data.keyword.cloud_notm}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window} an.
+1.  Gehen Sie zu den vorhandenen Services. ([Aufrufen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/developer/watson/existing-services){: new_window}):
     1.  Wählen Sie das Menü links oben aus und wählen Sie dann **{{site.data.keyword.watson}}** aus, um die {{site.data.keyword.watson}}-Konsole aufzurufen.
     1.  Wählen Sie **Bestehende Services** aus **Watson-Services** aus, um eine Liste Ihrer Services aufzulisten.
 1.  Wählen Sie den Service aus, den Sie anzeigen oder aktualisieren möchten, und wählen Sie dann **Serviceberechtigungsnachweise** aus.

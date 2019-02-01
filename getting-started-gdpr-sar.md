@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-08-24"
+  years: 2018, 2019
+lastupdated: "2019-02-01"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2018-08-24"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-#GDPR Subject Access Request
+# GDPR Subject Access Request
 {: #gdpr-sar}
 
 See the following sections to request support for {{site.data.keyword.cloud}} {{site.data.keyword.watson}} resources:

@@ -24,7 +24,7 @@ lastupdated: "2018-05-02"
 
 ## 開始之前
 
-- 在 {{site.data.keyword.cloud_notm}} 上建立帳戶，或使用現有帳戶。[免費註冊 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}。您的帳戶必須具有至少 1 個應用程式及 1 個服務的空間。
+- 在 {{site.data.keyword.cloud_notm}} 上建立帳戶，或使用現有帳戶。[免費註冊 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}。您的帳戶必須具有至少 1 個應用程式及 1 個服務的空間。
 - [Node.js 運行環境 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://nodejs.org/#download){: new_window}，包括 [npm](https://www.npmjs.com/){: new_window} 套件管理程式。請確定在安裝之後，在 `PATH` 環境變數上包含指令。
 - [Cloud Foundry ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://github.com/cloudfoundry/cli#downloads){: new_window} 指令行用戶端。如果您先前已安裝它，請確定您的版本是最新版本。
 

@@ -27,7 +27,7 @@ lastupdated: "2018-05-02"
 ## ステップ 1: 無料の {{site.data.keyword.cloud_notm}} アカウントの取得
 {: #free-account}
 
-{{site.data.keyword.cloud_notm}} でアカウントを作成することにより、時間制限なしでサービスを無料でお試しいただけます。[こちらから無料でお申し込みいただけます ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}。アカウントを確認してアクティブにするための E メールが送られてきます。
+{{site.data.keyword.cloud_notm}} でアカウントを作成することにより、時間制限なしでサービスを無料でお試しいただけます。[こちらから無料でお申し込みいただけます ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}。アカウントを確認してアクティブにするための E メールが送られてきます。
 
 ## ステップ 2: サービス・インスタンスの検出と作成
 {: #access-console}
@@ -36,7 +36,7 @@ lastupdated: "2018-05-02"
 1.  ニーズに合ったサービスを選択します。
 1.  サービスのインスタンスを無料で作成します。
 
-{{site.data.keyword.watson}} コンソールがまだ表示されていない場合は、メニューから**「Watson」**を選択します。([ここからアクセスしてください ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.{DomainName}/developer/watson/){: new_window})
+{{site.data.keyword.watson}} コンソールがまだ表示されていない場合は、メニューから**「Watson」**を選択します。([ここからアクセスしてください ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/developer/watson/){: new_window})
 {: tip}
 
 ![「メニュー」をクリックし、「Watson」をクリックします](images/ic-create-service.gif){: gif}

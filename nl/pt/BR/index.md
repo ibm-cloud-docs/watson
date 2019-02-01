@@ -27,7 +27,7 @@ Você está apenas a algumas etapas da introdução ao {{site.data.keyword.ibmwa
 ## Etapa 1: obtendo uma conta do {{site.data.keyword.cloud_notm}} grátis
 {: #free-account}
 
-Crie uma conta no {{site.data.keyword.cloud_notm}} para tentar serviços grátis sem restrições de tempo. [Inscreva-se gratuitamente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}. 
+Crie uma conta no {{site.data.keyword.cloud_notm}} para tentar serviços grátis sem restrições de tempo. [Inscreva-se gratuitamente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}.
 Você receberá um e-mail para confirmar e ativar a sua conta.
 
 ## Etapa 2: localizando e criando uma instância de serviço
@@ -37,8 +37,8 @@ Você receberá um e-mail para confirmar e ativar a sua conta.
 1.  Selecione um serviço que se ajuste às suas necessidades.
 1.  Crie uma instância do serviço gratuitamente.
 
-Se você ainda não estiver no console do {{site.data.keyword.watson}}, selecione **Watson** no menu. 
-([Leve-me lá ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.{DomainName}/developer/watson/){: new_window})
+Se você ainda não estiver no console do {{site.data.keyword.watson}}, selecione **Watson** no menu.
+([Leve-me lá ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/developer/watson/){: new_window})
 {: tip}
 
 ![Clique em Menu e, então, clique em Watson](images/ic-create-service.gif){: gif}

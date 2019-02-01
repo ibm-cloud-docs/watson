@@ -27,7 +27,7 @@ lastupdated: "2018-05-02"
 ## 1단계: 무료 {{site.data.keyword.cloud_notm}} 계정 가져오기
 {: #free-account}
 
-시간 제한 없이 무료로 서비스를 사용해 보려면 {{site.data.keyword.cloud_notm}}의 계정을 작성하십시오. [무료로 등록하십시오. ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window} 계정을 확인하고 활성화하기 위한 이메일을 수신합니다.
+시간 제한 없이 무료로 서비스를 사용해 보려면 {{site.data.keyword.cloud_notm}}의 계정을 작성하십시오. [무료로 등록하십시오. ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window} 계정을 확인하고 활성화하기 위한 이메일을 수신합니다.
 
 ## 2단계: 서비스 인스턴스 찾기 및 작성
 {: #access-console}
@@ -36,7 +36,7 @@ lastupdated: "2018-05-02"
 1.  요구사항에 맞는 서비스를 선택하십시오.
 1.  무료로 서비스 인스턴스를 작성하십시오.
 
-아직 {{site.data.keyword.watson}} 콘솔에 없는 경우 메뉴에서 **Watson**을 선택하십시오([해당 위치로 이동 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.{DomainName}/developer/watson/){: new_window}).
+아직 {{site.data.keyword.watson}} 콘솔에 없는 경우 메뉴에서 **Watson**을 선택하십시오([해당 위치로 이동 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/developer/watson/){: new_window}).
 {: tip}
 
 ![메뉴를 클릭한 후 Watson 클릭](images/ic-create-service.gif){: gif}

@@ -24,7 +24,7 @@ REST API の使用法をご確認いただけるよう、{{site.data.keyword.ibm
 
 ## 始める前に
 
-- {{site.data.keyword.cloud_notm}} でアカウントを作成するか、既存のアカウントを使用します。[こちらから無料でお申し込みいただけます ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}。そのアカウントに、少なくとも 1 つのアプリと 1 つのサービスのスペースが必要です。
+- {{site.data.keyword.cloud_notm}} でアカウントを作成するか、既存のアカウントを使用します。[こちらから無料でお申し込みいただけます ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}。そのアカウントに、少なくとも 1 つのアプリと 1 つのサービスのスペースが必要です。
 - [Node.js ランタイム![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://nodejs.org/#download){: new_window} ([npm](https://www.npmjs.com/){: new_window} パッケージ・マネージャーも含む)。インストール後に、必ず `PATH` 環境変数にコマンドを含めてください。
 - [Cloud Foundry ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://github.com/cloudfoundry/cli#downloads){: new_window} コマンド・ライン・クライアント。以前にインストールしてある場合は、バージョンが最新であることを確認してください。
 

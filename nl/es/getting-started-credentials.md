@@ -31,8 +31,8 @@ Las credenciales de servicio son credenciales de autenticación básica HTTP par
 
 Puede encontrar las credenciales de servicio desde la interfaz web de {{site.data.keyword.cloud_notm}}.
 
-1.  Inicie sesión en [{{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}.
-1.  Vaya a los servicios existentes. ([Llévame allí ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.{DomainName}/developer/watson/existing-services){: new_window}):
+1.  Inicie sesión en [{{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}.
+1.  Vaya a los servicios existentes. ([Llévame allí ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/developer/watson/existing-services){: new_window}):
     1.  Seleccione el menú de la parte superior izquierda y, a continuación, seleccione **{{site.data.keyword.watson}}** para ir a la consola de {{site.data.keyword.watson}}.
     1.  Seleccione **Servicios existentes** desde **Servicios de Watson** para ver una lista de los servicios y proyectos.
 1.  Ver las credenciales:
@@ -44,8 +44,8 @@ Puede encontrar las credenciales de servicio desde la interfaz web de {{site.dat
 
 Puede actualizar credenciales de servicio para una instancia de servicio existente desde el panel de control del servicio.
 
-1.  Inicie sesión en [{{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}.
-1.  Vaya a los servicios existentes. ([Llévame allí ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.{DomainName}/developer/watson/existing-services){: new_window}):
+1.  Inicie sesión en [{{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}.
+1.  Vaya a los servicios existentes. ([Llévame allí ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/developer/watson/existing-services){: new_window}):
     1.  Seleccione el menú de la parte superior izquierda y, a continuación, seleccione **{{site.data.keyword.watson}}** para ir a la consola de {{site.data.keyword.watson}}.
     1.  Seleccione **Servicios existentes** desde **Servicios de Watson** para ver una lista de los servicios.
 1.  Seleccione el servicio que desee ver o actualizar y, a continuación, seleccione **Credenciales de servicio**.

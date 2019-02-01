@@ -24,7 +24,7 @@ Pour illustrer l'utilisation de l'API REST, chaque service {{site.data.keyword.i
 
 ## Avant de commencer
 
-- Créez un compte sur {{site.data.keyword.cloud_notm}} ou utilisez un compte existant. [Inscription gratuite ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}.
+- Créez un compte sur {{site.data.keyword.cloud_notm}} ou utilisez un compte existant. [Inscription gratuite ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}.
 - Installez le client de ligne de commande [Cloud Foundry ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://github.com/cloudfoundry/cli#downloads){: new_window}. S'il est déjà installé, vérifiez que votre version est à jour.
 - Téléchargez et installez [Apache Maven ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://maven.apache.org/download.cgi){: new_window}.
 - Installez me [profil IBM WebSphere Liberty ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/wasdev/downloads/){: new_window}. Vous pouvez télécharger uniquement la version d'exécution du profil WebSphere Liberty ou télécharger une version en tant que plug-in pour l'interface IDE Eclipse. Installez et configurez également soit le *JDK Java * soir l'*interface IDE Eclipse*.

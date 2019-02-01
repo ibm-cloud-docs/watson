@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-20"
+  years: 2015, 2019
+lastupdated: "2019-02-01"
 
 ---
 
@@ -27,6 +27,9 @@ lastupdated: "2018-11-20"
 {: shortdesc}
 
 Unlike the standard {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) implementation of API keys, {{site.data.keyword.ibmwatson_notm}} IAM keys are set on a per-service basis. You can assign permissions to each API key rather than to each service. This implementation differs from the standard {{site.data.keyword.cloud_notm}} method of user-based API keys. With {{site.data.keyword.ibmwatson_notm}}, users are assigned a role for each service. For more information about the general {{site.data.keyword.cloud_notm}} IAM implementation, see [API key best practices](/docs/services/iam/index.html).
+
+You can bind a Watson API key only to a single service instance.
+{: tip}
 
 A set of credentials for the `Manager` role is automatically generated each time an {{site.data.keyword.ibmwatson_notm}} service instance is created. These credentials are available to you on the **Dashboard** page of the service instance. You can use them to call *all* methods of the service's API. You can limit the possible actions that are performed when you use the service by creating an API key with a different role.
 

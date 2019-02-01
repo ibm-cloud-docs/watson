@@ -24,9 +24,9 @@ Um die Verwendung der REST-API darzustellen, stellt jeder {{site.data.keyword.ib
 
 ## Vorbereitungen
 
-- Erstellen Sie ein Konto in {{site.data.keyword.cloud_notm}} oder nutzen Sie ein vorhandenes Konto. [Sich für eine kostenlose Testversion anmelden ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}. Auf Ihrem Konto muss Speicherplatz für mindestens 1 App und 1 Service sein.
-- Die [Node.js-Laufzeit ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://nodejs.org/#download){: new_window}, einschließlich [npm](https://www.npmjs.com/){: new_window}-Paketmanager. Stellen Sie sicher, dass der Befehl nach der Installation in die Umgebungsvariable `PATH` eingefügt wird. 
-- Der [Cloud Foundry ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://github.com/cloudfoundry/cli#downloads){: new_window} Befehlszeilenclient. Wenn Sie es vorab installiert haben, stellen Sie sicher, dass Ihre Version die aktuelle ist. 
+- Erstellen Sie ein Konto in {{site.data.keyword.cloud_notm}} oder nutzen Sie ein vorhandenes Konto. [Sich für eine kostenlose Testversion anmelden ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}. Auf Ihrem Konto muss Speicherplatz für mindestens 1 App und 1 Service sein.
+- Die [Node.js-Laufzeit ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://nodejs.org/#download){: new_window}, einschließlich [npm](https://www.npmjs.com/){: new_window}-Paketmanager. Stellen Sie sicher, dass der Befehl nach der Installation in die Umgebungsvariable `PATH` eingefügt wird.
+- Der [Cloud Foundry ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://github.com/cloudfoundry/cli#downloads){: new_window} Befehlszeilenclient. Wenn Sie es vorab installiert haben, stellen Sie sicher, dass Ihre Version die aktuelle ist.
 
 ## Den Quellcode abrufen
 
