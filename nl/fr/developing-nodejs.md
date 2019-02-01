@@ -24,7 +24,7 @@ Pour illustrer l'utilisation de l'API REST, chaque service {{site.data.keyword.i
 
 ## Avant de commencer
 
-- Créez un compte sur {{site.data.keyword.cloud_notm}} ou utilisez un compte existant. [Inscription gratuite ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}. Votre compte doit disposer d'espace pour au moins 1 application et 1 service, à savoir : 
+- Créez un compte sur {{site.data.keyword.cloud_notm}} ou utilisez un compte existant. [Inscription gratuite ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}. Votre compte doit disposer d'espace pour au moins 1 application et 1 service, à savoir :
 - L'[environnement d'exécution Node.js ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://nodejs.org/#download){: new_window}, qui inclut le gestionnaire de package [npm](https://www.npmjs.com/){: new_window}. Veillez à inclure la commande dans votre variable d'environnement `PATH` après l'installation.
 - Le client de ligne de commande [Cloud Foundry ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://github.com/cloudfoundry/cli#downloads){: new_window}. S'il est déjà installé, vérifiez que votre version est à jour.
 

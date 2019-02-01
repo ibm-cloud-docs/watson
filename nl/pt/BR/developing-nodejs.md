@@ -24,7 +24,7 @@ Para demonstrar o uso de sua API de REST, cada serviço do {{site.data.keyword.i
 
 ## Antes de iniciar
 
-- Crie uma conta no {{site.data.keyword.cloud_notm}} ou use uma conta existente. [Inscreva-se gratuitamente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}. Sua conta deve ter espaço para pelo menos um aplicativo e um serviço.
+- Crie uma conta no {{site.data.keyword.cloud_notm}} ou use uma conta existente. [Inscreva-se gratuitamente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}. Sua conta deve ter espaço para pelo menos um aplicativo e um serviço.
 - O [tempo de execução de Node.js ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://nodejs.org/#download){: new_window}, incluindo o gerenciador de pacote [npm](https://www.npmjs.com/){: new_window}.  Certifique-se de incluir o comando na variável de ambiente `PATH` após a instalação.
 - O cliente da linha de comando do [Cloud Foundry ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://github.com/cloudfoundry/cli#downloads){: new_window}. Se você o instalou anteriormente, certifique-se de que a sua versão esteja atualizada.
 

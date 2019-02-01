@@ -24,7 +24,7 @@ lastupdated: "2018-05-09"
 
 ## 开始之前
 
-- 在 {{site.data.keyword.cloud_notm}} 上创建帐户，或使用现有帐户。[免费注册 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}。
+- 在 {{site.data.keyword.cloud_notm}} 上创建帐户，或使用现有帐户。[免费注册 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}。
 - 安装 [Cloud Foundry ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://github.com/cloudfoundry/cli#downloads){: new_window} 命令行客户机。如果已安装，确保版本为最新。
 - 下载并安装 [Apache Maven ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://maven.apache.org/download.cgi){: new_window}。
 - 安装 [IBM WebSphere Liberty 概要文件 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/wasdev/downloads/){: new_window}。您可以仅下载 WebSphere Liberty 概要文件的运行时版本，或者下载作为 Eclipse IDE 插件的版本。另请安装并配置 *Java JDK* 或 *Eclipse IDE*。

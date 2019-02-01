@@ -25,14 +25,14 @@ aplicativos baseados na web em Java no projeto GitHub do {{site.data.keyword.wat
 
 ## Antes de iniciar
 
-- Crie uma conta no {{site.data.keyword.cloud_notm}} ou use uma conta existente. [Inscreva-se gratuitamente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}.
+- Crie uma conta no {{site.data.keyword.cloud_notm}} ou use uma conta existente. [Inscreva-se gratuitamente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}.
 - Instale o cliente da linha de comando do [Cloud Foundry
-![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://github.com/cloudfoundry/cli#downloads){: new_window}.  
+![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://github.com/cloudfoundry/cli#downloads){: new_window}.
 Se ele já estiver instalado, verifique se a versão está atualizada.
 - Faça download e instale o [Apache Maven
 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://maven.apache.org/download.cgi){: new_window}.
 - Instale o perfil do [IBM WebSphere Liberty
-![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/wasdev/downloads/){: new_window}.  
+![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/wasdev/downloads/){: new_window}.
 É possível fazer download apenas da versão de runtime do perfil do WebSphere Liberty ou fazer download de uma versão como um
 plug-in para o Eclipse IDE. Também instalar e configurar o *Java JDK* ou o *Eclipse IDE*.
 

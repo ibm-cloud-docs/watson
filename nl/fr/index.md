@@ -27,7 +27,7 @@ Il ne vous reste que quelques étapes à franchir avant de vous lancer avec {{si
 ## Etape 1 : Obtention d'un compte {{site.data.keyword.cloud_notm}} gratuit
 {: #free-account}
 
-Créez un compte sur {{site.data.keyword.cloud_notm}} afin de tester gratuitement des services sans limitation de temps. [Inscription gratuite![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}. Vous recevrez un courrier électronique vous permettant de confirmer et d'activer votre compte.
+Créez un compte sur {{site.data.keyword.cloud_notm}} afin de tester gratuitement des services sans limitation de temps. [Inscription gratuite![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}. Vous recevrez un courrier électronique vous permettant de confirmer et d'activer votre compte.
 
 ## Etape 2 : Recherche et création d'une instance de service
 {: #access-console}
@@ -36,7 +36,7 @@ Créez un compte sur {{site.data.keyword.cloud_notm}} afin de tester gratuitemen
 1.  Sélectionnez un service qui répond à vos besoins.
 1.  Créez gratuitement une instance du service.
 
-Si vous n'êtes pas encore dans la console {{site.data.keyword.watson}}, sélectionnez **Watson** dans le menu. ([Découvrir ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.{DomainName}/developer/watson/){: new_window})
+Si vous n'êtes pas encore dans la console {{site.data.keyword.watson}}, sélectionnez **Watson** dans le menu. ([Découvrir ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/developer/watson/){: new_window})
 {: tip}
 
 ![Cliquez sur Menu, puis sur Watson](images/ic-create-service.gif){: gif}

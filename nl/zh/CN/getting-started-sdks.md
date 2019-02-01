@@ -32,7 +32,7 @@ lastupdated: "2018-01-30"
 * [OpenWhisk SDK ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://github.com/watson-developer-cloud/openwhisk-sdk/){: new_window}
 * [Unity SDK ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://github.com/watson-developer-cloud/unity-sdk){: new_window}
 
-每个服务的 [API 引用 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.{DomainName}/developer/watson/documentation){: new_window} 包含 Java、Node.js 和 Python SDK 的信息和示例。
+每个服务的 [API 引用 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/developer/watson/documentation){: new_window} 包含 Java、Node.js 和 Python SDK 的信息和示例。
 {: tip}
 
 ## 社区 SDK

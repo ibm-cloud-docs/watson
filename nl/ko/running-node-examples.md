@@ -24,7 +24,7 @@ lastupdated: "2018-05-02"
 
 ## 시작하기 전에
 
-1.  {{site.data.keyword.Bluemix}} 계정을 작성하거나 기존 계정을 사용하십시오. [무료로 등록하십시오. ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window} 
+1.  {{site.data.keyword.Bluemix}} 계정을 작성하거나 기존 계정을 사용하십시오. [무료로 등록하십시오. ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}
 1.  실행할 {{site.data.keyword.watson}} 서비스에 대한 서비스 신임 정보를 가져오십시오. 세부사항은 [{{site.data.keyword.watson}} 서비스에 대한 서비스 신임 정보](/docs/services/watson/getting-started-credentials.html#getting-credentials-manually)를 참조하십시오.
 1.  [npm ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.npmjs.com/){: new_window} 패키지 관리자를 포함한 [Node.js 런타임 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://nodejs.org/#download){: new_window}이 설치되어 있는지 확인하십시오. 설치 후 명령을 `PATH` 환경 변수에 포함시켜야 합니다.
 

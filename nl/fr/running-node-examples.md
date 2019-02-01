@@ -24,7 +24,7 @@ Le kit de développement de logiciels (SDK) Node.js de {{site.data.keyword.watso
 
 ## Avant de commencer
 
-1.  Créez un compte {{site.data.keyword.Bluemix}} ou utilisez un compte existant. [Inscription gratuite ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}.
+1.  Créez un compte {{site.data.keyword.Bluemix}} ou utilisez un compte existant. [Inscription gratuite ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}.
 1.  Procurez-vous les données d'identification de service du service {{site.data.keyword.watson}} que vous voulez exécuter. Pour plus d'informations, voir [Données d'identification de service pour les services {{site.data.keyword.watson}}](/docs/services/watson/getting-started-credentials.html#getting-credentials-manually).
 1.  Assurez-vous que l'[environnement d'exécution Node.js ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://nodejs.org/#download){: new_window} est installé, y compris le gestionnaire de package [npm ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.npmjs.com/){: new_window}. Veillez à inclure la commande dans votre variable d'environnement `PATH` après l'installation.
 

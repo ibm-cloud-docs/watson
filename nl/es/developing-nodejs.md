@@ -24,7 +24,7 @@ Para demostrar el uso de su API REST, cada servicio de {{site.data.keyword.ibmwa
 
 ## Antes de empezar
 
-- Cree una cuenta en {{site.data.keyword.cloud_notm}}, o utilice una cuenta existente. [Regístrese de forma gratuita ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}. La cuenta debe tener espacio para al menos 1 app y 1 servicio.
+- Cree una cuenta en {{site.data.keyword.cloud_notm}}, o utilice una cuenta existente. [Regístrese de forma gratuita ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}. La cuenta debe tener espacio para al menos 1 app y 1 servicio.
 - El [tiempo de ejecución de Node.js ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://nodejs.org/#download){: new_window}, incluido el gestor de paquetes de [npm](https://www.npmjs.com/){: new_window}. Asegúrese de incluir el mandato en la variable de entorno `PATH` después de la instalación.
 - El cliente de línea de mandatos de [Cloud Foundry ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://github.com/cloudfoundry/cli#downloads){: new_window}. Si lo ha instalado anteriormente, asegúrese de que la versión esté actualizada.
 

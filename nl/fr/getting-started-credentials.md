@@ -31,9 +31,9 @@ Les données d'identification du service sont les données d'authentification HT
 
 Vous trouverez les données d'identification du service dans l'interface Web d'{{site.data.keyword.cloud_notm}}.
 
-1.  Connectez-vous à [{{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}.
-1.  Accédez à vos services existants. ([Découvrir ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.{DomainName}/developer/watson/existing-services){: new_window}):
-    1.  Sélectionnez le menu en haut à gauche, puis sélectionnez **{{site.data.keyword.watson}}** pour accéder à la console {{site.data.keyword.watson}}.
+1.  Connectez-vous à [{{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}.
+1.  Accédez à vos services existants. ([Découvrir ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/developer/watson/existing-services){: new_window}):
+    1.  Sélectionnez le menu en haut à gauche, puis sélectionnez **{{site.data.keyword.watson}}** pour accéder à la {DomainName {{site.data.keyword.watson}}.
     1.  Sélectionnez **Services existants** dans **Services Watson** pour afficher la liste de vos services et projets.
 1.  Affichez les données d'identification :
     - Si le service fait partie d'un projet, cliquez sur le nom du projet qui contient le service. Affichez les données d'identification depuis la section **Données d'identification** de la page des détails du projet.
@@ -44,9 +44,9 @@ Vous trouverez les données d'identification du service dans l'interface Web d'{
 
 Vous pouvez mettre à jour les données d'identification de service d'une instance de service existante à partir du tableau de bord du service.
 
-1.  Connectez-vous à [{{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}.
-1.  Accédez à vos services existants. ([Découvrir ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.{DomainName}/developer/watson/existing-services){: new_window}):
-    1.  Sélectionnez le menu en haut à gauche, puis sélectionnez **{{site.data.keyword.watson}}** pour accéder à la console {{site.data.keyword.watson}}.
+1.  Connectez-vous à [{{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}.
+1.  Accédez à vos services existants. ([Découvrir ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/developer/watson/existing-services){: new_window}):
+    1.  Sélectionnez le menu en haut à gauche, puis sélectionnez **{{site.data.keyword.watson}}** pour accéder à la {DomainName {{site.data.keyword.watson}}.
     1.  Sélectionnez **Services existants** dans **Services Watson** pour afficher la liste de vos services.
 1.  Sélectionnez le service que vous voulez afficher ou mettre à jour, puis sélectionnez **Données d'identification pour le service**.
 1.  Supprimez ou ajoutez des données d'identification :

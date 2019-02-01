@@ -24,8 +24,8 @@ Um die Verwendung der REST-API darzustellen, stellt jeder {{site.data.keyword.ib
 
 ## Vorbereitungen
 
-- Erstellen Sie ein Konto in {{site.data.keyword.cloud_notm}} oder nutzen Sie ein vorhandenes Konto. [Sich für eine kostenlose Testversion anmelden ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}. 
-- Installieren Sie den [Cloud Foundry-Befehlszeilenclient ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://github.com/cloudfoundry/cli#downloads){: new_window}. Wenn Sie schon installiert haben, stellen Sie sicher, dass Ihre Version die aktuelle ist. 
+- Erstellen Sie ein Konto in {{site.data.keyword.cloud_notm}} oder nutzen Sie ein vorhandenes Konto. [Sich für eine kostenlose Testversion anmelden ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}.
+- Installieren Sie den [Cloud Foundry-Befehlszeilenclient ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://github.com/cloudfoundry/cli#downloads){: new_window}. Wenn Sie schon installiert haben, stellen Sie sicher, dass Ihre Version die aktuelle ist.
 - Laden Sie [Apache Maven ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://maven.apache.org/download.cgi){: new_window} herunter und installieren Sie es.
 - Installieren Sie das [IBM WebSphere Liberty-Profil ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/wasdev/downloads/){: new_window}. Sie können nur die Laufzeitversion des WebSphere Liberty-Profils oder eine Version als Plugin für die Eclipse-IDE herunterladen. Installieren und konfigurieren Sie auch entweder das *Java-JDK* oder die *Eclipse-IDE*.
 

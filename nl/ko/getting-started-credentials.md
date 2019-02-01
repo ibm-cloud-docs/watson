@@ -31,8 +31,8 @@ lastupdated: "2017-11-16"
 
 {{site.data.keyword.cloud_notm}} 웹 인터페이스에서 서비스 신임 정보를 찾을 수 있습니다.
 
-1.  [{{site.data.keyword.cloud_notm}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}에 로그인하십시오.
-1.  기존 서비스로 이동하십시오([해당 위치로 이동 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.{DomainName}/developer/watson/existing-services){: new_window}).
+1.  [{{site.data.keyword.cloud_notm}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}에 로그인하십시오.
+1.  기존 서비스로 이동하십시오([해당 위치로 이동 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/developer/watson/existing-services){: new_window}).
     1.  왼쪽 상단 메뉴를 선택한 후 **{{site.data.keyword.watson}}**을 선택하여 {{site.data.keyword.watson}} 콘솔로 이동하십시오.
     1.  **Watson 서비스**에서 **기존 서비스**를 선택하면 서비스 및 프로젝트 목록을 볼 수 있습니다.
 1.  신임 정보 보기:
@@ -44,8 +44,8 @@ lastupdated: "2017-11-16"
 
 서비스 대시보드에서 기존 서비스 인스턴스에 대한 서비스 신임 정보를 업데이트할 수 있습니다.
 
-1.  [{{site.data.keyword.cloud_notm}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}에 로그인하십시오.
-1.  기존 서비스로 이동하십시오([해당 위치로 이동 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.{DomainName}/developer/watson/existing-services){: new_window}).
+1.  [{{site.data.keyword.cloud_notm}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}에 로그인하십시오.
+1.  기존 서비스로 이동하십시오([해당 위치로 이동 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/developer/watson/existing-services){: new_window}).
     1.  왼쪽 상단 메뉴를 선택한 후 **{{site.data.keyword.watson}}**을 선택하여 {{site.data.keyword.watson}} 콘솔로 이동하십시오.
     1.  **Watson 서비스**에서 **기존 서비스**를 선택하면 서비스 목록을 볼 수 있습니다.
 1.  보거나 업데이트하려는 서비스를 선택한 후 **서비스 신임 정보**를 선택하십시오.

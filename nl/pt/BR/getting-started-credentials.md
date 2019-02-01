@@ -34,8 +34,8 @@ específico do {{site.data.keyword.watson}}.
 
 É possível localizar as credenciais de serviço na interface da web do {{site.data.keyword.cloud_notm}}.
 
-1.  Efetue login no [{{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}.
-1.  Acesse os serviços existentes. ([Leve-me lá ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.{DomainName}/developer/watson/existing-services){: new_window}):
+1.  Efetue login no [{{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}.
+1.  Acesse os serviços existentes. ([Leve-me lá ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/developer/watson/existing-services){: new_window}):
     1.  Selecione o menu superior esquerdo e, em seguida, selecione **{{site.data.keyword.watson}}** para obter o console do {{site.data.keyword.watson}}.
     1.  Selecione **Serviços existentes** em **Serviços do Watson** para
 visualizar uma lista de seus serviços e projetos.
@@ -50,8 +50,8 @@ seção **Credenciais** na página de detalhes do projeto.
 
 É possível atualizar as credenciais de serviço para uma instância de serviço existente no painel de serviço.
 
-1.  Efetue login no [{{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}.
-1.  Acesse os serviços existentes. ([Leve-me lá ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://console.{DomainName}/developer/watson/existing-services){: new_window}):
+1.  Efetue login no [{{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}.
+1.  Acesse os serviços existentes. ([Leve-me lá ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/developer/watson/existing-services){: new_window}):
     1.  Selecione o menu superior esquerdo e, em seguida, selecione **{{site.data.keyword.watson}}** para obter o console do {{site.data.keyword.watson}}.
     1.  Selecione **Serviços existentes** em **Serviços do Watson** para
 visualizar uma lista de seus serviços.

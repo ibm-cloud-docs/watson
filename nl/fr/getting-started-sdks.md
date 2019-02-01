@@ -32,7 +32,7 @@ Les kits de développement de logiciels (SDK) {{site.data.keyword.watson}} suiva
 * [SDK OpenWhisk ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://github.com/watson-developer-cloud/openwhisk-sdk/){: new_window}
 * [SDK Unity ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://github.com/watson-developer-cloud/unity-sdk){: new_window}
 
-La [référence d'API ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.{DomainName}/developer/watson/documentation){: new_window} de chaque service inclut des informations et des exemples pour les kits de développement de logiciels (SDK) Java, Node.js et Python.
+La [référence d'API ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/developer/watson/documentation){: new_window} de chaque service inclut des informations et des exemples pour les kits de développement de logiciels (SDK) Java, Node.js et Python.
 {: tip}
 
 ## Kits de développement de logiciels (SDK) de la communauté

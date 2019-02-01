@@ -24,7 +24,7 @@ L'SDK (Software Development Kit) Node.js {{site.data.keyword.watson}} include il
 
 ## Prima di cominciare
 
-1.  Crea un account {{site.data.keyword.Bluemix}} o utilizza un account esistente. [Registrati gratuitamente ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}.
+1.  Crea un account {{site.data.keyword.Bluemix}} o utilizza un account esistente. [Registrati gratuitamente ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}.
 1.  Ottieni le credenziali del servizio per il servizio {{site.data.keyword.watson}} che vuoi eseguire. per i dettagli, consulta [Credenziali del servizio per i servizi {{site.data.keyword.watson}}](/docs/services/watson/getting-started-credentials.html#getting-credentials-manually).
 1.  Assicurati di avere il [runtime Node.js ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://nodejs.org/#download){: new_window} installato, compreso il gestore pacchetti [npm ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.npmjs.com/){: new_window}. Assicurati di includere il comando nella tua variabile di ambiente `PATH` dopo l'installazione.
 

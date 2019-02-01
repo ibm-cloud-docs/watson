@@ -24,7 +24,7 @@ REST API의 사용을 보여주기 위해 각 {{site.data.keyword.ibmwatson}} �
 
 ## 시작하기 전에
 
-- {{site.data.keyword.cloud_notm}}의 계정을 작성하거나 기존 계정을 사용하십시오. [무료로 등록하십시오. ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window} 계정에 하나 이상의 앱과 하나 이상의 서비스에 대한 영역이 있어야 합니다.
+- {{site.data.keyword.cloud_notm}}의 계정을 작성하거나 기존 계정을 사용하십시오. [무료로 등록하십시오. ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window} 계정에 하나 이상의 앱과 하나 이상의 서비스에 대한 영역이 있어야 합니다.
 - [npm](https://www.npmjs.com/){: new_window} 패키지 관리자를 포함한 [Node.js 런타임 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://nodejs.org/#download){: new_window}. 설치 후 명령을 `PATH` 환경 변수에 포함시켜야 합니다.
 - [Cloud Foundry ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://github.com/cloudfoundry/cli#downloads){: new_window} 명령행 클라이언트. 이전에 설치한 경우 해당 버전이 최신 상태인지 확인하십시오.
 

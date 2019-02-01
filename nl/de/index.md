@@ -27,7 +27,7 @@ Sie sind nur ein paar Schritte vom Einstieg in {{site.data.keyword.ibmwatson}} e
 ## Schritt 1: Kostenloses {{site.data.keyword.cloud_notm}}-Konto erhalten
 {: #free-account}
 
-Erstellen Sie ein Konto unter {{site.data.keyword.cloud_notm}}, um kostenlose Services ohne zeitliche Einschränkungen zu testen. [Sich für eine kostenlose Testversion anmelden ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}. Sie erhalten eine E-Mail, um Ihr Konto zu bestätigen und zu aktivieren.
+Erstellen Sie ein Konto unter {{site.data.keyword.cloud_notm}}, um kostenlose Services ohne zeitliche Einschränkungen zu testen. [Sich für eine kostenlose Testversion anmelden ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}. Sie erhalten eine E-Mail, um Ihr Konto zu bestätigen und zu aktivieren.
 
 ## Schritt 2: Eine Serviceinstanz suchen und erstellen
 {: #access-console}
@@ -36,7 +36,7 @@ Erstellen Sie ein Konto unter {{site.data.keyword.cloud_notm}}, um kostenlose Se
 1.  Wählen Sie einen Service aus, der Ihren Anforderungen entspricht.
 1.  Erstellen Sie eine Instanz des Services kostenlos aus.
 
-Wenn Sie sich noch nicht in der {{site.data.keyword.watson}}-Konsole befinden, wählen Sie aus dem Menü **Watson** aus. ([Aufrufen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.{DomainName}/developer/watson/){: new_window})
+Wenn Sie sich noch nicht in der {{site.data.keyword.watson}}-Konsole befinden, wählen Sie aus dem Menü **Watson** aus. ([Aufrufen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/developer/watson/){: new_window})
 {: tip}
 
 ![Auf das Menü und dann auf Watson klicken](images/ic-create-service.gif){: gif}

@@ -24,9 +24,9 @@ Das {{site.data.keyword.watson}} Node.js-SDK (Software Development Kit) enthält
 
 ## Vorbereitungen
 
-1.  Erstellen Sie ein {{site.data.keyword.Bluemix}}-Konto oder nutzen Sie ein vorhandenes Konto. [Sich für eine kostenlose Testversion anmelden ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}. 
+1.  Erstellen Sie ein {{site.data.keyword.Bluemix}}-Konto oder nutzen Sie ein vorhandenes Konto. [Sich für eine kostenlose Testversion anmelden ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}.
 1.  Rufen Sie die Serviceberechtigungsnachweise für den {{site.data.keyword.watson}}-Service ab, den Sie ausführen möchten. Weitere Details finden Sie in [Serviceberechtigungsnachweis für {{site.data.keyword.watson}}-Services](/docs/services/watson/getting-started-credentials.html#getting-credentials-manually).
-1.  Stellen Sie sicher, dass die [Node.js-Laufzeit ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://nodejs.org/#download){: new_window} installiert ist, einschließlich [npm-Paketmanager ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.npmjs.com/){: new_window}. Stellen Sie sicher, dass der Befehl nach der Installation in die Umgebungsvariable `PATH` eingefügt wird. 
+1.  Stellen Sie sicher, dass die [Node.js-Laufzeit ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://nodejs.org/#download){: new_window} installiert ist, einschließlich [npm-Paketmanager ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.npmjs.com/){: new_window}. Stellen Sie sicher, dass der Befehl nach der Installation in die Umgebungsvariable `PATH` eingefügt wird.
 
 ## Das Beispiel aktualisieren und ausführen
 

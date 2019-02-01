@@ -31,8 +31,8 @@ lastupdated: "2017-11-16"
 
 您可以从 {{site.data.keyword.cloud_notm}} Web 界面查找服务凭证。
 
-1.  登录到 [{{site.data.keyword.cloud_notm}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}。
-1.  转至现有服务。（[带我前往该处 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.{DomainName}/developer/watson/existing-services){: new_window}）：
+1.  登录到 [{{site.data.keyword.cloud_notm}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}。
+1.  转至现有服务。（[带我前往该处 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/developer/watson/existing-services){: new_window}）：
     1.  选择左上角的菜单，然后选择 **{{site.data.keyword.watson}}** 以转至 {{site.data.keyword.watson}} 控制台。
     1.  从 **Watson 服务**中选择**现有服务**以查看服务和项目列表。
 1.  查看凭证：
@@ -44,8 +44,8 @@ lastupdated: "2017-11-16"
 
 您可以从服务仪表板更新现有服务实例的服务凭证。
 
-1.  登录到 [{{site.data.keyword.cloud_notm}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}。
-1.  转至现有服务。（[带我前往该处 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://console.{DomainName}/developer/watson/existing-services){: new_window}）：
+1.  登录到 [{{site.data.keyword.cloud_notm}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}。
+1.  转至现有服务。（[带我前往该处 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/developer/watson/existing-services){: new_window}）：
     1.  选择左上角的菜单，然后选择 **{{site.data.keyword.watson}}** 以转至 {{site.data.keyword.watson}} 控制台。
     1.  从 **Watson 服务**中选择**现有服务**以查看服务列表。
 1.  选择要查看或更新的服务，然后选择**服务凭证**。

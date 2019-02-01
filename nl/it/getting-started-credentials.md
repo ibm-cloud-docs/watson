@@ -31,8 +31,8 @@ Le credenziali del servizio sono credenziali di autenticazione di base HTTP per 
 
 Puoi trovare le credenziali del servizio dall'interfaccia web {{site.data.keyword.cloud_notm}}.
 
-1.  Accedi a [{{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}.
-1.  Vai ai tuoi servizi esistenti. ([Raggiungi ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.{DomainName}/developer/watson/existing-services){: new_window}):
+1.  Accedi a [{{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}.
+1.  Vai ai tuoi servizi esistenti. ([Raggiungi ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/developer/watson/existing-services){: new_window}):
     1.  Seleziona il menu in alto a sinistra e seleziona quindi **{{site.data.keyword.watson}}** per andare alla console {{site.data.keyword.watson}}.
     1.  Seleziona **Servizi esistenti** da **Servizi Watson** per visualizzare un elenco dei tuoi servizi e dei tuoi progetti.
 1.  Visualizza le credenziali:
@@ -44,8 +44,8 @@ Puoi trovare le credenziali del servizio dall'interfaccia web {{site.data.keywor
 
 Puoi aggiornare le credenziali del servizio per un'istanza del servizio esistente dal dashboard del servizio.
 
-1.  Accedi a [{{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}.
-1.  Vai ai tuoi servizi esistenti. ([Raggiungi ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://console.{DomainName}/developer/watson/existing-services){: new_window}):
+1.  Accedi a [{{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}.
+1.  Vai ai tuoi servizi esistenti. ([Raggiungi ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/developer/watson/existing-services){: new_window}):
     1.  Seleziona il menu in alto a sinistra e seleziona quindi **{{site.data.keyword.watson}}** per andare alla console {{site.data.keyword.watson}}.
     1.  Seleziona **Servizi esistenti** da **Servizi Watson** per visualizzare un elenco dei tuoi servizi.
 1.  Selezionare il servizio che vuoi visualizzare o aggiornare e seleziona quindi **Credenziali del servizio**.

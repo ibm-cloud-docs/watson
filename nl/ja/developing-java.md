@@ -24,7 +24,7 @@ REST API の使用法をご確認いただけるよう、{{site.data.keyword.ibm
 
 ## 始める前に
 
-- {{site.data.keyword.cloud_notm}} でアカウントを作成するか、既存のアカウントを使用します。[こちらから無料でお申し込みいただけます ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://console.{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}。
+- {{site.data.keyword.cloud_notm}} でアカウントを作成するか、既存のアカウントを使用します。[こちらから無料でお申し込みいただけます ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/registration/?target=/catalog/%3fcategory=watson){: new_window}。
 - [Cloud Foundry ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://github.com/cloudfoundry/cli#downloads){: new_window} コマンド・ライン・クライアントをインストールします。既にインストールしてある場合は、バージョンが最新であることを確認してください。
 - [Apache Maven ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://maven.apache.org/download.cgi){: new_window} をダウンロードしてインストールします。
 - [IBM WebSphere Liberty プロファイル![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/wasdev/downloads/){: new_window}をインストールします。ランタイム・バージョンの WebSphere Liberty プロファイルをダウンロードすることも、Eclipse IDE のプラグインとしてのバージョンをダウンロードすることもできます。さらに、*Java JDK* または *Eclipse IDE* をインストールして構成します。

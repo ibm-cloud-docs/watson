@@ -27,7 +27,7 @@ lastupdated: "2018-05-02"
 ## 步驟 1：取得免費的 {{site.data.keyword.cloud_notm}} 帳戶
 {: #free-account}
 
-在 {{site.data.keyword.cloud_notm}} 上建立帳戶，以免費試用服務，且沒有時間限制。[免費註冊 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}。您會收到一封電子郵件，以確認並啟動您的帳戶。
+在 {{site.data.keyword.cloud_notm}} 上建立帳戶，以免費試用服務，且沒有時間限制。[免費註冊 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}。您會收到一封電子郵件，以確認並啟動您的帳戶。
 
 ## 步驟 2：尋找及建立服務實例
 {: #access-console}
@@ -36,7 +36,7 @@ lastupdated: "2018-05-02"
 1.  選取符合您需求的服務。
 1.  免費建立服務的實例。
 
-如果您還不在 {{site.data.keyword.watson}} 主控台，請從功能表中選取 **Watson**。（[帶我過去 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.{DomainName}/developer/watson/){: new_window}）
+如果您還不在 {{site.data.keyword.watson}} 主控台，請從功能表中選取 **Watson**。（[帶我過去 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/developer/watson/){: new_window}）
 {: tip}
 
 ![按一下功能表，然後按一下 Watson](images/ic-create-service.gif){: gif}
