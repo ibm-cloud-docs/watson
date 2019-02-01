@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-20"
+  years: 2015, 2019
+lastupdated: "2019-02-01"
 
 ---
 
@@ -46,6 +46,7 @@ ibmcloud service bind {application-name} personality-insights-service.
 {: pre}
 
 ## Example
+{: #gs-variables-vcapIAMAliasExample}
 
 This example shows the `VCAP_SERVICES` environment variable for the {{site.data.keyword.personalityinsightsshort}} service that is bound to an application. The service instance uses Cloud Foundry authentication.
 
@@ -88,6 +89,7 @@ The following table describes the contents of the `VCAP_SERVICES` environment va
 | tags     | Additional information about the service                                                   |
 
 ## Viewing environment variables
+{: #gs-variables-vcapView}
 
 You can retrieve information about the variable from either the {{site.data.keyword.cloud_notm}} command-line interface (CLI) or from the web interface.
 
