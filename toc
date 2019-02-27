@@ -25,13 +25,13 @@ Watson
         getting-started-credentials.md
         getting-started-tokens.md
 
-    getting-started-sdks.md
     getting-started-logging.md
     getting-started-gdpr-sar.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     getting-started-variables.md
+    getting-started-sdks.md
     [Watson GitHub repos](https://github.com/watson-developer-cloud/)
     [Watson docs](https://console.bluemix.net/developer/watson/documentation)
     {: .navgroup-end}
