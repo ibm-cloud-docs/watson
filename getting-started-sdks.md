@@ -36,7 +36,6 @@ The following {{site.data.keyword.ibmwatson}} SDKs are supported by {{site.data.
 * [Python SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/python-sdk){: new_window}
 * [Ruby SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/ruby-sdk){: new_window}
 * [.NET SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/dotnet-standard-sdk){: new_window}
-* [OpenWhisk SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/openwhisk-sdk/){: new_window}
 * [Salesforce SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/salesforce-sdk){: new_window}
 * [Swift SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/swift-sdk){: new_window}
 * [Unity SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/unity-sdk){: new_window}
@@ -48,5 +47,4 @@ The [API reference ![External link icon](../../icons/launch-glyph.svg "External 
 The following SDKs are available from the {{site.data.keyword.watson}} community of developers:
 
 * [PHP SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/CognitiveBuild/WatsonPHPSDK){: new_window}
-* [Ruby wrappers ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/IcaliaLabs?utf8=%E2%9C%93&q=watson&type=&language=ruby){: new_window}
 * [Scala SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/kane77/scala-sdk){: new_window}
