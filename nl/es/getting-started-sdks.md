@@ -4,6 +4,8 @@ copyright:
   years: 2015, 2018
 lastupdated: "2018-01-30"
 
+subcollection: watson
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -18,6 +20,7 @@ lastupdated: "2018-01-30"
 {:swift: .ph data-hd-programlang='swift'}
 
 # SDK
+{: #using-sdks}
 
 Los siguientes SDK de {{site.data.keyword.watson}} están soportados por {{site.data.keyword.IBM_notm}}:
 {: shortdesc}
