@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-01-30"
+lastupdated: "2019-03-07"
+
+subcollection: watson
 
 ---
 
@@ -18,6 +20,7 @@ lastupdated: "2018-01-30"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Kits de développement de logiciels (SDK)
+{: #using-sdks}
 
 Les kits de développement de logiciels (SDK) {{site.data.keyword.watson}} suivants sont pris en charge par {{site.data.keyword.IBM_notm}} :
 {: shortdesc}

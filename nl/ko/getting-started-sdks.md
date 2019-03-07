@@ -2,7 +2,9 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-01-30"
+lastupdated: "2019-03-07"
+
+subcollection: watson
 
 ---
 
@@ -18,6 +20,7 @@ lastupdated: "2018-01-30"
 {:swift: .ph data-hd-programlang='swift'}
 
 # SDK
+{: #using-sdks}
 
 다음 {{site.data.keyword.watson}} SDK는 {{site.data.keyword.IBM_notm}}에서 지원합니다.
 {: shortdesc}
