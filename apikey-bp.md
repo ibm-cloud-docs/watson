@@ -2,7 +2,11 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-03-08"
+
+keywords: IAM authentication,service keys,service roles,best practices
+
+subcollection: watson
 
 ---
 
@@ -26,7 +30,7 @@ lastupdated: "2019-02-01"
 {{site.data.keyword.ibmwatson}} service API keys are used to acquire bearer tokens that are in turn used to authenticate calls to {{site.data.keyword.ibmwatson_notm}} services.
 {: shortdesc}
 
-Unlike the standard {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) implementation of API keys, {{site.data.keyword.ibmwatson_notm}} IAM keys are set on a per-service basis. You can assign permissions to each API key rather than to each service. This implementation differs from the standard {{site.data.keyword.cloud_notm}} method of user-based API keys. With {{site.data.keyword.ibmwatson_notm}}, users are assigned a role for each service. For more information about the general {{site.data.keyword.cloud_notm}} IAM implementation, see [API key best practices](/docs/services/iam/index.html).
+Unlike the standard {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) implementation of API keys, {{site.data.keyword.ibmwatson_notm}} IAM keys are set on a per-service basis. You can assign permissions to each API key rather than to each service. This implementation differs from the standard {{site.data.keyword.cloud_notm}} method of user-based API keys. With {{site.data.keyword.ibmwatson_notm}}, users are assigned a role for each service. For more information about the general {{site.data.keyword.cloud_notm}} IAM implementation, see [API key best practices](/docs/services/iam?topic=iam-iamoverview#iamoverview).
 
 You can bind a Watson API key only to a single service instance.
 {: tip}
@@ -40,7 +44,7 @@ A set of credentials for the `Manager` role is automatically generated each time
 | `Manager` | Managers have permissions beyond the writer role to complete privileged actions as defined by the service. In addition, they can create and edit service-specific resources. |
 {: caption="Table 1. Example service access roles for users" caption-side="top"}
 
-For more information about creating extra {{site.data.keyword.ibmwatson_notm}} service credentials, see [Updating IAM service credentials](/docs/services/watson/getting-started-iam.html#existing-svcs).
+For more information about creating extra {{site.data.keyword.ibmwatson_notm}} service credentials, see [Updating IAM service credentials](/docs/services/watson?topic=watson-iam#update-existing-svcs).
 
 ## API key best practices
 {: #api-bp}

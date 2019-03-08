@@ -2,7 +2,11 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-03-08"
+
+keywords: getting started,watson
+
+subcollection: watson
 
 ---
 
@@ -49,5 +53,5 @@ You're ready to go.
 - Click **Launch tool**, if available, to experience an integrated development environment.
 - Run through the **Getting started tutorial** in the [{{site.data.keyword.ibmwatson}}documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/developer/watson/documentation){: new_window} for a service.
 - You need the credentials for your service instance to use the tutorial.
-    - If your service instance uses IAM authentication, see [Authenticating with IAM tokens](/docs/services/watson/getting-started-iam.html) to access your service credentials.
-    - If your service instance uses Cloud Foundry authentication, see [Authenticating with Cloud Foundry service credentials](/docs/services/watson/getting-started-credentials.html) to access your service credentials.
+    - If your service instance uses IAM authentication, see [Authenticating with IAM tokens](/docs/services/watson?topic=watson-iam) to access your service credentials.
+    - If your service instance uses Cloud Foundry authentication, see [Authenticating with Cloud Foundry service credentials](/docs/services/watson?topic=watson-creating-credentials#creating-credentials) to access your service credentials.
