@@ -4,7 +4,7 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-03-08"
 
-keywords: environment variable,service alias, VCAP services
+keywords: environment variable,service alias,VCAP services
 
 subcollection: watson
 

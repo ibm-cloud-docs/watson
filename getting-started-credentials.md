@@ -4,7 +4,7 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-03-08"
 
-keywords: Cloud Foundry, authentication,service credentials
+keywords: Cloud Foundry,authentication,service credentials
 
 subcollection: watson
 
