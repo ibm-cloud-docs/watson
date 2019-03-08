@@ -2,7 +2,11 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-12"
+lastupdated: "2019-03-08"
+
+keywords: IAM tokens,IAM authentication
+
+subcollection: watson
 
 ---
 
@@ -30,7 +34,7 @@ You use {{site.data.keyword.cloud}} Identity and Access Management (IAM) tokens 
 {: note}
 
 ## Getting IAM service credentials
-{: #getting-credentials-manually}
+{: #iam-getting-credentials-manually}
 
 To access API methods by using IAM service credentials, you must first collect the credentials. You can access the service credentials from the {{site.data.keyword.cloud_notm}} web interface.
 
@@ -53,7 +57,7 @@ To access API methods by using IAM service credentials, you must first collect t
         ```
 
 ## Updating IAM service credentials
-{: #existing-svcs}
+{: #update-existing-svcs}
 
 You can update service credentials for an existing service instance from the service dashboard.
 
@@ -69,7 +73,7 @@ Make sure that you update the credentials in your applications for any changes.
 
 You can access {{site.data.keyword.ibmwatson_notm}} service APIs by using the API keys that were generated for the service instance. You use the API key to generate an IAM access token. You also use this process if you are developing an application that needs to work with other {{site.data.keyword.cloud_notm}} services.
 
-For more information about securely using API keys, see [IAM service API keys](/docs/services/watson/apikey-bp.html).
+For more information about securely using API keys, see [IAM service API keys](/docs/services/watson?topic=watson-api-key-bp).
 {: tip}
 
 The following curl command uses the `POST identity/token` method to generate an IAM access token by passing an API key. The `Content-Type` header indicates that the data is URL encoded. The `data-urlencode` parameters pass the URL-encoded data to the method.

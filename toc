@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="watson" audience="service" href="/docs/services/watson/index.html" path="services/watson"}
+{: .toc subcollection="watson" audience="service" href="/docs/services/watson?topic=watson-about#about" path="services/watson"}
 Watson
 
     {: .navgroup id="learn"}
@@ -33,7 +33,7 @@ Watson
     getting-started-variables.md
     getting-started-sdks.md
     [Watson GitHub repos](https://github.com/watson-developer-cloud/)
-    [Watson docs](https://console.bluemix.net/developer/watson/documentation)
+    [Watson docs](https://cloud.ibm.com/developer/watson/documentation)
     {: .navgroup-end}
 
     {: .navgroup id="help"}

@@ -2,7 +2,11 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2018-12-12"
+lastupdated: "2019-03-08"
+
+keywords: Cloud Foundry,authentication,service credentials
+
+subcollection: watson
 
 ---
 
@@ -26,7 +30,7 @@ lastupdated: "2018-12-12"
 Cloud Foundry service credentials for {{site.data.keyword.ibmwatson}} services provide authentication to a service in {{site.data.keyword.cloud}}. Service credentials use HTTP basic authentication to authenticate to a specific {{site.data.keyword.watson}} service.
 {: shortdesc}
 
-{{site.data.keyword.watson}} services that are created in a resource group or are migrated from Cloud Foundry to a resource group use IAM authentication. By default, all new {{site.data.keyword.watson}} services use IAM authentication. For more information about resource groups and IAM authentication, see [Authenticating with IAM tokens](/docs/services/watson/getting-started-iam.html).
+{{site.data.keyword.watson}} services that are created in a resource group or are migrated from Cloud Foundry to a resource group use IAM authentication. By default, all new {{site.data.keyword.watson}} services use IAM authentication. For more information about resource groups and IAM authentication, see [Authenticating with IAM tokens](/docs/services/watson?topic=watson-iam#iam-getting-credentials-manually).
 {: note}
 
 ## Getting Cloud Foundry service credentials
@@ -53,7 +57,7 @@ Make sure that you update the credentials in your applications for any changes.
 
 ## Credentials in {{site.data.keyword.Bluemix_dedicated_notm}}
 
-In an [{{site.data.keyword.Bluemix_dedicated_notm}}](/docs/dedicated/index.html#dedicated) instance, service tiles are implemented so that only one tile is permitted per service in an organization.
+In an [{{site.data.keyword.Bluemix_dedicated_notm}}](/docs/dedicated?topic=dedicated-dedicated#dedicated) instance, service tiles are implemented so that only one tile is permitted per service in an organization.
 
 Follow these steps to refer to a service in your own {{site.data.keyword.Bluemix_dedicated_notm}} workspace:
 

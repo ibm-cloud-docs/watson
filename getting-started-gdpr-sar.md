@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-03-08"
+
+keywords: GDPR,support
+
+subcollection: watson
 
 ---
 
@@ -41,7 +45,7 @@ For the {{site.data.keyword.cloud_notm}} platform, only services that are hosted
 
 Setting the EU Supported option for your account applies to all future tickets that you open for issues on any service or data center that is hosted in the EU region. Any tickets you opened prior to setting this option are not affected. If you set this option and you add resources outside of an EU data center or the Germany region, issues for those resources are not necessarily handled by a support team in Europe.
 
-For more information about setting up your account to be EU supported, see [Enabling the EU supported option](/docs/billing-usage/eusupported.html#bill_eusupported).
+For more information about setting up your account to be EU supported, see [Enabling the EU supported option](/docs/account?topic=account-eu-hipaa-supported#eu-hipaa-supported).
 
 ### How do I get the GDPR support I need?
 {: #request-EU-how}
