@@ -1,23 +1,25 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-05-03"
+  years: 2015, 2019
+lastupdated: "2019-02-01"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 {:tip: .tip}
+{:important: .important}
+{:note: .note}
+{:deprecated: .deprecated}
+{:important: .important}
+{:note: .note}
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:javascript: .ph data-hd-programlang='javascript'}
-{:java: .ph data-hd-programlang='java'}
-{:python: .ph data-hd-programlang='python'}
-{:swift: .ph data-hd-programlang='swift'}
 
 # Die Protokollierung von Anforderungen für {{site.data.keyword.watson}}-Services steuern
+{: #gs-logging-overview}
 
 Alle {{site.data.keyword.ibmwatson}}-Services protokollieren standardmäßig Anforderungen und ihre Ergebnisse. Die Protokollierung erfolgt nur, um die Dienste für zukünftige Benutzer zu verbessern. Die protokollierten Daten werden weder freigegeben noch öffentlich gemacht.
 {: shortdesc}

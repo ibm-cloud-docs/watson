@@ -1,13 +1,11 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="watson" audience="service" href="/docs/services/watson/index.html" path="services/watson"}
+{: .toc subcollection="watson" audience="service" href="/docs/services/watson?topic=watson-about#about" path="services/watson"}
 Watson
 
     {: .navgroup id="learn"}
     index.md
-    getting-started-bluemix.md
-    getting-started-develop.md
 
     {: .topicgroup}
     Ressources supplémentaires
@@ -17,29 +15,31 @@ Watson
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    getting-started-credentials.md
-    getting-started-tokens.md
-    getting-started-logging.md
+    {: .topicgroup}
+    Authentification du groupe de ressources (IAM)
+        getting-started-iam.md
+        apikey-bp.md
 
-    {: topicgroup}
-    Utilisation des kits SDK Watson
-        running-node-examples.md
-        developing-nodejs.md
-        developing-java.md
+    {: .topicgroup}
+    Authentification Cloud Foundry
+        getting-started-credentials.md
+        getting-started-tokens.md
+
+    getting-started-logging.md
+    getting-started-gdpr-sar.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    getting-started-cf.md
     getting-started-variables.md
     getting-started-sdks.md
     [Référentiel GitHub Watson](https://github.com/watson-developer-cloud/)
-    [Documentation Watson](https://console.bluemix.net/developer/watson/documentation)
+    [Documentations Watson](https://cloud.ibm.com/developer/watson/documentation)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     {: .topicgroup}
-    Communauté des développeurs
-        [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-watson-cognitive)
-        [developerWorks Answers](https://developer.ibm.com/answers/topics/watson/)
-        [Rejoindre la communauté Slack](http://wdc-slack-inviter.mybluemix.net/)
+    Communauté de développeurs
+        [StackOverflow](https://stackoverflow.com/questions/tagged/ibm-watson-cognitive)
+        [IBM Developer Answers](https://developer.ibm.com/answers/topics/watson/)
+        [Join the Slack community](http://wdc-slack-inviter.mybluemix.net/)
     {: .navgroup-end}

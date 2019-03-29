@@ -1,23 +1,25 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-05-03"
+  years: 2015, 2019
+lastupdated: "2019-02-01"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 {:tip: .tip}
+{:important: .important}
+{:note: .note}
+{:deprecated: .deprecated}
+{:important: .important}
+{:note: .note}
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:javascript: .ph data-hd-programlang='javascript'}
-{:java: .ph data-hd-programlang='java'}
-{:python: .ph data-hd-programlang='python'}
-{:swift: .ph data-hd-programlang='swift'}
 
 # 控制 {{site.data.keyword.watson}} 服務的要求記載
+{: #gs-logging-overview}
 
 依預設，所有 {{site.data.keyword.ibmwatson}} 服務都會記載要求及其結果。記載只是為了替未來使用者改善服務。所記載的資料不會共用或公開。
 {: shortdesc}

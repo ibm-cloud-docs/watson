@@ -1,14 +1,21 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-05-02"
+  years: 2015, 2019
+lastupdated: "2019-03-08"
+
+keywords: environment variable,service alias,VCAP services
+
+subcollection: watson
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 {:tip: .tip}
+{:important: .important}
+{:note: .note}
+{:deprecated: .deprecated}
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:screen: .screen}
@@ -20,19 +27,32 @@ lastupdated: "2018-05-02"
 # Variável de ambiente VCAP\_SERVICES
 {: #vcapServices}
 
-A variável de ambiente `VCAP_SERVICES` contém informações que podem ser usadas para interagir com uma instância de serviço no {{site.data.keyword.Bluemix}}. Os campos nessa variável de ambiente são
-configurados quando você liga um serviço a um aplicativo.
+A variável de ambiente `VCAP_SERVICES` contém informações que podem ser usadas para interagir com uma instância de serviço no {{site.data.keyword.cloud}}. Os campos nessa variável de ambiente são configurados quando você liga uma instância de serviço a um aplicativo.
 {: shortdesc}
 
-Seu aplicativo precisa da URL e das credenciais de serviço de autenticação básica HTTP para autenticar
-com um serviço do {{site.data.keyword.watson}}.
+Seu aplicativo precisa da URL e das credenciais de serviço para autenticar com um serviço do {{site.data.keyword.watson}}. Um aplicativo em execução geralmente lê essas variáveis de ambiente após um serviço ser ligado a ele para extrair os pares nome-valor necessários. É possível ligar os serviços de grupo de recursos ou do Cloud Foundry ao aplicativo, mas os serviços de grupo de recursos precisam de um alias de serviço.
 
-Um aplicativo em execução normalmente lê essas variáveis de ambiente, depois que um serviço é vinculado a ele, para extrair os
-pares de nome-valor requeridos. Para obter informações sobre as variáveis, consulte
-[Implementando aplicativos](/docs/manageapps/depapps.html#app_env) e procure por "Variáveis de ambiente".
+## Aliases de serviço para serviços do IAM
+{: #vcapIAMAlias}
+
+É possível usar a variável de ambiente `VCAP_SERVICES` com serviços de grupo de recursos, fornecendo ao serviço um alias. Por exemplo, use o comando a seguir com a interface da linha de comandos do {{site.data.keyword.cloud_notm}} para criar um alias chamado `personality-insights-service` para um serviço chamado `my-personality-insights-service`.
+
+```bash
+ibmcloud resource service-alias-create personality-insights-service --instance-name my-personality-insights-service
+```
+{: pre}
+
+É possível, então, ligar seu aplicativo ao alias de serviço. Um aplicativo em execução geralmente lê essas variáveis de ambiente após uma instância de serviço ser ligada a ele para extrair os pares nome-valor necessários.
+
+```bash
+ibmcloud service bind {application-name} personality-insights-service.
+```
+{: pre}
 
 ## Exemplo
-Esse exemplo mostra a variável de ambiente `VCAP_SERVICES` para o serviço do {{site.data.keyword.personalityinsightsshort}} ligado a um aplicativo:
+{: #gs-variables-vcapIAMAliasExample}
+
+Este exemplo mostra a variável de ambiente `VCAP_SERVICES` para o serviço {{site.data.keyword.personalityinsightsshort}} que está ligado a um aplicativo. A instância de serviço usa a autenticação do Cloud Foundry.
 
 ```json
 {
@@ -69,18 +89,18 @@ A tabela a seguir descreve o conteúdo da variável de ambiente `VCAP_SERVICES`.
 | username | O nome do usuário das credenciais de autenticação básica HTTP usadas para se conectar ao serviço |
 | rótulo    | O nome associado ao serviço no {{site.data.keyword.cloud_notm}}                                            |
 | nome     | O nome da instância de serviço                                                           |
-| planejar     | O plano disponível para o serviço no {{site.data.keyword.cloud_notm}}
-|
-| identificações     | Informações adicionais sobre o serviço                                                     |
+| planejar     | O plano disponível para o serviço no {{site.data.keyword.cloud_notm}}                                              |
+| identificações     | Informações adicionais sobre o serviço                                                   |
 
 ## Visualizando variáveis de ambiente
-É possível recuperar informações sobre a variável da ferramenta Cloud Foundry ou de dentro da interface do {{site.data.keyword.cloud_notm}}.
+{: #gs-variables-vcapView}
 
-- Com a ferramenta de linha de comandos do Cloud Foundry: use o comando `cf env` depois de ter
-criado um serviço e ligá-lo ao seu aplicativo:
+É possível recuperar informações sobre a variável por meio da interface da linha de comandos (CLI) do {{site.data.keyword.cloud_notm}} ou da interface da web.
+
+- Com a CLI do {{site.data.keyword.cloud_notm}}: chame o comando `env` do Cloud Foundry após você criar um serviço e ligá-lo ao seu aplicativo:
 
     ```bash
-    cf env {application-name}
+    ibmcloud cf env {application-name}
     ```
     {: pre}
 

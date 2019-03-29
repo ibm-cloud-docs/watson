@@ -1,23 +1,25 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-05-03"
+  years: 2015, 2019
+lastupdated: "2019-02-01"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 {:tip: .tip}
+{:important: .important}
+{:note: .note}
+{:deprecated: .deprecated}
+{:important: .important}
+{:note: .note}
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:javascript: .ph data-hd-programlang='javascript'}
-{:java: .ph data-hd-programlang='java'}
-{:python: .ph data-hd-programlang='python'}
-{:swift: .ph data-hd-programlang='swift'}
 
 # Controllo della registrazione delle richieste per i servizi {{site.data.keyword.watson}}
+{: #gs-logging-overview}
 
 Per impostazione predefinita, tutti i servizi {{site.data.keyword.ibmwatson}} registrano le richieste e i loro risultati. La registrazione viene eseguita solo per migliorare i servizi per i futuri utenti. I dati registrati non vengono condivisi o resi pubblici.
 {: shortdesc}

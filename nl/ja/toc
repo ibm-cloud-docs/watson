@@ -1,13 +1,11 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="watson" audience="service" href="/docs/services/watson/index.html" path="services/watson"}
+{: .toc subcollection="watson" audience="service" href="/docs/services/watson?topic=watson-about#about" path="services/watson"}
 Watson
 
     {: .navgroup id="learn"}
     index.md
-    getting-started-bluemix.md
-    getting-started-develop.md
 
     {: .topicgroup}
     追加リソース
@@ -17,29 +15,31 @@ Watson
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    getting-started-credentials.md
-    getting-started-tokens.md
-    getting-started-logging.md
+    {: .topicgroup}
+    リソース・グループ (IAM) 認証
+        getting-started-iam.md
+        apikey-bp.md
 
-    {: topicgroup}
-    Watson SDK の使用
-        running-node-examples.md
-        developing-nodejs.md
-        developing-java.md
+    {: .topicgroup}
+    Cloud Foundry 認証
+        getting-started-credentials.md
+        getting-started-tokens.md
+
+    getting-started-logging.md
+    getting-started-gdpr-sar.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    getting-started-cf.md
     getting-started-variables.md
     getting-started-sdks.md
     [Watson GitHub リポジトリー](https://github.com/watson-developer-cloud/)
-    [Watson 文書](https://console.bluemix.net/developer/watson/documentation)
+    [Watson 資料](https://cloud.ibm.com/developer/watson/documentation)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     {: .topicgroup}
     開発者コミュニティー
         [スタック・オーバーフロー](https://stackoverflow.com/questions/tagged/ibm-watson-cognitive)
-        [developerWorks の回答](https://developer.ibm.com/answers/topics/watson/)
+        [IBM Developer の回答](https://developer.ibm.com/answers/topics/watson/)
         [Slack コミュニティーへの参加](http://wdc-slack-inviter.mybluemix.net/)
     {: .navgroup-end}

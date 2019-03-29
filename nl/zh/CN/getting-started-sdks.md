@@ -1,8 +1,10 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-01-30"
+  years: 2015, 2019
+lastupdated: "2019-03-08"
+
+keywords: Watson SDKs,SDK,software developer kit,programming interfaces,wrappers
 
 subcollection: watson
 
@@ -11,6 +13,9 @@ subcollection: watson
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 {:tip: .tip}
+{:important: .important}
+{:note: .note}
+{:deprecated: .deprecated}
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:screen: .screen}
@@ -19,38 +24,35 @@ subcollection: watson
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# SDK
+# {{site.data.keyword.watson}} SDK
 {: #using-sdks}
 
-{{site.data.keyword.IBM_notm}} 支持以下 {{site.data.keyword.watson}} SDK：
+SDK 将与应用程序开发相关联的大部分复杂性抽象化。通过以您已经了解的语言提供编程接口，这些 SDK 可以帮助您快速入门和熟悉运用 {{site.data.keyword.ibmwatson_notm}} 服务。
 {: shortdesc}
 
+## 受支持的 SDK
+{: #ibm-sdks}
+
+{{site.data.keyword.IBM_notm}} 支持以下 {{site.data.keyword.watson}} SDK：
+
+
 * [Android SDK ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://github.com/watson-developer-cloud/android-sdk){: new_window}
+* [Go SDK ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://github.com/watson-developer-cloud/go-sdk){: new_window}
 * [Java SDK ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://github.com/watson-developer-cloud/java-sdk){: new_window}
 * [Node.js SDK ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://github.com/watson-developer-cloud/node-sdk){: new_window}
 * [Python SDK ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://github.com/watson-developer-cloud/python-sdk){: new_window}
+* [Ruby SDK ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://github.com/watson-developer-cloud/ruby-sdk){: new_window}
+* [.NET SDK ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://github.com/watson-developer-cloud/dotnet-standard-sdk){: new_window}
 * [Salesforce SDK ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://github.com/watson-developer-cloud/salesforce-sdk){: new_window}
 * [Swift SDK ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://github.com/watson-developer-cloud/swift-sdk){: new_window}
-* [.NET SDK ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://github.com/watson-developer-cloud/dotnet-standard-sdk){: new_window}
-* [OpenWhisk SDK ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://github.com/watson-developer-cloud/openwhisk-sdk/){: new_window}
 * [Unity SDK ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://github.com/watson-developer-cloud/unity-sdk){: new_window}
 
-每个服务的 [API 引用 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/developer/watson/documentation){: new_window} 包含 Java、Node.js 和 Python SDK 的信息和示例。
-{: tip}
+每个服务的 [API 参考 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/apidocs?category=ai){: new_window} 包含许多 SDK（包括 Java、Node.js、Python、Go、Ruby 和 Swift）的信息和示例。
 
 ## 社区 SDK
+{: #community-sdks}
 
 {{site.data.keyword.watson}} 开发者社区提供以下 SDK：
 
-* [Go SDK ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://github.com/liviosoares/go-watson-sdk){: new_window}
 * [PHP SDK ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://github.com/CognitiveBuild/WatsonPHPSDK){: new_window}
-* [Ruby wrappers ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://github.com/IcaliaLabs?utf8=%E2%9C%93&q=watson&type=&language=ruby){: new_window}
 * [Scala SDK ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://github.com/kane77/scala-sdk){: new_window}
-
-## 样本应用程序
-
-请参阅以下信息以获取有关处理 {{site.data.keyword.watson}} 服务的样本代码的详细信息：
-
-* [从 Node.js SDK 运行示例](/docs/services/watson/running-node-examples.html)：在 Node.js SDK 中使用示例应用程序。
-* [使用 Node.js 进行开发](/docs/services/watson/developing-nodejs.html)：使用样本和演示应用程序。
-* [使用 Java 进行开发](/docs/services/watson/developing-java.html)：使用样本和演示应用程序。

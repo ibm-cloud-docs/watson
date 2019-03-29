@@ -1,13 +1,11 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="watson" audience="service" href="/docs/services/watson/index.html" path="services/watson"}
+{: .toc subcollection="watson" audience="service" href="/docs/services/watson?topic=watson-about#about" path="services/watson"}
 Watson
 
     {: .navgroup id="learn"}
     index.md
-    getting-started-bluemix.md
-    getting-started-develop.md
 
     {: .topicgroup}
     Weitere Ressourcen
@@ -17,29 +15,31 @@ Watson
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    getting-started-credentials.md
-    getting-started-tokens.md
-    getting-started-logging.md
+    {: .topicgroup}
+    Ressourcengruppenauthentifizierung (IAM)
+        getting-started-iam.md
+        apikey-bp.md
 
-    {: topicgroup}
-    Watson-SDKs verwenden
-        running-node-examples.md
-        developing-nodejs.md
-        developing-java.md
+    {: .topicgroup}
+    Cloud Foundry-Authentifizierung
+        getting-started-credentials.md
+        getting-started-tokens.md
+
+    getting-started-logging.md
+    getting-started-gdpr-sar.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    getting-started-cf.md
     getting-started-variables.md
     getting-started-sdks.md
     [Watson GitHub-Repositorys](https://github.com/watson-developer-cloud/)
-    [Watson-Dokumente](https://console.bluemix.net/developer/watson/documentation)
+    [Watson-Dokumente](https://cloud.ibm.com/developer/watson/documentation)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     {: .topicgroup}
-    Developer-Community
-        [Stacküberlauf](https://stackoverflow.com/questions/tagged/ibm-watson-cognitive)
-        [developerWorks-Antworten](https://developer.ibm.com/answers/topics/watson/)
-        [Der Slack-Community beitreten](http://wdc-slack-inviter.mybluemix.net/)
+    Entwickler-Community
+        [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-watson-cognitive)
+        [IBM Developer Answers](https://developer.ibm.com/answers/topics/watson/)
+        [An der Slack-Community teilnehmen](http://wdc-slack-inviter.mybluemix.net/)
     {: .navgroup-end}

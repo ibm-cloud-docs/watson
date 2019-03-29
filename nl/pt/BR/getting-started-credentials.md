@@ -1,14 +1,21 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-16"
+  years: 2015, 2019
+lastupdated: "2019-03-08"
+
+keywords: Cloud Foundry,authentication,service credentials
+
+subcollection: watson
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 {:tip: .tip}
+{:important: .important}
+{:note: .note}
+{:deprecated: .deprecated}
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:screen: .screen}
@@ -17,63 +24,41 @@ lastupdated: "2017-11-16"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Credenciais de serviço para serviços do Watson
+# Autenticando com as credenciais de serviço do Cloud Foundry
+{: #creating-credentials}
 
-As credenciais de serviço para um serviço do {{site.data.keyword.ibmwatson}} fornecem autenticação para um serviço em
-{{site.data.keyword.cloud}}. Um conjunto de credenciais pode ser usado apenas com o serviço para o qual elas são criadas.
+As credenciais de serviço do Cloud Foundry para os serviços do {{site.data.keyword.ibmwatson}} fornecem autenticação para um serviço no {{site.data.keyword.cloud}}. As credenciais de serviço usam a autenticação básica HTTP para se autenticar em um serviço específico do {{site.data.keyword.watson}}.
 {: shortdesc}
 
-Use as credenciais de serviço de forma diferente dependendo do modelo de programação que você usar. Para obter detalhes,
-consulte [Modelos de programação para serviços do {{site.data.keyword.watson}}](/docs/services/watson/getting-started-develop.html).
+Os serviços do {{site.data.keyword.watson}} que são criados em um grupo de recursos ou migrados do Cloud Foundry para um grupo de recursos usam a autenticação do IAM. Por padrão, todos os novos serviços do {{site.data.keyword.watson}} usam a autenticação do IAM. Para obter mais informações sobre grupos de recursos e autenticação do IAM, consulte [Autenticando com tokens do IAM](/docs/services/watson?topic=watson-iam#iam-getting-credentials-manually).
+{: note}
 
-As credenciais de serviço são credenciais de autenticação básica HTTP para um serviço
-específico do {{site.data.keyword.watson}}.
-
-## Obtendo credenciais manualmente
+## Obtendo as credenciais de serviço do Cloud Foundry
 {: #getting-credentials-manually}
 
-É possível localizar as credenciais de serviço na interface da web do {{site.data.keyword.cloud_notm}}.
+Para acessar os métodos de API usando as credenciais de serviço do Cloud Foundry, deve-se primeiro coletar as credenciais. É possível acessar as credenciais de serviço por meio da interface da web do {{site.data.keyword.cloud_notm}}.
 
-1.  Efetue login no [{{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}.
-1.  Acesse os serviços existentes. ([Leve-me lá ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/developer/watson/existing-services){: new_window}):
-    1.  Selecione o menu superior esquerdo e, em seguida, selecione **{{site.data.keyword.watson}}** para obter o console do {{site.data.keyword.watson}}.
-    1.  Selecione **Serviços existentes** em **Serviços do Watson** para
-visualizar uma lista de seus serviços e projetos.
-1.  Visualize as credenciais:
-    - Se o serviço fizer parte de um projeto, clique no nome do projeto que contém o serviço. Visualize as credenciais na
-seção **Credenciais** na página de detalhes do projeto.
-    - Se o serviço não fizer parte de um projeto, clique no nome do serviço que você deseja visualizar e selecione
-**Credenciais de serviço**.
+1.  Efetue login no [{{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}){: new_window}.
+1.  Acesse a [lista de recursos ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/dashboard){: new_window}.
+1.  Selecione uma instância de serviço.
+1.  Clique em **Mostrar credenciais** para ver o **Nome do usuário**, a **Senha** e a **URL** para as credenciais.
 
-## Atualizando as credenciais de serviço
+## Atualizando as credenciais de serviço do Cloud Foundry
 {: #existing-svcs}
 
 É possível atualizar as credenciais de serviço para uma instância de serviço existente no painel de serviço.
 
-1.  Efetue login no [{{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/registration/?target=%2Fdeveloper%2Fwatson%2Fdashboard){: new_window}.
-1.  Acesse os serviços existentes. ([Leve-me lá ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/developer/watson/existing-services){: new_window}):
-    1.  Selecione o menu superior esquerdo e, em seguida, selecione **{{site.data.keyword.watson}}** para obter o console do {{site.data.keyword.watson}}.
-    1.  Selecione **Serviços existentes** em **Serviços do Watson** para
-visualizar uma lista de seus serviços.
-1.  Selecione o serviço que você deseja visualizar ou atualizar e, em seguida, selecione **Credenciais
-de serviço**.
-1.  Exclua ou inclua as credenciais:
-    - Para excluir as credenciais, selecione-as e, em seguida, **Excluir credencial**.
-    - Para incluir as credenciais, clique em **Nova credencial** e, depois, **Incluir**
-na janela "Incluir nova credencial". Visualize e copie as novas credenciais.
+1.  Efetue login no [{{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}){: new_window}.
+1.  Acesse a [lista de recursos ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/dashboard){: new_window}.
+1.  Selecione **Credenciais de serviço** no menu de navegação à esquerda da página.
+1.  Use os menus e ícones para excluir as credenciais existentes ou para incluir novas credenciais.
 
-Certifique-se de usar as novas credenciais em seus aplicativos:
-
-- Pare e reinicie o aplicativo se ele obtiver suas credenciais programaticamente.
-- Se as credenciais forem integradas em seu código do aplicativo, atualize o código e ative novamente o aplicativo.
-
-Para obter detalhes sobre como atualizar um aplicativo com novas credenciais com tempo de inatividade mínimo, consulte
-[Atualizando aplicativos](/docs/manageapps/updapps.html).
+Certifique-se de atualizar as credenciais em seus aplicativos para qualquer mudança.
 
 ## Credenciais no {{site.data.keyword.Bluemix_dedicated_notm}}
 
 Em uma instância do
-[{{site.data.keyword.Bluemix_dedicated_notm}}](/docs/dedicated/index.html#dedicated),
+[{{site.data.keyword.Bluemix_dedicated_notm}}](/docs/dedicated?topic=dedicated-dedicated#dedicated),
 os quadros de serviço são implementados para que apenas um quadro seja permitido por serviço em uma organização.
 
 Siga essas etapas para se referir a um serviço em sua própria área de
@@ -82,11 +67,8 @@ trabalho do {{site.data.keyword.Bluemix_dedicated_notm}}:
 1.  Crie um conjunto de credenciais para o quadro de referência para o serviço que você deseja usar.
 1.  Crie um serviço fornecido pelo usuário customizado que use essas credenciais:
 
-    1.  Use a interface do {{site.data.keyword.cloud_notm}} para selecionar o quadro para o serviço que
-você deseja usar e crie um conjunto de credenciais para o serviço. As credenciais são criadas no formato JSON e contêm campos
-separados para a URL na qual se comunicar com o serviço e para o nome do usuário e a senha para usar com esse serviço.
-    1.  Use o comando `cf cups` (criar o serviço fornecido pelo usuário) para criar um serviço
-customizado que esteja ligado a essas credenciais. Por exemplo, dadas essas credenciais,
+    1.  Use a interface da web para selecionar o bloco para o serviço que deseja usar e crie um conjunto de credenciais para o serviço. As credenciais são criadas no formato JSON e incluem a URL do terminal em serviço, o nome do usuário e a senha.
+    1.  Use o comando `ibmcloud cf cups` (criar serviço fornecido pelo usuário) para criar um serviço customizado que esteja ligado a essas credenciais. Por exemplo,
 
       ```json
       {
@@ -94,28 +76,23 @@ customizado que esteja ligado a essas credenciais. Por exemplo, dadas essas cred
       ```
       {: codeblock}
 
-      Criar uma instância de serviço fornecida pelo usuário customizada denominada
-`Personality-Insights-Std`:
+      Dadas essas credenciais, crie uma instância de serviço customizada fornecida pelo usuário chamada `Personality-Insights-Std`:
 
       ```bash
-      cf cups Personality-Insights-Std -p "\"583b2e88-c80d-4ec0-93c1-98239f805146\":\"RuytRliRvoFN\""
+      ibmcloud cf cups Personality-Insights-Std -p "\"583b2e88-c80d-4ec0-93c1-98239f805146\":\"RuytRliRvoFN\""
       ```
       {: pre}
 
       Certifique-se de especificar o nome do usuário e senha como uma única sequência entre aspas duplas e separados por
-uma vírgula. Também coloque as sequências de nome do usuário e senha entre aspas duplas e escape-as com uma barra invertida.
+uma vírgula. Além disso, coloque as duas sequências, de nome de usuário e de senha, entre aspas duplas e escape-as com uma barra invertida.
       {: tip}
 
 ### Usando aplicativos com o {{site.data.keyword.Bluemix_dedicated_notm}}
 
 Alguns aplicativos de amostra e kits do iniciador do {{site.data.keyword.watson}} no GitHub incluem um botão
-**Implementar no {{site.data.keyword.cloud_notm}}**. Esses botões não funcionam em
-instalações do {{site.data.keyword.Bluemix_dedicated_notm}} porque eles se referem ao ambiente público
-do {{site.data.keyword.cloud_notm}}.
+**Implementar no {{site.data.keyword.cloud_notm}}**. Esses botões não funcionam em instalações do {{site.data.keyword.Bluemix_dedicated_notm}} porque se referem ao ambiente público do {{site.data.keyword.cloud_notm}}.
 
-Para usar aplicativos de amostra e kits do iniciador em ambientes do {{site.data.keyword.Bluemix_dedicated_notm}}:
+Para usar aplicativos de amostra e kits do iniciador em ambientes do {{site.data.keyword.Bluemix_dedicated_notm}}, siga estas etapas:
 
-1.  Nas instruções para o aplicativo, certifique-se de que o arquivo `manifest.yml` que você criar usará o nome
-do serviço que você criou com o comando `cf cups`.
-1.  Nessas mesmas instruções, em vez de executar o comando `cf create-service`, use um comando `cf
-cups`. No entanto, se você criar uma instância fornecida pelo usuário do seu serviço, não precisará criá-la novamente para usá-la com o aplicativo de amostra ou kit do iniciador.
+1.  Nas instruções para o aplicativo, certifique-se de que o arquivo `manifest.yml` que você cria use o nome do serviço criado com o comando `ibmcloud cf cups`.
+1.  Nessas mesmas instruções, em vez de executar o comando `ibmcloud cf create-service`, use um comando `ibmcloud cf cups`. No entanto, se você criar uma instância fornecida pelo usuário do seu serviço, não precisará criá-la novamente para usá-la com o aplicativo de amostra ou kit do iniciador.

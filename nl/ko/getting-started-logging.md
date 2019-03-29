@@ -1,23 +1,25 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-05-03"
+  years: 2015, 2019
+lastupdated: "2019-02-01"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 {:tip: .tip}
+{:important: .important}
+{:note: .note}
+{:deprecated: .deprecated}
+{:important: .important}
+{:note: .note}
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:javascript: .ph data-hd-programlang='javascript'}
-{:java: .ph data-hd-programlang='java'}
-{:python: .ph data-hd-programlang='python'}
-{:swift: .ph data-hd-programlang='swift'}
 
 # {{site.data.keyword.watson}} 서비스에 대한 요청 로깅 제어
+{: #gs-logging-overview}
 
 기본적으로 모든 {{site.data.keyword.ibmwatson}} 서비스는 요청 및 요청의 결과를 로그합니다. 로깅은 향후 사용자를 위해 서비스를 개선할 목적으로만 수행됩니다. 로그된 데이터는 공유되거나 공개되지 않습니다.
 {: shortdesc}
