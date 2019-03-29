@@ -1,14 +1,21 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-05-02"
+  years: 2015, 2019
+lastupdated: "2019-03-08"
+
+keywords: environment variable,service alias,VCAP services
+
+subcollection: watson
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 {:tip: .tip}
+{:important: .important}
+{:note: .note}
+{:deprecated: .deprecated}
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:screen: .screen}
@@ -20,15 +27,32 @@ lastupdated: "2018-05-02"
 # VCAP\_SERVICES 環境変数
 {: #vcapServices}
 
-`VCAP_SERVICES` 環境変数には、{{site.data.keyword.Bluemix}} のサービス・インスタンスと対話するために使用できる情報が含まれます。この環境変数の各フィールドは、サービスをアプリケーションにバインドする時に設定されます。
+`VCAP_SERVICES` 環境変数には、{{site.data.keyword.cloud}} のサービス・インスタンスと対話するために使用できる情報が含まれます。 この環境変数の各フィールドは、サービス・インスタンスをアプリケーションにバインドする時に設定されます。
 {: shortdesc}
 
-アプリケーションには、{{site.data.keyword.watson}} サービスに対して認証を行うための URL と HTTP 基本認証サービス資格情報が必要です。
+アプリケーションには、{{site.data.keyword.watson}} サービスに対して認証を行うための URL とサービス資格情報が必要です。実行中のアプリケーションは通常、サービスがバインドされた後でこの環境変数を読み取り、必要な名前/値のペアを抽出します。リソース・グループ・サービスまたは Cloud Foundry サービスのいずれかをアプリにバインドできますが、リソース・グループ・サービスにはサービス別名が必要です。
 
-実行中のアプリケーションは通常、サービスがバインドされた後でこの環境変数を読み取り、必要な名前/値のペアを抽出します。変数の詳細については、[アプリケーションのデプロイ](/docs/manageapps/depapps.html#app_env)を参照し、「環境変数」を検索してください。
+## IAM サービスのサービス別名
+{: #vcapIAMAlias}
+
+サービスに別名を付けることで、リソース・グループ・サービスで `VCAP_SERVICES` 環境変数を使用できます。例えば、{{site.data.keyword.cloud_notm}} コマンド・ライン・インターフェースで以下のコマンドを使用して、`my-personality-insights-service` というサービスに `personality-insights-service` という別名を作成します。
+
+```bash
+ibmcloud resource service-alias-create personality-insights-service --instance-name my-personality-insights-service
+```
+{: pre}
+
+これで、アプリをサービス別名にバインドできるようになりました。実行中のアプリケーションは通常、サービス・インスタンスがバインドされた後でこの環境変数を読み取り、必要な名前/値のペアを抽出します。
+
+```bash
+ibmcloud service bind {application-name} personality-insights-service.
+```
+{: pre}
 
 ## 例
-アプリケーションにバインドされた {{site.data.keyword.personalityinsightsshort}} サービスの `VCAP_SERVICES` 環境変数の例を以下に示します。
+{: #gs-variables-vcapIAMAliasExample}
+
+アプリケーションにバインドされた {{site.data.keyword.personalityinsightsshort}} サービスの `VCAP_SERVICES` 環境変数の例を以下に示します。サービス・インスタンスは Cloud Foundry 認証を使用します。
 
 ```json
 {
@@ -58,7 +82,7 @@ lastupdated: "2018-05-02"
 
 `VCAP_SERVICES` 環境変数の内容を以下の表にまとめます。
 
-| 項目     | 説明                                                                                       |
+| 項目     | 説明                                                                                |
 |----------|--------------------------------------------------------------------------------------------|
 | password | サービスへの接続に使用する HTTP 基本認証資格情報のパスワード                               |
 | url      | サービスの接続 URL                                                                         |
@@ -69,12 +93,14 @@ lastupdated: "2018-05-02"
 | tags     | サービスに関する追加情報                                                                   |
 
 ## 環境変数の表示
-Cloud Foundry ツールまたは {{site.data.keyword.cloud_notm}} インターフェースの中から変数に関する情報を取得できます。
+{: #gs-variables-vcapView}
 
-- Cloud Foundry コマンド・ライン・ツールを使用する場合: サービスを作成してアプリケーションにバインドしてから、`cf env` コマンドを使用します。
+変数に関する情報は、{{site.data.keyword.cloud_notm}} コマンド・ライン・インターフェース (CLI) または Web インターフェースから取得できます。
+
+- {{site.data.keyword.cloud_notm}} CLI の場合: サービスを作成し、それをアプリケーションにバインドした後、Cloud Foundry の `env` コマンドを起動します。
 
     ```bash
-    cf env {application-name}
+    ibmcloud cf env {application-name}
     ```
     {: pre}
 
