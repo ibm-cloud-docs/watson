@@ -25,6 +25,7 @@ Watson
         getting-started-credentials.md
         getting-started-tokens.md
 
+    migrate.md
     getting-started-logging.md
     getting-started-gdpr-sar.md
     {: .navgroup-end}
