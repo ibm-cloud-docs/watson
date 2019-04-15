@@ -21,19 +21,19 @@ subcollection: watson
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# SAR (Subject Access Request) im Rahmen der DSGVO
+# Antrag auf Auskunftserteilung gemäß DSGVO (Subject Access Request, SAR)
 {: #gdpr-sar}
 
 In den folgenden Abschnitten wird beschrieben, wie Sie Unterstützung für {{site.data.keyword.cloud}} {{site.data.keyword.watson}}-Ressourcen anfordern können:
 {: shortdesc}
 
--   Für {{site.data.keyword.ibmwatson}}-Ressourcen, die in der Europäischen Union (EU) erstellt werden, lesen Sie die Informationen in [Unterstützung für {{site.data.keyword.cloud_notm}} {{site.data.keyword.watson}}-Ressourcen anfordern, die in der Europäischen Union erstellt werden](#request-EU). 
--   Für {{site.data.keyword.ibmwatson_notm}}-Ressourcen, die außerhalb der Europäischen Union (EU) erstellt werden, lesen Sie die Informationen in [Unterstützung für Ressourcen anfordern, die außerhalb der Europäischen Union erstellt werden](#request-non-EU). 
+-   Für {{site.data.keyword.ibmwatson}}-Ressourcen, die in der Europäischen Union (EU) erstellt werden, lesen Sie [Unterstützung für {{site.data.keyword.cloud_notm}} {{site.data.keyword.watson}}-Ressourcen anfordern, die in der Europäischen Union erstellt werden](#request-EU). 
+-   Für {{site.data.keyword.ibmwatson_notm}}-Ressourcen, die außerhalb der Europäischen Union (EU) erstellt werden, lesen Sie [Unterstützung für Ressourcen anfordern, die außerhalb der Europäischen Union erstellt werden](#request-non-EU). 
 
 ## Unterstützung für IBM Cloud-Watson-Ressourcen anfordern, die in der Europäischen Union erstellt werden
 {: #request-EU}
 
-Unterstützung in der Europäischen Union wird an allen Wochentagen rund um die Uhr (24/7) durch IBM Supportmitarbeiter in Europa für Kunden bereitgestellt, die eine Ressource in der Region 'Deutschland' erstellt und die Option 'Unterstützung in der EU' ausgewählt haben. Zusätzliche Unterstützung durch global tätige Teams wird nur nach dem Ermessen und unter der Anleitung des EU-Support-Teams bereitgestellt. So können beispielsweise global tätige Teams kontaktiert werden, wenn die Support-Teams der Ebenen 1 und 2 in der EU ein Problem nicht beheben können und das Fachwissen des Mitglieds eines globalen Support-Teams der Ebene 3 erforderlich ist. 
+Unterstützung in der Europäischen Union wird an allen Wochentagen rund um die Uhr (24/7) durch IBM Supportmitarbeiter in Europa für Kunden bereitgestellt, die eine Ressource in der Region 'Deutschland' erstellt und die Option 'Unterstützung in der EU' ausgewählt haben. Zusätzliche Unterstützung durch global tätige Teams wird nur nach dem Ermessen und unter der Anleitung des EU-Support-Teams bereitgestellt. So können beispielsweise global tätige Teams kontaktiert werden, wenn die Level-1- und Level-2-Support-Teams in der EU ein Problem nicht beheben können und das Fachwissen des Mitglieds eines globalen Level-3-Support-Teams erforderlich ist. 
 
 Sie können angeben, dass Sie für Ihr Konto Unterstützung durch ein physisch in Europa befindliches Support-Team wünschen, wenn die folgenden Kriterien erfüllt sind:
 
@@ -50,31 +50,31 @@ Weitere Informationen zum Einrichten der Unterstützung in der EU für Ihr Konto
 ### Wie erhalte ich die benötigte DSGVO-Unterstützung?
 {: #request-EU-how}
 
-Wenn Sie eine SAR-Anforderung (Subject Access Request, Antrag auf die Erteilung einer Auskunft über personenbezogene Daten) zu einem der folgenden Anforderungstypen stellen müssen, führen Sie die Anweisungen in [Support-Ticket für SAR im Rahmen der DSGVO öffnen](#request-EU-opening) aus, um eine Unterstützungsanforderung zu senden. 
+Wenn Sie einen Antrag auf Auskunftserteilung gemäß DSGVO zu einer der folgenden Auskunftsarten stellen müssen, führen Sie die Anweisungen in [Support-Ticket für Antrag auf Auskunftserteilung gemäß DSGVO öffnen](#request-EU-opening) aus, um eine Unterstützungsanforderung zu senden. 
 
-**SAR-Typen**
+**Auskunftsarten**
 
 -   Anforderung einer Kundendatenkopie
 -   Anforderung einer Auditprotokollkopie
 -   Dedizierte Löschanforderung für Kontodaten (nur Visual Recognition)
 
-Eine SAR-Anforderung darf nur für jeweils einen Endkunden gesendet werden. Wenn mehrere Endbenutzeranforderungen gesendet werden sollen, muss für jede Endbenutzeranforderung eine separate E-Mail-Nachricht gesendet werden. 
+Ein Antrag auf Auskunftserteilung darf nur für jeweils einen Endkunden gesendet werden. Wenn mehrere Endbenutzeranforderungen gesendet werden sollen, muss für jede Endbenutzeranforderung eine separate E-Mail-Nachricht gesendet werden. 
 
-Wenn mehrere {{site.data.keyword.watson}}-Services für die Endbenutzeranforderung benötigt werden, können Sie eine SAR-E-Mail-Nachricht für die Anforderung senden. 
+Wenn mehrere {{site.data.keyword.watson}}-Services für die Endbenutzeranforderung benötigt werden, können Sie einen Antrag auf Auskunftserteilung per E-Mail für die Anforderung senden. 
 
-### Support-Ticket für SAR im Rahmen der DSGVO öffnen
+### Support-Ticket für Antrag auf Auskunftserteilung gemäß DSGVO öffnen
 {: #request-EU-opening}
 
 Wenn Sie über ein gültiges {{site.data.keyword.cloud_notm}}-Konto verfügen, senden Sie eine Unterstützungsanforderung an **gdprceur@us.ibm.com**. Geben Sie die folgenden Informationen in Ihrer E-Mail-Anforderung an:
 
-1.  E-Mail-Betreff: `GDPR SAR Request`. 
+1.  E-Mail-Betreff: `Antrag auf Auskunftserteilung gemäß DSGVO`. 
 1.  {{site.data.keyword.ibmid}} Ihres {{site.data.keyword.cloud_notm}}-Kontos. 
-1.  Anforderungstyp
+1.  Auskunftsart
     -   Kundendatenanforderung
     -   Auditprotokollanforderung
     -   Kundendatenanforderung & Auditprotokollanforderung
     -   Datenlöschanforderung für Visual Recognition
-1.  *Kunden-ID* des Endbenutzers im Rahmen der DSGVO (bei der Zuordnung einer DSGVO-Kennung verwendet). 
+1.  *Kunden-ID* des Endbenutzers gemäß DSGVO (für die Zuordnung einer DSGVO-Kennung). 
 1.  Liste aller {{site.data.keyword.watson}}-Services, die für die Anforderung benötigt werden. 
 1.  Zeitraum: 30, 60 oder 90 Tage. Trifft nur für Auditprotokollanforderungen zu. 
 
@@ -88,31 +88,31 @@ In den folgenden Abschnitten wird beschrieben, wie Sie Unterstützung für {{sit
 ### Wie erhalte ich die benötigte DSGVO-Unterstützung?
 {: #request-non-EU-how}
 
-Wenn Sie eine SAR-Anforderung (Subject Access Request, Antrag auf die Erteilung einer Auskunft über personenbezogene Daten) zu einem der folgenden Anforderungstypen stellen müssen, führen Sie die Anweisungen in [Support-Ticket für SAR im Rahmen der DSGVO öffnen](#request-non-EU-opening) aus, um eine Unterstützungsanforderung zu senden. 
+Wenn Sie einen Antrag auf Auskunftserteilung gemäß DSGVO zu einer der folgenden Auskunftsarten stellen müssen, führen Sie die Anweisungen in [Support-Ticket für Antrag auf Auskunftserteilung gemäß DSGVO öffnen](#request-non-EU-opening) aus, um eine Unterstützungsanforderung zu senden. 
 
-**SAR-Typen**
+**Auskunftsarten**
 
 -   Anforderung einer Kundendatenkopie
 -   Anforderung einer Auditprotokollkopie
 -   Dedizierte Löschanforderung für Kontodaten (nur Visual Recognition)
 
-Eine SAR-Anforderung darf nur für jeweils einen Endkunden gesendet werden. Wenn mehrere Endbenutzeranforderungen gesendet werden sollen, muss für jede Endbenutzeranforderung eine separate E-Mail-Nachricht gesendet werden. 
+Ein Antrag auf Auskunftserteilung darf nur für jeweils einen Endkunden gesendet werden. Wenn mehrere Endbenutzeranforderungen gesendet werden sollen, muss für jede Endbenutzeranforderung eine separate E-Mail-Nachricht gesendet werden. 
 
-Wenn mehrere {{site.data.keyword.watson}}-Services für die Endbenutzeranforderung benötigt werden, können Sie eine SAR-E-Mail-Nachricht für die Anforderung senden. 
+Wenn mehrere {{site.data.keyword.watson}}-Services für die Endbenutzeranforderung benötigt werden, können Sie einen Antrag auf Auskunftserteilung per E-Mail für die Anforderung senden. 
 
-### Support-Ticket für SAR im Rahmen der DSGVO öffnen
+### Support-Ticket für Antrag auf Auskunftserteilung gemäß DSGVO öffnen
 {: #request-non-EU-opening}
 
 Wenn Sie über ein gültiges {{site.data.keyword.cloud_notm}}-Konto verfügen, senden Sie eine Unterstützungsanforderung an **gdprcreq@us.ibm.com**. Geben Sie die folgenden Informationen in Ihrer E-Mail-Anforderung an:
 
-1.  E-Mail-Betreff: `GDPR SAR Request`. 
+1.  E-Mail-Betreff: `Antrag auf Auskunftserteilung gemäß DSGVO`. 
 1.  {{site.data.keyword.ibmid}} Ihres {{site.data.keyword.cloud_notm}}-Kontos. 
-1.  Anforderungstyp
+1.  Auskunftsart
     -   Kundendatenanforderung
     -   Auditprotokollanforderung
     -   Kundendatenanforderung & Auditprotokollanforderung
     -   Datenlöschanforderung für Visual Recognition
-1.  *Kunden-ID* des Endbenutzers im Rahmen der DSGVO (bei der Zuordnung einer DSGVO-Kennung verwendet). 
+1.  *Kunden-ID* des Endbenutzers gemäß DSGVO (für die Zuordnung einer DSGVO-Kennung). 
 1.  Liste aller {{site.data.keyword.watson}}-Services, die für die Anforderung benötigt werden. 
 1.  Zeitraum: 30, 60 oder 90 Tage. Trifft nur für Auditprotokollanforderungen zu. 
 
