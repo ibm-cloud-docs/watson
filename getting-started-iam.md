@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-03-08"
+lastupdated: "2019-04-29"
 
 keywords: IAM tokens,IAM authentication
 
@@ -39,7 +39,7 @@ You use {{site.data.keyword.cloud}} Identity and Access Management (IAM) tokens 
 To access API methods by using IAM service credentials, you must first collect the credentials. You can access the service credentials from the {{site.data.keyword.cloud_notm}} web interface.
 
 1.  Log in to [{{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){: new_window}.
-1.  Go to your [resource list ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/dashboard){: new_window}.
+1.  Go to your [resource list ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/resources?groups=resource-instance){: new_window}.
 1.  Select a service instance.
 1.  Click **Show Credentials** to see the **API Key** and **Url** for the credentials.
     1.  To see the tokens for the credentials, select **Service credentials** from the navigation menu on the left of the page.
@@ -62,7 +62,7 @@ To access API methods by using IAM service credentials, you must first collect t
 You can update service credentials for an existing service instance from the service dashboard.
 
 1.  Log in to [{{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){: new_window}.
-1.  Go to your [resource list ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/dashboard){: new_window}.
+1.  Go to your [resource list ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/resources?groups=resource-instance){: new_window}.
 1.  Select **Service credentials** from the navigation menu on the left of the page.
 1.  Use the menus and icons to delete existing credentials or to add new credentials.
 
