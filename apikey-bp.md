@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-03-08"
+lastupdated: "2019-04-29"
 
 keywords: IAM authentication,service keys,service roles,best practices
 
@@ -35,7 +35,7 @@ Unlike the standard {{site.data.keyword.cloud_notm}} Identity and Access Managem
 You can bind a Watson API key only to a single service instance.
 {: tip}
 
-A set of credentials for the `Manager` role is automatically generated each time an {{site.data.keyword.ibmwatson_notm}} service instance is created. These credentials are available to you on the **Dashboard** page of the service instance. You can use them to call *all* methods of the service's API. You can limit the possible actions that are performed when you use the service by creating an API key with a different role.
+A set of credentials for the `Manager` role is generated each time an {{site.data.keyword.ibmwatson_notm}} service instance is created. These credentials are available on the **Service credentials** page of the service instance. You can use them to call *all* methods of the service's API. You can limit the possible actions that are performed when you use the service by creating an API key with a different role.
 
 | Service access role | Description of actions |
 |:-----------------|:-----------------|
