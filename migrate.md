@@ -112,4 +112,4 @@ Your new instance manages authentication with IBM Cloud Identity and Access Mana
 Update your client applications to take advantage of the improved security that IAM affords. After you update your apps to use the new API key approach, you won't need the alias and can delete it.
 
 All existing custom applications must be updated to use the IAM authentication method before the Cloud Foundry-based authentication mechanism stops working on 30 October 2019.
-{: deprecated}
+{: important}
