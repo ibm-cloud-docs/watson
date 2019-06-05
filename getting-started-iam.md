@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-04-29"
+lastupdated: "2019-06-04"
 
 keywords: IAM tokens,IAM authentication
 
@@ -11,7 +11,7 @@ subcollection: watson
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:important: .important}
 {:note: .note}
@@ -27,7 +27,7 @@ subcollection: watson
 # Authenticating with IAM tokens
 {: #iam}
 
-You use {{site.data.keyword.cloud}} Identity and Access Management (IAM) tokens to make authenticated requests to {{site.data.keyword.ibmwatson}} services without embedding service credentials in every call. IAM authentication uses access tokens for authentication, which you acquire by sending a request with an API key.
+You use {{site.data.keyword.iamlong}} (IAM) tokens to make authenticated requests to {{site.data.keyword.ibmwatson}} services without embedding service credentials in every call. IAM authentication uses access tokens for authentication, which you acquire by sending a request with an API key.
 {: shortdesc}
 
 {{site.data.keyword.watson}} services that are created in a resource group or are migrated from Cloud Foundry to a resource group use IAM authentication. By default, all new {{site.data.keyword.watson}} services use IAM authentication.
@@ -38,8 +38,8 @@ You use {{site.data.keyword.cloud}} Identity and Access Management (IAM) tokens 
 
 To access API methods by using IAM service credentials, you must first collect the credentials. You can access the service credentials from the {{site.data.keyword.cloud_notm}} web interface.
 
-1.  Log in to [{{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){: new_window}.
-1.  Go to your [resource list ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/resources?groups=resource-instance){: new_window}.
+1.  Log in to [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}.
+1.  Go to your [resource list](https://{DomainName}/resources?groups=resource-instance){: external}.
 1.  Select a service instance.
 1.  Click **Show Credentials** to see the **API Key** and **Url** for the credentials.
     1.  To see the tokens for the credentials, select **Service credentials** from the navigation menu on the left of the page.
@@ -61,8 +61,8 @@ To access API methods by using IAM service credentials, you must first collect t
 
 You can update service credentials for an existing service instance from the service dashboard.
 
-1.  Log in to [{{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){: new_window}.
-1.  Go to your [resource list ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/resources?groups=resource-instance){: new_window}.
+1.  Log in to [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}.
+1.  Go to your [resource list](https://{DomainName}/resources?groups=resource-instance){: external}.
 1.  Select **Service credentials** from the navigation menu on the left of the page.
 1.  Use the menus and icons to delete existing credentials or to add new credentials.
 
@@ -84,7 +84,7 @@ curl -k -X POST \
 --header "Accept: application/json" \
 --data-urlencode "grant_type=urn:ibm:params:oauth:grant-type:apikey" \
 --data-urlencode "apikey={apikey}" \
-"https://iam.bluemix.net/identity/token"
+"https://iam.cloud.ibm.com/identity/token"
 ```
 {: pre}
 
@@ -97,7 +97,7 @@ curl -k -X POST \
 --header "Accept: application/json" \
 --data-urlencode "grant_type=urn:ibm:params:oauth:grant-type:apikey" \
 --data-urlencode "apikey={apikey}" \
-"https://iam.bluemix.net/identity/token"
+"https://iam.cloud.ibm.com/identity/token"
 
 ```
 {: pre}
@@ -148,7 +148,7 @@ curl -k -X POST \
 --header "Authorization: Basic Yng6Yng=" \
 --data-urlencode "grant_type=refresh_token" \
 --data-urlencode "refresh_token={refresh-token}" \
-"https://iam.bluemix.net/identity/token"
+"https://iam.cloud.ibm.com/identity/token"
 ```
 {: pre}
 
