@@ -43,7 +43,7 @@ If you created service instances before November 2018, then depending on the loc
 
 If you want to learn more about the migration process before you begin, see the [{{site.data.keyword.cloud_notm}} migration documentation](/docs/resources?topic=resources-migrate){: external}.
 
-Only the person or group that created the instance or that has the appropriate privileges can migrate it. For more details, see [Required access for service instances](/docs/resources?topic=resources-migrate#required_access_instances){: external}.
+Only the person or group that created the instance or that has the appropriate privileges can migrate it. For more information, see [Required access for service instances](/docs/resources?topic=resources-migrate#required_access_instances).
 {: note}
 
 To migrate your service instance, complete these steps:
@@ -79,7 +79,7 @@ To migrate your service instance, complete these steps:
       ```
       {: codeblock}
 
-      The response shows the ID of the resource group. For more information about the CLI command, see [Working with resources and resource groups](https://cloud.ibm.com/docs/cli?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_commands_resource).
+      The response shows the ID of the resource group. For more information about the CLI command, see [Working with resources and resource groups](/docs/cli?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_commands_resource).
 
       Give the support team up to 24 hours from the time you submit the case to complete the work that they need to perform to migrate the instance. There is no disruption of service during the migration process.
 
@@ -92,7 +92,7 @@ The following image shows how a {{site.data.keyword.conversationshort}} service 
 
 ![Shows that the current service instance is now an alias of a resource-based instance](images/alias.png)
 
-For more information about aliases, see [Managing Connections](https://cloud.ibm.com/docs/resources/connecting_apps#what_is_alias).
+For more information about aliases, see [Managing Connections](/docs/resources/connecting_apps#what_is_alias).
 
 You must open the new, resource group-based version of the service instance to be able to access any tools that are associated with it. The new instance is listed in the *Services* section of the {{site.data.keyword.cloud_notm}} Resource list.
 
