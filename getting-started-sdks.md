@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-03-08"
+lastupdated: "2019-06-04"
 
 keywords: Watson SDKs,SDK,software developer kit,programming interfaces,wrappers
 
@@ -11,7 +11,7 @@ subcollection: watson
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:important: .important}
 {:note: .note}
@@ -35,23 +35,23 @@ SDKs abstract much of the complexity associated with application development. By
 
 The following {{site.data.keyword.watson}} SDKs are supported by {{site.data.keyword.IBM_notm}}:
 
-* [Android SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/android-sdk){: new_window}
-* [Go SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/go-sdk){: new_window}
-* [Java SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/java-sdk){: new_window}
-* [Node.js SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/node-sdk){: new_window}
-* [Python SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/python-sdk){: new_window}
-* [Ruby SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/ruby-sdk){: new_window}
-* [.NET SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/dotnet-standard-sdk){: new_window}
-* [Salesforce SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/salesforce-sdk){: new_window}
-* [Swift SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/swift-sdk){: new_window}
-* [Unity SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-developer-cloud/unity-sdk){: new_window}
+* [Android SDK](https://github.com/watson-developer-cloud/android-sdk){: external}
+* [Go SDK](https://github.com/watson-developer-cloud/go-sdk){: external}
+* [Java SDK](https://github.com/watson-developer-cloud/java-sdk){: external}
+* [Node.js SDK](https://github.com/watson-developer-cloud/node-sdk){: external}
+* [Python SDK](https://github.com/watson-developer-cloud/python-sdk){: external}
+* [Ruby SDK](https://github.com/watson-developer-cloud/ruby-sdk){: external}
+* [.NET SDK](https://github.com/watson-developer-cloud/dotnet-standard-sdk){: external}
+* [Salesforce SDK](https://github.com/watson-developer-cloud/salesforce-sdk){: external}
+* [Swift SDK](https://github.com/watson-developer-cloud/swift-sdk){: external}
+* [Unity SDK](https://github.com/watson-developer-cloud/unity-sdk){: external}
 
-The [API reference ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs?category=ai){: new_window} for each service includes information and examples for many of the SDKs, including Java, Node.js, Python, Go, Ruby, and Swift.
+The [API reference](https://{DomainName}/apidocs?category=ai){: external} for each service includes information and examples for many of the SDKs, including Java, Node.js, Python, Go, and Ruby.
 
 ## Community SDKs
 {: #community-sdks}
 
 The following SDKs are available from the {{site.data.keyword.watson}} community of developers:
 
-* [PHP SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/CognitiveBuild/WatsonPHPSDK){: new_window}
-* [Scala SDK ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/kane77/scala-sdk){: new_window}
+* [PHP SDK](https://github.com/CognitiveBuild/WatsonPHPSDK){: external}
+* [Scala SDK](https://github.com/kane77/scala-sdk){: external}

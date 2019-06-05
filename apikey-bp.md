@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-04-29"
+lastupdated: "2019-06-05"
 
 keywords: IAM authentication,service keys,service roles,best practices
 
@@ -11,7 +11,7 @@ subcollection: watson
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:important: .important}
 {:note: .note}
@@ -30,7 +30,7 @@ subcollection: watson
 {{site.data.keyword.ibmwatson}} service API keys are used to acquire bearer tokens that are in turn used to authenticate calls to {{site.data.keyword.ibmwatson_notm}} services.
 {: shortdesc}
 
-Unlike the standard {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) implementation of API keys, {{site.data.keyword.ibmwatson_notm}} IAM keys are set on a per-service basis. You can assign permissions to each API key rather than to each service. This implementation differs from the standard {{site.data.keyword.cloud_notm}} method of user-based API keys. With {{site.data.keyword.ibmwatson_notm}}, users are assigned a role for each service. For more information about the general {{site.data.keyword.cloud_notm}} IAM implementation, see [API key best practices](/docs/services/iam?topic=iam-iamoverview#iamoverview).
+Unlike the standard {{site.data.keyword.iamlong}} (IAM) implementation of API keys, {{site.data.keyword.ibmwatson_notm}} IAM keys are set on a per-service basis. You can assign permissions to each API key rather than to each service. This implementation differs from the standard {{site.data.keyword.cloud_notm}} method of user-based API keys. With {{site.data.keyword.ibmwatson_notm}}, users are assigned a role for each service. For more information about the general {{site.data.keyword.cloud_notm}} IAM implementation, see [API key best practices](/docs/services/iam?topic=iam-iamoverview#iamoverview).
 
 You can bind a Watson API key only to a single service instance.
 {: tip}

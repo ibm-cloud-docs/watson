@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-04-29"
+lastupdated: "2019-06-04"
 
 keywords: Cloud Foundry, authentication,service credentials
 
@@ -11,7 +11,7 @@ subcollection: watson
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:important: .important}
 {:note: .note}
@@ -38,8 +38,8 @@ Cloud Foundry service credentials for {{site.data.keyword.ibmwatson}} services p
 
 To access API methods by using Cloud Foundry service credentials, you must first collect the credentials. You can access the service credentials from the {{site.data.keyword.cloud_notm}} web interface.
 
-1.  Log in to [{{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){: new_window}.
-1.  Go to your [resource list ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/resources){: new_window}.
+1.  Log in to [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}.
+1.  Go to your [resource list](https://{DomainName}/resources){: external}.
 1.  Select a service instance.
 1.  Click **Show Credentials** to see the **Username**, **Password**, and **Url** for the credentials.
 
@@ -48,8 +48,8 @@ To access API methods by using Cloud Foundry service credentials, you must first
 
 You can update service credentials for an existing service instance from the service dashboard.
 
-1.  Log in to [{{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){: new_window}.
-1.  Go to your [resource list ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/resources){: new_window}.
+1.  Log in to [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}.
+1.  Go to your [resource list](https://{DomainName}/resources){: external}.
 1.  Select **Service credentials** from the navigation menu on the left of the page.
 1.  Use the menus and icons to delete existing credentials or to add new credentials.
 
