@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-07-03"
+lastupdated: "2019-07-22"
 
 keywords: migrate,Cloud Foundry,resource group
 
@@ -54,16 +54,6 @@ To migrate your service instance, complete these steps:
 
     With a Premium plan, you can migrate multiple instances. However, the instances must all be migrated to the same resource group.
 
-1.  From the *Cloud Foundry Services* section of the {{site.data.keyword.cloud_notm}} [resource list](/resources?groups=cf-services){: external}, click the migrate icon ![Migrate](images/migrate.svg) for the instance you want to migrate, and then click **Migrate** from the pop-up window.
-
-1.  Click **Continue**, and then choose a resource group.
-
-    If you didn't create a resource group, you can create one now. A **default** resource group is available. Take time to understand how the groups are used and create one if necessary. You can't change the resource group later.
-
-1.  Click **Migrate**.
-
-    A message is displayed when the process is done. If you have other service instances to migrate, you can migrate those services now. Otherwise, click **Done**.
-
 1.  **Premium plan one-time step**: If the service instance you are migrating is part of a Premium plan, inform support that you are migrating a Premium plan instance. The {{site.data.keyword.cloud_notm}} support team needs to take some additional steps on your behalf.
 
     Complete this step the first time that you migrate a service instance for the Premium plan only. When you click *Migrate* for other service instances that belong to the same plan, they are migrated to the same resource group without requiring any involvement from the IBM support team.
@@ -85,6 +75,16 @@ To migrate your service instance, complete these steps:
         The response shows the ID of the resource group. For more information about the CLI command, see [Working with resources and resource groups](/docs/cli?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_commands_resource).
 
     Give the support team up to 24 hours to complete the migration. There is no disruption of service during the process.
+
+1.  From the *Cloud Foundry Services* section of the {{site.data.keyword.cloud_notm}} [resource list](/resources?groups=cf-services), click the migrate icon ![Migrate](images/migrate.svg) for the instance you want to migrate, and then click **Migrate** from the pop-up window.
+
+1.  Click **Continue**, and then choose a resource group.
+
+    If you didn't create a resource group, you can create one now. A **default** resource group is available. Take time to understand how the groups are used and create one if necessary. You can't change the resource group later.
+
+1.  Click **Migrate**.
+
+    A message is displayed when the process is done. If you have other service instances to migrate, you can migrate those services now. Otherwise, click **Done**.
 
 ## The migrated service instance
 {: #migrate-instance}
