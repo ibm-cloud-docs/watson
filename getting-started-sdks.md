@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-08-14"
 
 keywords: Watson SDKs,SDK,software developer kit,programming interfaces,wrappers
 
@@ -46,12 +46,34 @@ The following {{site.data.keyword.watson}} SDKs are supported by {{site.data.key
 * [Swift SDK](https://github.com/watson-developer-cloud/swift-sdk){: external}
 * [Unity SDK](https://github.com/watson-developer-cloud/unity-sdk){: external}
 
-The [API reference](https://{DomainName}/apidocs?category=ai){: external} for each service includes information and examples for many of the SDKs, including Java, Node.js, Python, Go, and Ruby.
+The [API reference](https://{DomainName}/apidocs?category=ai){: external} for each service includes information and examples for many of the SDKs, including Java, Node.js, Python, Go , .Net, Ruby, and Swift.
 
-## Community SDKs
+<!-- ## Community SDKs
 {: #community-sdks}
 
 The following SDKs are available from the {{site.data.keyword.watson}} community of developers:
+ -->
 
-* [PHP SDK](https://github.com/CognitiveBuild/WatsonPHPSDK){: external}
-* [Scala SDK](https://github.com/kane77/scala-sdk){: external}
+## SDK updates and deprecation
+{: #sdk-schedule}
+
+The supported {{site.data.keyword.watson}} SDKs are updated according to the following guidelines.
+
+### Semantic versioning
+
+Supported {{site.data.keyword.watson}} SDKs adhere to semantic versioning with releases labeled as `major.minor.patch`.
+
+### Release frequency
+
+SDKs are released independently and might not update on the same schedule.
+
+* The current releases of the {{site.data.keyword.watson}} SDKs are updated on a 2- to 6-week schedule. These releases are either minor updates or patches that do not include breaking changes. You can update to any version of the SDK with the same major version number.
+* Major updates that might include breaking changes are released approximately every 6 months.
+
+### Deprecated release
+
+When a major version is released, support continues on the previous major release for 12 months in a deprecation period. The deprecated release might be updated with bug fixes, but no new features will be added and documentation might not be available.
+
+### Obsolete release
+
+After the 12-month deprecation period, a release is obsolete. The release might be functional but is unsupported and not updated. Update to the current release.
