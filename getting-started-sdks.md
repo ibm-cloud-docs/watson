@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-08-14"
+lastupdated: "2019-08-15"
 
 keywords: Watson SDKs,SDK,software developer kit,programming interfaces,wrappers
 
@@ -46,7 +46,7 @@ The following {{site.data.keyword.watson}} SDKs are supported by {{site.data.key
 * [Swift SDK](https://github.com/watson-developer-cloud/swift-sdk){: external}
 * [Unity SDK](https://github.com/watson-developer-cloud/unity-sdk){: external}
 
-The [API reference](https://{DomainName}/apidocs?category=ai){: external} for each service includes information and examples for many of the SDKs, including Java, Node.js, Python, Go , .Net, Ruby, and Swift.
+The [API reference](https://{DomainName}/apidocs?category=ai){: external} for each service includes information and examples for many of the SDKs, including Java, Node.js, Python, Go, .Net, Ruby, and Swift.
 
 <!-- ## Community SDKs
 {: #community-sdks}
@@ -61,7 +61,7 @@ The supported {{site.data.keyword.watson}} SDKs are updated according to the fol
 
 ### Semantic versioning
 
-Supported {{site.data.keyword.watson}} SDKs adhere to semantic versioning with releases labeled as `major.minor.patch`.
+Supported {{site.data.keyword.watson}} SDKs adhere to semantic versioning with releases labeled as `{major}.{minor}.{patch}`.
 
 ### Release frequency
 
