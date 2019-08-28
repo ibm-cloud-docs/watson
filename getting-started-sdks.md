@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-08-15"
+lastupdated: "2019-08-16"
 
 keywords: Watson SDKs,SDK,software developer kit,programming interfaces,wrappers
 
