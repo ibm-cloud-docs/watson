@@ -46,7 +46,7 @@ The following {{site.data.keyword.watson}} SDKs are supported by {{site.data.key
 * [Swift SDK](https://github.com/watson-developer-cloud/swift-sdk){: external}
 * [Unity SDK](https://github.com/watson-developer-cloud/unity-sdk){: external}
 
-The [API reference](https://{DomainName}/apidocs?category=ai){: external} for each service includes information and examples for many of the SDKs, including Java, Node.js, Python, Go , .Net, Ruby, and Swift.
+The [API reference](https://{DomainName}/apidocs?category=ai){: external} for each service includes information and examples for many of the SDKs, including Java, Node.js, Python, Go, .Net, Ruby, and Swift.
 
 ## Community SDKs
 {: #community-sdks}
