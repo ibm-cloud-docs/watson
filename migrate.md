@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-07-22"
+lastupdated: "2019-12-03"
 
 keywords: migrate,Cloud Foundry,resource group
 
@@ -33,7 +33,7 @@ Migrate a {{site.data.keyword.watson}} service instance to move it from its curr
 {{site.data.keyword.cloud_notm}} moved from using Cloud Foundry to using resource groups. Resource groups offer these benefits over Cloud Foundry:
 
 - Finer-grained access control by using {{site.data.keyword.iamlong}}
-- Ability to connect service instances to apps and services across different regions
+- Ability to connect service instances to apps and services across different locations
 - Simplified capture of usage data per group
 
 If you created service instances before November 2018, then they might be using Cloud Foundry instead of resource groups.
@@ -61,7 +61,7 @@ To migrate your service instance, complete these steps:
 
     Create a case from [{{site.data.keyword.cloud_notm}} Support](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}. Add the following information to the case:
 
-    - Region in which the service instance is hosted, such as Dallas or Frankfurt
+    - Location in which the service instance is hosted, such as Dallas or Frankfurt
     - Resource group name
     - Resource group ID
 
@@ -104,7 +104,14 @@ The new resource group-based version of the instance is listed in the [Services]
 
 - To access any associated tools.
 - To view or manage credentials. You can add credentials by clicking **New credential** from the **Service credentials** page.
-- To view the URL. If your service was originally syndicated, it might be hosted in a different location after the migration.
+- To view the URL.
+
+### Migration of syndicated services
+{: #migrate-synd}
+
+Some Cloud Foundry services in the London and Sydney locations are syndicated. Data for syndicated instances is stored in the Dallas location. After you migrate a syndicated instance, the location does not reflect London or Sydney, but Dallas. However, because syndicated services were originally hosted in the Dallas location, the services are not moved during migration.
+
+If your service was created in the London location before 14 December 2018 or the Sydney location before 30 May 2018, your Cloud Foundry instance might be syndicated to the Dallas location.
 
 ## Applications and authentication
 {: #migrate-auth-support}
