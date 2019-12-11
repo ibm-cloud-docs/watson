@@ -15,10 +15,9 @@ Watson
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    {: .topicgroup}
-    Resource group (IAM) authentication
-        getting-started-iam.md
-        apikey-bp.md
+    getting-started-iam.md
+    service-endpoints.md
+    getting-started-keyservice.md
 
     {: .topicgroup}
     Cloud Foundry authentication

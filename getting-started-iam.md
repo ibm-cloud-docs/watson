@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-12-12"
 
-keywords: IAM tokens,IAM authentication
+keywords: IAM tokens,IAM authentication,api key
 
 subcollection: watson
 
@@ -19,138 +19,76 @@ subcollection: watson
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:javascript: .ph data-hd-programlang='javascript'}
-{:java: .ph data-hd-programlang='java'}
-{:python: .ph data-hd-programlang='python'}
-{:swift: .ph data-hd-programlang='swift'}
 
-# Authenticating with IAM tokens
+# Authenticating to {{site.data.keyword.watson}} services
 {: #iam}
 
-You use {{site.data.keyword.iamlong}} (IAM) tokens to make authenticated requests to {{site.data.keyword.ibmwatson}} services without embedding service credentials in every call. IAM authentication uses access tokens for authentication, which you acquire by sending a request with an API key.
+You use {{site.data.keyword.iamlong}} (IAM) to make authenticated requests to public {{site.data.keyword.ibmwatson}} services. With IAM access policies, you can assign access to more than one resource from a single key. In addition, a user, service ID, and service instance can hold multiple API keys.
 {: shortdesc}
 
-{{site.data.keyword.watson}} services that are created in a resource group or are migrated from Cloud Foundry to a resource group use IAM authentication. By default, all new {{site.data.keyword.watson}} services use IAM authentication.
-{: note}
-
-## Getting IAM service credentials
-{: #iam-getting-credentials-manually}
-
-To access API methods by using IAM service credentials, you must first collect the credentials. You can access the service credentials from the {{site.data.keyword.cloud_notm}} web interface.
-
-1.  Log in to [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}.
-1.  Go to your [resource list](https://{DomainName}/resources?groups=resource-instance){: external}.
-1.  Select a service instance.
-1.  Click **Show Credentials** to see the **API Key** and **Url** for the credentials.
-    1.  To see the tokens for the credentials, select **Service credentials** from the navigation menu on the left of the page.
-    1.  Select **View credentials** to view the full API key and token information for the credentials.
-
-        ```json
-        {
-          "apikey": "3df...   ...Y7Pc9",
-          "iam_apikey_description": "Auto generated apikey during resource-key operation for...",
-          "iam_apikey_name": "auto-generated-apikey-31b336bc-2d6a-41c3-a8b2-e05ec6db19b4",
-          "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
-          "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/57d48380...::serviceid:...",
-          "url": "https://gateway.watsonplatform.net/{service_name}/api"
-        }
-        ```
-
-## Updating IAM service credentials
-{: #update-existing-svcs}
-
-You can update service credentials for an existing service instance from the service dashboard.
-
-1.  Log in to [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}.
-1.  Go to your [resource list](https://{DomainName}/resources?groups=resource-instance){: external}.
-1.  Select **Service credentials** from the navigation menu on the left of the page.
-1.  Use the menus and icons to delete existing credentials or to add new credentials.
-
-Make sure that you update the credentials in your applications for any changes.
-
-## Getting an IAM token by using a Watson service API key
-{: #iamtoken}
-
-You can access {{site.data.keyword.ibmwatson_notm}} service APIs by using the API keys that were generated for the service instance. You use the API key to generate an IAM access token. You also use this process if you are developing an application that needs to work with other {{site.data.keyword.cloud_notm}} services.
-
-For more information about securely using API keys, see [IAM service API keys](/docs/services/watson?topic=watson-api-key-bp).
+Add-ons to {{site.data.keyword.cpd_full_notm}} use a different authentication mechanism. For more information, see the documentation for your add-on.
 {: tip}
 
-The following curl command uses the `POST identity/token` method to generate an IAM access token by passing an API key. The `Content-Type` header indicates that the data is URL encoded. The `data-urlencode` parameters pass the URL-encoded data to the method.
+## Credentials
+{: #gs-iam-credentials}
 
-```bash
-curl -k -X POST \
---header "Content-Type: application/x-www-form-urlencoded" \
---header "Accept: application/json" \
---data-urlencode "grant_type=urn:ibm:params:oauth:grant-type:apikey" \
---data-urlencode "apikey={apikey}" \
-"https://iam.cloud.ibm.com/identity/token"
-```
-{: pre}
+To authenticate to a service through its API, pass your credentials to the API. You can pass either a bearer token in an authorization header or an API key.
 
-Use authentication to generate the access token. Use the same authentication when you refresh the token.
+- Authenticate with an IAM token.
 
-```bash
-curl -k -X POST \
---header "Authorization: Basic Yng6Yng=" \
---header "Content-Type: application/x-www-form-urlencoded" \
---header "Accept: application/json" \
---data-urlencode "grant_type=urn:ibm:params:oauth:grant-type:apikey" \
---data-urlencode "apikey={apikey}" \
-"https://iam.cloud.ibm.com/identity/token"
+    IAM tokens are temporary security credentials that are valid for 60 minutes. When a token expires, you generate a new one. Tokens can be useful for temporary access to resources. For more information, see [Generating an IBM Cloud IAM token by using an API key](/docs/iam?topic=iam-iamtoken_from_apikey).
 
-```
-{: pre}
+- Authenticate with an {{site.data.keyword.cloud_notm}} API key, a service ID API key, or a service-specific API key.
 
-The following sample shows the expected response:
+    API keys are simple to use and don't automatically expire. Anyone with a valid key can access the resource. You can create separate API keys for different users, different applications, or to support key rotation scenarios. You can revoke API keys from the console without interfering with other API keys or the user.
 
-```javascript
-{
-  "access_token": "eyJhbGciOiJIUz......sgrKIi8hdFs",
-  "refresh_token": "SPrXw5tBE3......KBQ+luWQVY",
-  "token_type": "Bearer",
-  "expires_in": 3600,
-  "expiration": 1473188353
-}
-```
-{: pre}
+For testing and development, you can pass in an API key directly. However, for production use, unless you use the {{site.data.keyword.watson}} SDKs, use an IAM token. When you pass an API key, the service looks up the API key details, so it might affect performance. For more information, see [Invoking IBM Cloud service APIs](/docs/iam?topic=iam-iamapikeysforservices).
 
-## Using a token to authenticate
-{: #use_token}
+The {{site.data.keyword.watson}} SDKs support both methods. For more information, see the **Authentication** section of the [API reference](https://{DomainName}/apidocs?category=ai){: external} for your service and SDK.
 
-You generate an IAM access token by using the `POST identity/token` method. You can then use the token to make authenticated API calls. An API key is associated with a specific service instance. A token that is generated with an API key can be used only for calls to that service instance.
+Users on Premium plans can also use {{site.data.keyword.keymanagementservicefull}} to control access to data. For more information, see [Protecting sensitive information in your {{site.data.keyword.watson}} service](/docs/watson?topic=watson-keyservice).
 
-A typical curl call to a {{site.data.keyword.watson}} service takes the following form, where `{token}` is the IAM access token that you generated:
+## About API keys
+{: #gs-iam-keys}
 
-```bash
-curl -X GET \
---header "Authorization: Bearer {token}" \
-"https://gateway.watsonplatform.net/discovery/api/v1/environments?version=2017-11-07"
-```
-{: pre}
+Three types of API keys are supported by {{site.data.keyword.watson}} services:
 
-Alternatively, you can prefix the token with `Authorization: Bearer ` (for example `Authorization: Bearer eyJhbGciOiJIUz......sgrKIi8hdFs`) and save it to a file. You then use the following command:
+- Service-specific API keys
 
-```bash
-curl -X GET \
---header "$(cat token.txt)" \
-"https://gateway.watsonplatform.net/discovery/api/v1/environments?version=2017-11-07"
-```
-{: pre}
+    Service-specific keys are generated with the service. This kind of API key has access only to a specific service instance. To view service-specific keys, click the name of a {{site.data.keyword.watson}} service from your [resource list](https://{DomainName}/resources?groups=resource-instance){: external}.
 
-## Refreshing a token
-{: #refresh_token}
+- {{site.data.keyword.cloud_notm}} API keys
 
-You can use the IAM refresh token that is generated by the `POST identity/token` method to extend the life of the access token. The following command refreshes an existing access token. In the command, `{refresh-token}` is the IAM refresh token that you generated.
+    {{site.data.keyword.cloud_notm}} API keys are associated with a user's identity. Only the user who is associated with the key can delete it. The same {{site.data.keyword.cloud_notm}} API key can be used to access different services. For more information about working with {{site.data.keyword.cloud_notm}} API keys, see [Managing user API keys](/docs/iam?topic=iam-userapikey).
 
-```bash
-curl -k -X POST \
---header "Authorization: Basic Yng6Yng=" \
---data-urlencode "grant_type=refresh_token" \
---data-urlencode "refresh_token={refresh-token}" \
-"https://iam.cloud.ibm.com/identity/token"
-```
-{: pre}
+- Service ID API keys
 
-When you refresh a token, use the same authentication that you used to create the original token.
-{: important}
+    Service IDs enable access to your IBM Cloud services by applications hosted both inside and outside of IBM Cloud. API keys that are associated with service IDs are granted the access that is associated with that service ID. For more information about service ID keys, see [Managing service ID API keys](/docs/iam?topic=iam-serviceidapikeys).
+
+## API key best practices
+{: #gs-iam-api-bp}
+
+Keep your API keys secure to reduce the chance of publicly exposing credentials that compromise your account and applications. To help keep your API keys secure, follow these guidelines.
+
+- Assign the most restrictive service role that works for the level of access you need.
+
+    For example, assign the `Reader` service role for calls from your application to `GET` API methods. This role has only read-only access, so can't create or edit resources.
+
+- Don't embed the API key directly in code.
+
+    API keys that are embedded in code might be exposed to your users. Instead of embedding the API keys in code, store them either in environment variables or in files outside your source code control system.
+- Don't store an API key in files inside your application's source code control system.
+
+    If you store API keys in files, keep the files outside of your application's source code. This practice is important if you use a public source code management system such as GitHub.
+
+- Regenerate or rotate your API keys.
+
+    Create new keys periodically, or rotate your keys. And don't forget to delete keys that you no longer use.
+
+## Next steps
+{: #gs-iam-next-steps}
+
+- Read an overview of [IBM Cloud IAM](/docs/iam?topic=iam-iamoverview)
+- Learn about [managing access](/docs/iam?topic=iam-cloudaccess) in IBM Cloud
+- Dive into [policies, user roles, and permissions](/docs/iam?topic=iam-userroles)
+- See how to [pass API keys and tokens](/docs/iam?topic=iam-iamapikeysforservices)
