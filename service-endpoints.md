@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2019
+  years: 2019
 lastupdated: "2019-12-12"
 
 keywords: service endpoint,private network endpoint,network endpoint
