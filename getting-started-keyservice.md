@@ -29,7 +29,7 @@ You can add a higher level of encryption protection and control to your data at 
 
 The data that you store in {{site.data.keyword.cloud_notm}} is encrypted at rest by using a randomly generated key. If you need to control the encryption keys, you can integrate {{site.data.keyword.keymanagementserviceshort}}. This process is commonly referred to as _Bring your own keys_ (BYOK). With {{site.data.keyword.keymanagementserviceshort}} you can create, import, and manage encryption keys. You can assign access policies to the keys, assign users or service IDs to the keys, or give the key access only to a specific {{site.data.keyword.watson}} service. The first 20 keys are free.
 
-![Premium plan only](images/premium0.png) Data encryption of {{site.data.keyword.watson}} services requires a new Premium plan instance. You cannot encrypt an existing service instance or instances not in the Premium plan. Not all {{site.data.keyword.watson}} services support Premium plans. For more information about Premium plans, [contact a {{site.data.keyword.watson}} representative](https://ibm.biz/contact-wdc-premium)
+Data encryption of {{site.data.keyword.watson}} services requires a new Premium plan instance. You cannot encrypt an existing service instance or instances not in the Premium plan. Not all {{site.data.keyword.watson}} services support Premium plans. For more information about Premium plans, [contact a {{site.data.keyword.watson}} representative](https://ibm.biz/contact-wdc-premium)
 {: tip}
 
 ## About customer-managed encryption
