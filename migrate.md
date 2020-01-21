@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-12-03"
+  years: 2015, 2020
+lastupdated: "2020-01-21"
 
 keywords: migrate,Cloud Foundry,resource group
 
@@ -76,7 +76,7 @@ To migrate your service instance, complete these steps:
 
     Give the support team up to 24 hours to complete the migration. There is no disruption of service during the process.
 
-1.  From the *Cloud Foundry Services* section of the {{site.data.keyword.cloud_notm}} [resource list](/resources?groups=cf-services), click the migrate icon ![Migrate](images/migrate.svg) for the instance you want to migrate, and then click **Migrate** from the pop-up window.
+1.  From the *Cloud Foundry Services* section of the {{site.data.keyword.cloud_notm}} [resource list](https://{DomainName}/resources?groups=cf-services){: external}, click the migrate icon ![Migrate](images/migrate.svg) for the instance you want to migrate, and then click **Migrate** from the pop-up window.
 
 1.  Click **Continue**, and then choose a resource group.
 
@@ -100,7 +100,7 @@ For more information about aliases, see [Managing Connections](/docs/resources/c
 ### Details about the migrated instance
 {: #migrate-working}
 
-The new resource group-based version of the instance is listed in the [Services](/resources?groups=resource-instance){: external} section of the {{site.data.keyword.cloud_notm}} Resource list. Open the migrated instance to see the details.
+The new resource group-based version of the instance is listed in the [Services](https://{DomainName}/resources?groups=resource-instance){: external} section of the {{site.data.keyword.cloud_notm}} Resource list. Open the migrated instance to see the details.
 
 - To access any associated tools.
 - To view or manage credentials. You can add credentials by clicking **New credential** from the **Service credentials** page.

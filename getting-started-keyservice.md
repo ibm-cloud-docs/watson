@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-12-12"
+  years: 2019, 2020
+lastupdated: "2020-01-21"
 
 keywords: key management,byok,key encryption,encrypt key,root key
 
@@ -29,7 +29,7 @@ You can add a higher level of encryption protection and control to your data at 
 
 The data that you store in {{site.data.keyword.cloud_notm}} is encrypted at rest by using a randomly generated key. If you need to control the encryption keys, you can integrate {{site.data.keyword.keymanagementserviceshort}}. This process is commonly referred to as _Bring your own keys_ (BYOK). With {{site.data.keyword.keymanagementserviceshort}} you can create, import, and manage encryption keys. You can assign access policies to the keys, assign users or service IDs to the keys, or give the key access only to a specific {{site.data.keyword.watson}} service. The first 20 keys are free.
 
-![Premium plan only](images/premium0.png) Data encryption of {{site.data.keyword.watson}} services requires a new Premium plan instance. You cannot encrypt an existing service instance or instances not in the Premium plan. Not all {{site.data.keyword.watson}} services support Premium plans. For more information about Premium plans, [contact a {{site.data.keyword.watson}} representative](https://ibm.biz/contact-wdc-premium)
+Data encryption of {{site.data.keyword.watson}} services requires a new Premium plan instance. You cannot encrypt an existing service instance or instances not in the Premium plan. Not all {{site.data.keyword.watson}} services support Premium plans. For more information about Premium plans, [contact a {{site.data.keyword.watson}} representative](https://ibm.biz/contact-wdc-premium)
 {: tip}
 
 ## About customer-managed encryption
@@ -75,7 +75,7 @@ When you use {{site.data.keyword.keymanagementserviceshort}} to create a key, th
 
 After you create an instance of the service, add a root key.
 
-1.  If you're not already on the details page, click the name of the {{site.data.keyword.keymanagementserviceshort}} instance in your [resource list](/resources?groups=resource-instance){: external}.
+1.  If you're not already on the details page, click the name of the {{site.data.keyword.keymanagementserviceshort}} instance in your [resource list](https://{DomainName}/resources?groups=resource-instance){: external}.
 1.  Add a {{site.data.keyword.keymanagementserviceshort}} [root key](#x6946961){: term}:
     1.  Click **Manage** from the left navigation pane of the service details and click **Add key**.
     1.  Select **Create a key** and the **Root key** [type](/docs/services/key-protect?topic=key-protect-envelope-encryption#key-types).
@@ -90,8 +90,8 @@ If you need to generate keys with your own solution, you can use {{site.data.key
 
 After you create an instance of the service, add a root key.
 
-1.  Click the name of the {{site.data.keyword.keymanagementserviceshort}} instance in your [resource list](/resources?groups=resource-instance){: external}.
-1.  Import a [root key](#x6946961){: term}:
+1.  Click the name of the {{site.data.keyword.keymanagementserviceshort}} instance in your [resource list](https://{DomainName}/resources?groups=resource-instance){: external}.
+1.  Import a root key:
     1.  Click **Manage** from the left navigation pane of the service details and click **Add key**.
     1.  Select **Import your own key** the **Root key** type.
     1.  In **Key material**, specify the base64 encoded key material, such as an existing key-wrapping key.
@@ -109,7 +109,7 @@ After you add a root key to {{site.data.keyword.keymanagementserviceshort}}, you
 
 You must be the account owner or administrator on the {{site.data.keyword.keymanagementserviceshort}} service instance and at least the viewer role on all instances of the {{site.data.keyword.watson}} services.
 
-1.  Go to the IAM [Authorizations](/iam/authorizations){: external} page. (From the {{site.data.keyword.cloud_notm}} console menu bar, select **Manage** > **Access IAM**, and then click **Authorizations**.)
+1.  Go to the IAM [Authorizations](https://{DomainName}/iam/authorizations){: external} page. (From the {{site.data.keyword.cloud_notm}} console menu bar, select **Manage** > **Access IAM**, and then click **Authorizations**.)
 1.  Select the {{site.data.keyword.watson}} service as the **Source service**. Leave **All instances** selected.
 1.  Select the key that you added earlier as the **Target service instance**.
 1.  Select the **{{site.data.keyword.keymanagementserviceshort}}** as the target service and then select the key that you added earlier as the target service instance.
