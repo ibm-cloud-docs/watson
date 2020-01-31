@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-06-04"
+  years: 2015, 2020
+lastupdated: "2020-01-31"
 
 keywords: Watson tokens,Cloud Foundry
 
@@ -27,10 +27,10 @@ subcollection: watson
 # Watson tokens
 {: #gs-tokens-watson-tokens}
 
-You use {{site.data.keyword.watson}} tokens to write applications that make authenticated requests to {{site.data.keyword.ibmwatson}} services without embedding Cloud Foundry service credentials in every call. You must use Cloud Foundry service credentials for a service to obtain a {{site.data.keyword.watson}} token. For more information, see [Authenticating with Cloud Foundry service credentials](/docs/services/watson?topic=watson-creating-credentials). You obtain a token for a specific service instance, and the token works only for that instance.
+You use {{site.data.keyword.watson}} tokens to write applications that make authenticated requests to {{site.data.keyword.ibmwatson}} services without embedding Cloud Foundry service credentials in every call. You must use Cloud Foundry service credentials for a service to obtain a {{site.data.keyword.watson}} token. For more information, see [Authenticating with Cloud Foundry service credentials](/docs/watson?topic=watson-creating-credentials). You obtain a token for a specific service instance, and the token works only for that instance.
 {: shortdesc}
 
-By default, {{site.data.keyword.cloud_notm}} uses Identity and Access Management (IAM) authentication for all new service instances. The tokens described here work with Cloud Foundry service credentials. For more information about IAM authentication, see [Authenticating with IAM tokens](/docs/services/watson?topic=watson-iam#iam).
+By default, {{site.data.keyword.cloud_notm}} uses Identity and Access Management (IAM) authentication for all new service instances. The tokens described here work with Cloud Foundry service credentials. For more information about IAM authentication, see [Authenticating with IAM tokens](/docs/watson?topic=watson-iam#iam).
 {: important}
 
 You can write an authentication proxy in {{site.data.keyword.cloud}} that obtains and returns a token to your client application, which can then use the token to call the service directly. This proxy eliminates the need to channel all service requests through an intermediate server-side application, which is otherwise necessary to avoid exposing your service credentials from your client application.

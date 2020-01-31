@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-06-04"
+  years: 2015, 2020
+lastupdated: "2020-01-31"
 
 keywords: getting started,watson
 
@@ -39,7 +39,7 @@ Create an account on {{site.data.keyword.cloud_notm}} to try {{site.data.keyword
 ## Step 2: Finding and creating a service instance
 {: #access-console}
 
-1.  After you activate your account and log in, click **[Browse Services](https://{DomainName}/developer/watson/services){: external}** from the {{site.data.keyword.watson}} console.
+1.  After you activate your account and log in, click **[Browse Services](https://{DomainName}/developer/watson){: external}** from the {{site.data.keyword.watson}} console.
 1.  Select a service that fits your needs.
 1.  Create an instance of the service for free.
 
@@ -53,5 +53,5 @@ You're ready to go.
 - Click **Launch tool**, if available, to experience an integrated development environment.
 - Run through the **Getting started tutorial** in the [{{site.data.keyword.ibmwatson}}documentation](https://{DomainName}/developer/watson/documentation){: external} for a service.
 - You need the credentials for your service instance to use the tutorial.
-    - If your service instance uses IAM authentication, see [Authenticating with IAM tokens](/docs/services/watson?topic=watson-iam) to access your service credentials.
-    - If your service instance uses Cloud Foundry authentication, see [Authenticating with Cloud Foundry service credentials](/docs/services/watson?topic=watson-creating-credentials#creating-credentials) to access your service credentials.
+    - If your service instance uses IAM authentication, see [Authenticating with IAM tokens](/docs/watson?topic=watson-iam) to access your service credentials.
+    - If your service instance uses Cloud Foundry authentication, see [Authenticating with Cloud Foundry service credentials](/docs/watson?topic=watson-creating-credentials#creating-credentials) to access your service credentials.

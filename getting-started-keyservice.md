@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-01-21"
+lastupdated: "2020-01-31"
 
 keywords: key management,byok,key encryption,encrypt key,root key
 
@@ -57,7 +57,7 @@ Integrating {{site.data.keyword.keymanagementserviceshort}} with {{site.data.key
 
 Create an instance of {{site.data.keyword.keymanagementserviceshort}} to hold your root keys.
 
-1.  Go to the [{{site.data.keyword.keymanagementserviceshort}}](https://{DomainName}/catalog/services/key-protect){: external} page in the {{site.data.keyword.cloud_notm}} catalog **Security and Identity** category.
+1.  Go to the [{{site.data.keyword.keymanagementserviceshort}}](https://{DomainName}/catalog/key-protect){: external} page in the {{site.data.keyword.cloud_notm}} catalog **Security and Identity** category.
 1.  Select a region.
 
     Make sure to create the instance in the same location as the {{site.data.keyword.watson}} services you want to encrypt.
@@ -78,7 +78,7 @@ After you create an instance of the service, add a root key.
 1.  If you're not already on the details page, click the name of the {{site.data.keyword.keymanagementserviceshort}} instance in your [resource list](https://{DomainName}/resources?groups=resource-instance){: external}.
 1.  Add a {{site.data.keyword.keymanagementserviceshort}} [root key](#x6946961){: term}:
     1.  Click **Manage** from the left navigation pane of the service details and click **Add key**.
-    1.  Select **Create a key** and the **Root key** [type](/docs/services/key-protect?topic=key-protect-envelope-encryption#key-types).
+    1.  Select **Create a key** and the **Root key** [type](/docs/key-protect?topic=key-protect-envelope-encryption#key-types).
     1.  Give the key a name that you can recognize and click **Create key**.
 
         Make sure that the key name does not contain personal information, such as your name or location.
@@ -166,12 +166,12 @@ To delete your data securely, delete both the encrypted {{site.data.keyword.wats
 When you delete a data encryption key, it is not recoverable and you cannot decrypt the key. You prevent further access to the data, but you also cannot recover the data.
 {: important}
 
-For more information about deleting keys, see [Deleting keys](/docs/services/key-protect?topic=key-protect-delete-keys) in the {{site.data.keyword.keymanagementserviceshort}} docs.
+For more information about deleting keys, see [Deleting keys](/docs/key-protect?topic=key-protect-delete-keys) in the {{site.data.keyword.keymanagementserviceshort}} docs.
 
 ### Rotating keys
 {: keyservice-rotate-keys}
 
-Key rotation is an important part of mitigating the risk of a data breach. Periodically changing keys reduces the potential data loss if the key is lost or compromised. For more information, see [Setting a rotation policy](/docs/services/key-protect?topic=key-protect-set-rotation-policy) in the {{site.data.keyword.keymanagementserviceshort}} docs.
+Key rotation is an important part of mitigating the risk of a data breach. Periodically changing keys reduces the potential data loss if the key is lost or compromised. For more information, see [Setting a rotation policy](/docs/key-protect?topic=key-protect-set-rotation-policy) in the {{site.data.keyword.keymanagementserviceshort}} docs.
 
 ### Identify which key is encrypting your service instance
 {: #keyservice-view}
@@ -186,5 +186,5 @@ To see which {{site.data.keyword.keymanagementserviceshort}} instance is used to
 ## Next steps
 {: #keyservice-next}
 
-- Read more about [Bringing your encryption keys to the cloud](/docs/services/key-protect?topic=key-protect-importing-keys) in the {{site.data.keyword.keymanagementserviceshort}} docs.
-- See which [Activity Tracker events](/docs/services/key-protect?topic=key-protect-at-events) are recorded with {{site.data.keyword.keymanagementserviceshort}}.
+- Read more about [Bringing your encryption keys to the cloud](/docs/key-protect?topic=key-protect-importing-keys) in the {{site.data.keyword.keymanagementserviceshort}} docs.
+- See which [Activity Tracker events](/docs/key-protect?topic=key-protect-at-events) are recorded with {{site.data.keyword.keymanagementserviceshort}}.
