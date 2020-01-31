@@ -39,7 +39,7 @@ Create an account on {{site.data.keyword.cloud_notm}} to try {{site.data.keyword
 ## Step 2: Finding and creating a service instance
 {: #access-console}
 
-1.  After you activate your account and log in, click **[Browse Services](https://{DomainName}/developer/watson){: external}** from the {{site.data.keyword.watson}} console.
+1.  After you activate your account and log in, click **[Browse Services](https://{DomainName}/developer/watson/services){: external}** from the {{site.data.keyword.watson}} console.
 1.  Select a service that fits your needs.
 1.  Create an instance of the service for free.
 
