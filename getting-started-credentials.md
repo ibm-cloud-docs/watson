@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-01-31"
+lastupdated: "2020-03-19"
 
 keywords: Cloud Foundry, authentication,service credentials
 
@@ -30,7 +30,7 @@ subcollection: watson
 Cloud Foundry service credentials for {{site.data.keyword.ibmwatson}} services provide authentication to a service in {{site.data.keyword.cloud}}. Service credentials use HTTP basic authentication to authenticate to a specific {{site.data.keyword.watson}} service.
 {: shortdesc}
 
-{{site.data.keyword.watson}} services that are created in a resource group or are migrated from Cloud Foundry to a resource group use IAM authentication. By default, all new {{site.data.keyword.watson}} services use IAM authentication. For more information about resource groups and IAM authentication, see [Authenticating with IAM tokens](/docs/watson?topic=watson-iam#iam-getting-credentials-manually).
+{{site.data.keyword.watson}} services that are created in a resource group or are migrated from Cloud Foundry to a resource group use IAM authentication. By default, all new {{site.data.keyword.watson}} services use IAM authentication. For more information about resource groups and IAM authentication, see [Authenticating to Watson services](/docs/watson?topic=watson-iam).
 {: note}
 
 ## Getting Cloud Foundry service credentials
