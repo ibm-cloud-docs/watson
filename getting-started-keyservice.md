@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-01-31"
+lastupdated: "2020-04-28"
 
 keywords: key management,byok,key encryption,encrypt key,root key
 
@@ -151,12 +151,28 @@ After you enable a customer-managed key, the service operates normally, and you 
 ### Temporarily prevent access to your data
 {: #keyservice-prevent-access}
 
-To temporarily prevent access, remove the authorization that you created in Step 3 between the {{site.data.keyword.watson}} service and {{site.data.keyword.keymanagementserviceshort}}. The {{site.data.keyword.watson}} instance can no longer access the data because it can no longer access the key. For more information, search for [Remove an authorization](/docs/iam?topic=iam-serviceauth#remove-auth) in "Granting access between services".
+To temporarily prevent access, remove all authorizations between the {{site.data.keyword.watson}} service and {{site.data.keyword.keymanagementserviceshort}}:
+
+- Remove the authorization that you created in Step 3 from the IAM [Authorizations](https://{DomainName}/iam/authorizations){: external} page.
+- Remove all other authorizations between other services connected with the {{site.data.keyword.watson}} service and {{site.data.keyword.keymanagementserviceshort}}.
+
+    1.  Find the Cloud Resource Name identifier (CRN) for the {{site.data.keyword.watson}} service that you want to remove access to. You find the CRN by clicking the service instance row in your [Resource list](https://{DomainName}/resources?groups=resource-instance){: external}. The CRN is displayed in the details pane.
+    1.  Back on the Authorizations page, search for that CRN in the list.
+    1.  Remove every authorization with the CRN of the {{site.data.keyword.watson}} service as the source and {{site.data.keyword.keymanagementserviceshort}} as the target.
+
+    These other authorizations might exist because the {{site.data.keyword.watson}} service can create delegated policies from the authorization that you created.
+
+The {{site.data.keyword.watson}} instance can no longer access the data because no authorizations exist to access the key. For more information, search for [Remove an authorization](/docs/iam?topic=iam-serviceauth#remove-auth) in "Granting access between services".
 
 ### Restore temporary access
 {: #keyservice-restore-access}
 
-To restore access after you temporarily remove it, re-create the authorization between your {{site.data.keyword.watson}} service and {{site.data.keyword.keymanagementserviceshort}} instance as shown in [Step 3. Grant service access](#serviceauth-key). Your {{site.data.keyword.watson}} instance then starts accepting connections again.
+To restore access after you temporarily remove it, follow these steps:
+
+1.  Re-create the authorization between your {{site.data.keyword.watson}} service and {{site.data.keyword.keymanagementserviceshort}} instance as shown in [Step 3. Grant service access](#serviceauth-key).
+1.  Tell your {{site.data.keyword.IBM_notm}} Client Success Manager (CSM) that you want to restore access through {{site.data.keyword.keymanagementserviceshort}}.
+
+After you re-create the authorization and your CSM confirms {{site.data.keyword.watson}} that any delegated authorizations are reconnected, the {{site.data.keyword.watson}} instance starts accepting connections again.
 
 ### Permanently prevent access to your data
 {: keyservice-delete}
