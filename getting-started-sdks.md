@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-12-11"
+  years: 2015, 2020
+lastupdated: "2020-07-22"
 
 keywords: Watson SDKs,SDK,software developer kit,programming interfaces,wrappers
 
@@ -42,11 +42,10 @@ The following {{site.data.keyword.watson}} SDKs are supported by {{site.data.key
 * [Python SDK](https://github.com/watson-developer-cloud/python-sdk){: external}
 * [Ruby SDK](https://github.com/watson-developer-cloud/ruby-sdk){: external}
 * [.NET SDK](https://github.com/watson-developer-cloud/dotnet-standard-sdk){: external}
-* [Salesforce SDK](https://github.com/watson-developer-cloud/salesforce-sdk){: external}
 * [Swift SDK](https://github.com/watson-developer-cloud/swift-sdk){: external}
 * [Unity SDK](https://github.com/watson-developer-cloud/unity-sdk){: external}
 
-The [API reference](https://{DomainName}/apidocs?category=ai){: external} for each service includes information and examples for many of the SDKs, including Java, Node.js, Python, Go , .Net, Ruby, and Swift.
+The [API reference](https://{DomainName}/docs?tab=api-docs&category=ai){: external} for each service includes information and examples for many of the SDKs, including Java, Node.js, Python, Go, .Net, Ruby, and Swift.
 {:tip}
 
 ## Community SDKs
@@ -55,6 +54,7 @@ The [API reference](https://{DomainName}/apidocs?category=ai){: external} for ea
 The following SDKs are available from the {{site.data.keyword.watson}} community of developers:
 
 * [ABAP SDK for IBM Watson](https://github.com/watson-developer-cloud/abap-sdk-nwas){: external}, using SAP NetWeaver
+* [Salesforce SDK](https://github.com/watson-developer-cloud/salesforce-sdk){: external}
 
 ## SDK updates and deprecation
 {: #sdk-schedule}
