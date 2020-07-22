@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-12-12"
+  years: 2019, 2020
+lastupdated: "2020-07-22"
 
 keywords: service endpoint,private network endpoint,network endpoint
 
@@ -16,6 +16,8 @@ subcollection: watson
 {:important: .important}
 {:note: .note}
 {:deprecated: .deprecated}
+{:preview: .preview}
+{:beta: .beta}
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:screen: .screen}
@@ -35,7 +37,7 @@ Private network endpoints support routing services over the {{site.data.keyword.
 ## Enabling your account
 {: #requirements-endpoints}
 
-Private network endpoints are supported only for premium plans. For more information, see [Changing service plans](/docs/resources?topic=resources-changing).
+Private network endpoints are supported for paid plans. Check the plan information for your service to learn about the plans that support private network endpoints.
 {: important}
 
 Your account must be configured before you can use private endpoints. To use private network endpoints, the following account features must be enabled for your account.
@@ -57,10 +59,10 @@ A service instance can have a private network endpoint, a public network endpoin
 
 ### Adding a private network endpoint
 
-You add a private endpoint to a service instance from the service details page if you have a Manager or Writer service access role.
+You add a private endpoint to a paid service instance from the service details page if you have a Manager or Writer service access role.
 
 1.  Go to your [Resource list](https://{DomainName}/resources){: external}.
-1.  Click the name of a service instance that is on a Premium plan.
+1.  Click the name of a service instance that is on a paid plan. Lite plans do not support private network endpoints.
 1.  In the service details page, click the **Manage** tab.
 1.  Click **Add private network endpoint**.
 
@@ -75,4 +77,4 @@ The service endpoint URLs are different for private and public network endpoints
 ## What to do next
 - [Configure your account](/docs/account?topic=account-vrf-service-endpoint) for VRF and Service endpoints.
 - Modify your applications to use the new service endpoint URL.
-- Read more about [service endpoints](/docs/resources?topic=resources-service-endpoints).
+- Read more about [service endpoints](/docs/account?topic=account-service-endpoints-overview).
