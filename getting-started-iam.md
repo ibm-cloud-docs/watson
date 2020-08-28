@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-12-12"
+  years: 2015, 2020
+lastupdated: "2020-08-28"
 
 keywords: IAM tokens,IAM authentication,api key
 
@@ -12,10 +12,12 @@ subcollection: watson
 
 {:shortdesc: .shortdesc}
 {:external: target="_blank" .external}
-{:tip: .tip}
+{:deprecated: .deprecated}
 {:important: .important}
 {:note: .note}
-{:deprecated: .deprecated}
+{:tip: .tip}
+{:preview: .preview}
+{:beta: .beta}
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:screen: .screen}
@@ -36,13 +38,13 @@ To authenticate to a service through its API, pass your credentials to the API. 
 
 - Authenticate with an IAM token.
 
-    IAM tokens are temporary security credentials that are valid for 60 minutes. When a token expires, you generate a new one. Tokens can be useful for temporary access to resources. For more information, see [Generating an IBM Cloud IAM token by using an API key](/docs/iam?topic=iam-iamtoken_from_apikey).
+    IAM tokens are temporary security credentials that are valid for 60 minutes. When a token expires, you generate a new one. Tokens can be useful for temporary access to resources. For more information, see [Generating an IBM Cloud IAM token by using an API key](/docs/account?topic=account-iamtoken_from_apikey).
 
 - Authenticate with an {{site.data.keyword.cloud_notm}} API key, a service ID API key, or a service-specific API key.
 
     API keys are simple to use and don't automatically expire. Anyone with a valid key can access the resource. You can create separate API keys for different users, different applications, or to support key rotation scenarios. You can revoke API keys from the console without interfering with other API keys or the user.
 
-For testing and development, you can pass in an API key directly. However, for production use, unless you use the {{site.data.keyword.watson}} SDKs, use an IAM token. When you pass an API key, the service looks up the API key details, so it might affect performance. For more information, see [Invoking IBM Cloud service APIs](/docs/iam?topic=iam-iamapikeysforservices).
+For testing and development, you can pass in an API key directly. However, for production use, unless you use the {{site.data.keyword.watson}} SDKs, use an IAM token. When you pass an API key, the service looks up the API key details, so it might affect performance. For more information, see [Invoking IBM Cloud service APIs](docs/account?topic=account-iamapikeysforservices).
 
 The {{site.data.keyword.watson}} SDKs support both methods. For more information, see the **Authentication** section of the [API reference](https://{DomainName}/apidocs?category=ai){: external} for your service and SDK.
 
@@ -59,11 +61,11 @@ Three types of API keys are supported by {{site.data.keyword.watson}} services:
 
 - {{site.data.keyword.cloud_notm}} API keys
 
-    {{site.data.keyword.cloud_notm}} API keys are associated with a user's identity. Only the user who is associated with the key can delete it. The same {{site.data.keyword.cloud_notm}} API key can be used to access different services. For more information about working with {{site.data.keyword.cloud_notm}} API keys, see [Managing user API keys](/docs/iam?topic=iam-userapikey).
+    {{site.data.keyword.cloud_notm}} API keys are associated with a user's identity. Only the user who is associated with the key can delete it. The same {{site.data.keyword.cloud_notm}} API key can be used to access different services. For more information about working with {{site.data.keyword.cloud_notm}} API keys, see [Managing user API keys](/docs/account?topic=account-userapikey).
 
 - Service ID API keys
 
-    Service IDs enable access to your IBM Cloud services by applications hosted both inside and outside of IBM Cloud. API keys that are associated with service IDs are granted the access that is associated with that service ID. For more information about service ID keys, see [Managing service ID API keys](/docs/iam?topic=iam-serviceidapikeys).
+    Service IDs enable access to your IBM Cloud services by applications hosted both inside and outside of IBM Cloud. API keys that are associated with service IDs are granted the access that is associated with that service ID. For more information about service ID keys, see [Managing service ID API keys](/docs/account?topic=account-serviceidapikeys).
 
 ## API key best practices
 {: #gs-iam-api-bp}
@@ -88,7 +90,7 @@ Keep your API keys secure to reduce the chance of publicly exposing credentials 
 ## Next steps
 {: #gs-iam-next-steps}
 
-- Read an overview of [IBM Cloud IAM](/docs/iam?topic=iam-iamoverview)
-- Learn about [managing access](/docs/iam?topic=iam-cloudaccess) in IBM Cloud
-- Dive into [policies, user roles, and permissions](/docs/iam?topic=iam-userroles)
-- See how to [pass API keys and tokens](/docs/iam?topic=iam-iamapikeysforservices)
+- Read an overview of [IBM Cloud IAM](/docs/account?topic=account-iamoverview)
+- Learn about [managing access](/docs/account?topic=account-cloudaccess) in {{site.data.keyword.cloud_notm}}
+- Dive into [policies, user roles, and permissions](/docs/account?topic=account-userroles)
+- See how to [pass API keys and tokens](docs/account?topic=account-iamapikeysforservices)

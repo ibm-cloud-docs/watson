@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-04-28"
+lastupdated: "2020-08-28"
 
 keywords: key management,byok,key encryption,encrypt key,root key
 
@@ -162,7 +162,7 @@ To temporarily prevent access, remove all authorizations between the {{site.data
 
     These other authorizations might exist because the {{site.data.keyword.watson}} service can create delegated policies from the authorization that you created.
 
-The {{site.data.keyword.watson}} instance can no longer access the data because no authorizations exist to access the key. For more information, search for [Remove an authorization](/docs/iam?topic=iam-serviceauth#remove-auth) in "Granting access between services".
+The {{site.data.keyword.watson}} instance can no longer access the data because no authorizations exist to access the key. For more information, search for [Removing an authorization](/docs/account?topic=account-serviceauth#remove-auth) in "Using authorizations to grant access between services".
 
 ### Restore temporary access
 {: #keyservice-restore-access}

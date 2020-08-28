@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-01-21"
+lastupdated: "2020-08-28"
 
 keywords: migrate,Cloud Foundry,resource group
 
@@ -41,16 +41,16 @@ If you created service instances before November 2018, then they might be using 
 ## Migrating a service instance
 {: #migrate-task}
 
-To learn more about the migration process before you begin, see the [{{site.data.keyword.cloud_notm}} migration documentation](/docs/resources?topic=resources-migrate).
+To learn more about the migration process before you begin, see the [{{site.data.keyword.cloud_notm}} migration documentation](/docs/account?topic=account-migrate).
 
-Only the person or group that created the instance or that has the appropriate privileges can migrate it. For more information, see [Required access for service instances](/docs/resources?topic=resources-migrate#required_access_instances).
+Only the person or group that created the instance or that has the appropriate privileges can migrate it. For more information, see [Required access for service instances](/docs/account?topic=account-migrate#required_access_instances).
 {: note}
 
 To migrate your service instance, complete these steps:
 
 1.  Determine which resource group you want to move the service instance to.
 
-    See [Best practices for organizing resource in a resource group](/docs/resources?topic=resources-bp_resourcegroups) for tips.
+    See [Best practices for organizing resource in a resource group](/docs/account?topic=account-account_setup) for tips.
 
     With a Premium plan, you can migrate multiple instances. However, the instances must all be migrated to the same resource group.
 
@@ -72,7 +72,7 @@ To migrate your service instance, complete these steps:
         ```
         {: pre}
 
-        The response shows the ID of the resource group. For more information about the CLI command, see [Working with resources and resource groups](/docs/cli?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_commands_resource).
+        The response shows the ID of the resource group. For more information about the CLI command, see [Working with resources and resource groups](/docs/cli?topic=cli-ibmcloud_commands_resource).
 
     Give the support team up to 24 hours to complete the migration. There is no disruption of service during the process.
 
@@ -95,7 +95,7 @@ The following image shows how a {{site.data.keyword.conversationshort}} service 
 
 ![Shows that the current service instance is now an alias of a resource-based instance](images/alias.png)
 
-For more information about aliases, see [Managing Connections](/docs/resources/connecting_apps?topic=resources-connect_app#what_is_alias).
+For more information about aliases, see [Managing Connections](/docs/account?topic=account-connect_app#what_is_alias).
 
 ### Details about the migrated instance
 {: #migrate-working}
