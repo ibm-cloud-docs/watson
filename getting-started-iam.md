@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-08-28"
+lastupdated: "2020-09-15"
 
 keywords: IAM tokens,IAM authentication,api key
 
@@ -44,7 +44,7 @@ To authenticate to a service through its API, pass your credentials to the API. 
 
     API keys are simple to use and don't automatically expire. Anyone with a valid key can access the resource. You can create separate API keys for different users, different applications, or to support key rotation scenarios. You can revoke API keys from the console without interfering with other API keys or the user.
 
-For testing and development, you can pass in an API key directly. However, for production use, unless you use the {{site.data.keyword.watson}} SDKs, use an IAM token. When you pass an API key, the service looks up the API key details, so it might affect performance. For more information, see [Invoking IBM Cloud service APIs](docs/account?topic=account-iamapikeysforservices).
+For testing and development, you can pass in an API key directly. However, for production use, unless you use the {{site.data.keyword.watson}} SDKs, use an IAM token. When you pass an API key, the service looks up the API key details, so it might affect performance. For more information, see [Invoking IBM Cloud service APIs](/docs/account?topic=account-iamapikeysforservices).
 
 The {{site.data.keyword.watson}} SDKs support both methods. For more information, see the **Authentication** section of the [API reference](https://{DomainName}/apidocs?category=ai){: external} for your service and SDK.
 
