@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-03-19"
+lastupdated: "2020-07-15"
 
 keywords: Cloud Foundry, authentication,service credentials
 
@@ -57,7 +57,7 @@ Make sure that you update the credentials in your applications for any changes.
 
 ## Credentials in {{site.data.keyword.Bluemix_dedicated_notm}}
 
-In an [{{site.data.keyword.Bluemix_dedicated_notm}}](/docs/dedicated?topic=dedicated-dedicated#dedicated) instance, service tiles are implemented so that only one tile is permitted per service in an organization.
+In an {{site.data.keyword.Bluemix_dedicated_notm}} instance, service tiles are implemented so that only one tile is permitted per service in an organization.
 
 Follow these steps to refer to a service in your own {{site.data.keyword.Bluemix_dedicated_notm}} workspace:
 
