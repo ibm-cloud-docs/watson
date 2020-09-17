@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-01-31"
+lastupdated: "2020-09-17"
 
 keywords: getting started,watson
 
@@ -23,7 +23,7 @@ subcollection: watson
 {:java: .ph data-hd-programlang='java'}
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
-{:gif: data-image-type='gif'}
+{:video: .video}
 
 # Getting started with Watson and {{site.data.keyword.cloud_notm}}
 {: #about}
@@ -43,7 +43,7 @@ Create an account on {{site.data.keyword.cloud_notm}} to try {{site.data.keyword
 1.  Select a service that fits your needs.
 1.  Create an instance of the service for free.
 
-![Click Menu, and then click Watson](images/ic-create-service.gif){: gif}
+![Click Menu, and then click Watson](images/ic-create-service.mp4){: video controls loop}
 
 ## Next steps
 {: #gs-index-next-steps}
