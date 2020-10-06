@@ -24,6 +24,7 @@ Watson
         getting-started-credentials.md
         getting-started-tokens.md
 
+    endpoints-change.md
     migrate.md
     getting-started-logging.md
     getting-started-gdpr-sar.md
