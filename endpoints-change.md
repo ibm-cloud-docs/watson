@@ -40,7 +40,7 @@ subcollection: watson
 The `watsonplatform.net` endpoint URLs are deprecated and are scheduled to be retired on 12 February 2021. Update your API calls to use new URLs.
 {: deprecated}
 
-As each {{site.data.keyword.watson}} service announced in December 2019, the pattern for the new endpoint URLs is `api.{location}.{offering}.watson.cloud.ibm.com`. For example, with {{site.data.keyword.conversationshort}} services that are hosted in Washington DC, the messages endpoint changes from `https://gateway-wdc.watsonplatform.net/assistant/api/v1/workspaces/{workspace_id}/message` to `https://api.us-east.assistant.watson.cloud.ibm.com/instances/{instance_id}/v1/workspaces/{workspace_id}/message`. The domain, location, and offering identifier are different in the new endpoint.
+As each {{site.data.keyword.watson}} service announced in December 2019, the pattern for the new endpoint URLs is `api.{location}.{offering}.watson.cloud.ibm.com`. For example, with {{site.data.keyword.conversationshort}} services that are hosted in Washington DC, the `message` endpoint changes from `https://gateway-wdc.watsonplatform.net/assistant/api/v1/workspaces/{workspace_id}/message` to `https://api.us-east.assistant.watson.cloud.ibm.com/instances/{instance_id}/v1/workspaces/{workspace_id}/message`. The domain, location, and offering identifier are different in the new endpoint.
 
 When you call a {{site.data.keyword.watson}} API, use the new base URL that corresponds to your {{site.data.keyword.watson}} offering and to the location where your service instance is hosted.
 
