@@ -2,7 +2,7 @@
 
 copyright:
    years: 2020
-lastupdated: "2020-10-06"
+lastupdated: "2020-10-07"
 
 keywords: watsonplatform,migrate watson endpoints,update watson endpoints,update watson url
 
@@ -49,7 +49,7 @@ When you call a {{site.data.keyword.watson}} API, use the new base URL that corr
 
 You can find the URL for your service instance with the service credentials. You can also update the endpoint URL and API key in the same place.
 
-1.  Click the name of the service in the [Resource list]({DomainName}/resources?groups=resource-instance){: external}.
+1.  Click the name of the service in the [Resource list]((https://{DomainName}/resources?groups=resource-instance){: external}.
 1.  If you see a URL with the domain `watsonplatform.net` in the credentials, update the credentials:
     1.  Click the **Service credentials** tab, and then click **New credential**.
     1.  Expand the new credentials and look for the `url`. The pattern is `api.{location}.{offering}.watson.cloud.ibm.com`.
