@@ -32,5 +32,5 @@ If you are concerned with protecting the privacy of users' personal information 
 
 To prevent {{site.data.keyword.IBM_notm}} usage of your data for general service improvements, set the header parameter `X-Watson-Learning-Opt-Out` to `true` or `1` for the request. (Any value other than false or 0 disables request logging for that call.) You must set the header on each request that you do not want {{site.data.keyword.IBM_notm}} to use for general service improvements.
 
-`X-WDC-PL-OPT-OUT` deprecated: The earlier name, X-WDC-PL-OPT-OUT, is deprecated, although it continues to work for now. The header accepts a value of 1 to opt out of request logging. Any other value enables logging.
+`X-WDC-PL-OPT-OUT` deprecated: The earlier name, X-WDC-PL-OPT-OUT, is deprecated, although it continues to work for now. The header accepts a value of `1` to opt out of request logging. Any other value enables logging.
 {: deprecated}
