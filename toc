@@ -32,6 +32,11 @@ Watson
 
     {: .navgroup id="help"}
     {: .topicgroup}
+    Troubleshooting
+        401-authorization.md
+        403-forbidden.md
+
+    {: .topicgroup}
     Developer community
         [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-watson-cognitive)
         [Join the Slack community](http://wdc-slack-inviter.mybluemix.net/)
