@@ -1,12 +1,14 @@
 ---
 
 copyright:
-   years: 2020
-lastupdated: "2020-12-09"
+   years: 2020, 2021
+lastupdated: "2021-01-20"
 
 keywords: watson 401 error, watson messages, watson error messages, watson response codes, watson status codes
 
 subcollection: watson
+
+content-type: troubleshoot
 
 ---
 
@@ -37,17 +39,17 @@ You send a request to a Watson API but receive an error message that you don't h
 When you send a request through a Watson API, you receive a 403 HTTP status code.
 {: tsSymptoms}
 
-<!-- For example,
+ For example,
 
 ```json
 {
-  "error": "<some message>",
-  "code": 403,
-  "more_info": "https://cloud.ibm.com/docs/watson?topic=watson-troubleshoot-403",
-  "trace": "{specific_request_id}"
+  "trace":"b0615b07-3a0f-4eb0-8df4-263d64be6b03",
+  "error":"Forbidden",
+  "more_info":"https://cloud.ibm.com/docs/watson?topic=watson-forbidden-error",
+  "code":403
 }
 ```
-{: screen} -->
+{: screen}
 
 A 403 HTTP status code indicates that you are not allowed to make the request. 403 is similar to [401](/docs/watson?topic=watson-authorization-error), but changing the authentication does not affect the result.
 {: tsCauses}

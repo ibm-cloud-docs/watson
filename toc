@@ -35,6 +35,7 @@ Watson
     Troubleshooting
         401-authorization.md
         403-forbidden.md
+        project-use.md
 
     {: .topicgroup}
     Developer community
