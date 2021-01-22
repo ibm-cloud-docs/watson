@@ -1,8 +1,8 @@
 ---
 
 copyright:
-   years: 2020
-lastupdated: "2020-10-07"
+   years: 2020, 2021
+lastupdated: "2021-01-22"
 
 keywords: watsonplatform,migrate watson endpoints,update watson endpoints,update watson url
 
@@ -37,7 +37,7 @@ subcollection: watson
 {{site.data.keyword.watson}} API endpoint URLs at `watsonplatform.net` are changing and will not work after they are retired. Update your calls to use the newer endpoint URLs.
 {: shortdesc}
 
-The `watsonplatform.net` endpoint URLs are deprecated and are scheduled to be retired on 12 February 2021. Update your API calls to use new URLs.
+The `watsonplatform.net` endpoint URLs are deprecated and are scheduled to be retired on 26 May 2021. Update your API calls to use new URLs.
 {: deprecated}
 
 As each {{site.data.keyword.watson}} service announced in December 2019, the pattern for the new endpoint URLs is `api.{location}.{offering}.watson.cloud.ibm.com`. For example, with {{site.data.keyword.conversationshort}} services that are hosted in Washington DC, the `message` endpoint changes from `https://gateway-wdc.watsonplatform.net/assistant/api/v1/workspaces/{workspace_id}/message` to `https://api.us-east.assistant.watson.cloud.ibm.com/instances/{instance_id}/v1/workspaces/{workspace_id}/message`. The domain, location, and offering identifier are different in the new endpoint.
@@ -59,7 +59,7 @@ You can find the URL for your service instance with the service credentials. You
 ## Updating your API calls
 {: #endpoint-update-code}
 
-Applications and API calls that use `watsonplatform.net` will fail after 12 February 2021.
+Applications and API calls that use `watsonplatform.net` will fail after 26 May 2021.
 {: important}
 
 Update your client applications to use the updated endpoint URL with the pattern `api.{location}.{offering}.watson.cloud.ibm.com`. Although the existing API key will work until you delete the older credentials, consider updating the API key as well. By using the values from the same credential set, you reduce the chance that one value stops working.
