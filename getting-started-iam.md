@@ -38,7 +38,7 @@ To authenticate to a service through its API, pass your credentials to the API. 
 
 - Authenticate with an IAM token.
 
-    IAM tokens are temporary security credentials that are valid for 60 minutes. When a token expires, you generate a new one. Tokens can be useful for temporary access to resources. For more information, see [Generating an IBM Cloud IAM token by using an API key](/docs/account?topic=account-iamtoken_from_apikey).
+    IAM tokens are temporary security credentials that are valid for up to 60 minutes. When a token expires, you generate a new one. Tokens can be useful for temporary access to resources. For more information, see [Generating an IBM Cloud IAM token by using an API key](/docs/account?topic=account-iamtoken_from_apikey).
 
 - Authenticate with an {{site.data.keyword.cloud_notm}} API key, a service ID API key, or a service-specific API key.
 
