@@ -19,6 +19,8 @@
     "API not working for Watson",
     "403 HTTP status code",
     "403 HTTP status code using an API",
+    "403 Forbidden message",
+    "work in my Watson studio notebook and I am getting a 403 Forbidden message",
     "403 error trying to use API",
     "using an API and get 403 error message",
     "getting error message (error 403) ",
@@ -45,12 +47,21 @@
     "do not see the projects I  created",
     "how do I open watson studio",
     "how do I create a new project",
+    "How can I open a project",
+    "how can i select new project",
     "how can I create a project in watson studio",
     "create waton studio project",
+    "how do i find my project",
+    "launch watson",
+    "launching watson services",
+    "open watson",
+    "create project",
     "open watson studio",
     "how to make new project",
     "how to create new project",
     "access my studio project,",
+    "where is new project found",
+    "where do I find my current projects",
     "start a project on my watson studio",
     "How to access project",
     "How can I create my project in IBM Cloud",
@@ -62,3 +73,4 @@
     "can't access my watson studio projects"
   ]
 }
+
