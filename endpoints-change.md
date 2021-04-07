@@ -2,7 +2,7 @@
 
 copyright:
    years: 2020, 2021
-lastupdated: "2021-01-22"
+lastupdated: "2021-04-07"
 
 keywords: watsonplatform,migrate watson endpoints,update watson endpoints,update watson url
 
@@ -65,3 +65,11 @@ Applications and API calls that use `watsonplatform.net` will fail after 26 May 
 Update your client applications to use the updated endpoint URL with the pattern `api.{location}.{offering}.watson.cloud.ibm.com`. Although the existing API key will work until you delete the older credentials, consider updating the API key as well. By using the values from the same credential set, you reduce the chance that one value stops working.
 
 For more information about setting the URL with the {{site.data.keyword.watson}} SDKs, see the **Endpoint URLs** section of the [API reference](/docs?tab=api-docs&category=ai) for your service.
+
+## Information about other services
+{: #endpoint-links}
+
+The following links lead to more information about how to update endpoint URLs for specific offerings.
+
+- [{{site.data.keyword.conversationshort}} integrations](/docs/assistant?topic=assistant-release-notes#6April2021) (including web chat, Slack, Facebook Messenger, Jupyter notebooks)
+- [Watson Assistant for Voice Interaction on Cloud Pak for Data](https://ibm.box.com/s/t55zt3z90wse82nsy3de55xyp4prasg9){: external}
