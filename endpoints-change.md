@@ -2,7 +2,7 @@
 
 copyright:
    years: 2020, 2021
-lastupdated: "2021-04-07"
+lastupdated: "2021-04-09"
 
 keywords: watsonplatform,migrate watson endpoints,update watson endpoints,update watson url
 
@@ -72,4 +72,4 @@ For more information about setting the URL with the {{site.data.keyword.watson}}
 The following links lead to more information about how to update endpoint URLs for specific offerings.
 
 - [{{site.data.keyword.conversationshort}} integrations](/docs/assistant?topic=assistant-release-notes#6April2021) (including web chat, Slack, Facebook Messenger, Jupyter notebooks)
-- [Watson Assistant for Voice Interaction on Cloud Pak for Data](https://ibm.box.com/s/t55zt3z90wse82nsy3de55xyp4prasg9){: external}
+- [Watson Assistant for Voice Interaction on Cloud Pak for Data](https://ibm.box.com/s/w6t0pckql87hv84dlxuk9gpiuq960w1g){: external}
