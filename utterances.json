@@ -38,7 +38,8 @@
     "403 or Forbidden when try to call the API",
     "get the correct API  key.. because im getting a 403 or Forbidden when try to called the API",
     "I get a 403 error when accessing speech-to-text",
-    "The API query failed with status code Forbidden: Forbidden"
+    "The API query failed with status code Forbidden: Forbidden",
+    "watsonplatform.net endpoint URL retired"
   ],
   "project-use": [
     "Why can't I see my Watson Studio projects",
