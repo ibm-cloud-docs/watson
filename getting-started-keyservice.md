@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2020
-lastupdated: "2020-08-28"
+  years: 2019, 2021
+lastupdated: "2021-05-25"
 
 keywords: key management,byok,key encryption,encrypt key,root key
 
@@ -23,6 +23,8 @@ subcollection: watson
 
 # Protecting sensitive information in your {{site.data.keyword.watson}} service
 {: #keyservice}
+
+![IBM Cloud only](images/ibm-cloud.png) **{{site.data.keyword.cloud_notm}} only**
 
 You can add a higher level of encryption protection and control to your data at rest (when it is stored) and data in motion (when it is transported) by enabling integration with {{site.data.keyword.keymanagementservicefull}}.
 {: shortdesc}
@@ -110,13 +112,14 @@ After you add a root key to {{site.data.keyword.keymanagementserviceshort}}, you
 You must be the account owner or administrator on the {{site.data.keyword.keymanagementserviceshort}} service instance and at least the viewer role on all instances of the {{site.data.keyword.watson}} services.
 
 1.  Go to the IAM [Authorizations](https://{DomainName}/iam/authorizations){: external} page. (From the {{site.data.keyword.cloud_notm}} console menu bar, select **Manage** > **Access IAM**, and then click **Authorizations**.)
-1.  Select the {{site.data.keyword.watson}} service as the **Source service**. Leave **All instances** selected.
-1.  Select the key that you added earlier as the **Target service instance**.
-1.  Select the **{{site.data.keyword.keymanagementserviceshort}}** as the target service and then select the key that you added earlier as the target service instance.
+1.  Click **Create**.
+1.  Select the {{site.data.keyword.watson}} service as the **Source service**. Leave **All resources** selected to scope the access.
+1.  Select {{site.data.keyword.keymanagementserviceshort}} as the **Target service**.
+1.  Select **Resources based on selected attributes**, and then select **Instance ID** for the target service attribute. Select the {{site.data.keyword.keymanagementserviceshort}} service instance that you created earlier.
 1.  Authorize dependent services by selecting **Enable authorization to be delegated**.
 
     Delegation allows the {{site.data.keyword.keymanagementserviceshort}} instance to propagate its authorizations to this service.
-1.  Make sure that the **Reader** role in enabled.
+1.  Make sure that the **Reader** role is enabled.
 
     Reader permissions allow the {{site.data.keyword.watson}} service to see the root keys in the {{site.data.keyword.keymanagementserviceshort}} instance.
 1.  Click **Authorize** and confirm delegated authorization.
