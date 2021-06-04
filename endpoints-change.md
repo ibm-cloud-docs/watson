@@ -2,7 +2,7 @@
 
 copyright:
    years: 2020, 2021
-lastupdated: "2021-04-09"
+lastupdated: "2021-06-04"
 
 keywords: watsonplatform,migrate watson endpoints,update watson endpoints,update watson url
 
@@ -37,7 +37,7 @@ subcollection: watson
 {{site.data.keyword.watson}} API endpoint URLs at `watsonplatform.net` are changing and will not work after they are retired. Update your calls to use the newer endpoint URLs.
 {: shortdesc}
 
-The `watsonplatform.net` endpoint URLs are deprecated and are scheduled to be retired on 26 May 2021. Update your API calls to use new URLs.
+The `watsonplatform.net` endpoint URLs were retired on 26 May 2021. Update your API calls to use new URLs.
 {: deprecated}
 
 As each {{site.data.keyword.watson}} service announced in December 2019, the pattern for the new endpoint URLs is `api.{location}.{offering}.watson.cloud.ibm.com`. For example, with {{site.data.keyword.conversationshort}} services that are hosted in Washington DC, the `message` endpoint changes from `https://gateway-wdc.watsonplatform.net/assistant/api/v1/workspaces/{workspace_id}/message` to `https://api.us-east.assistant.watson.cloud.ibm.com/instances/{instance_id}/v1/workspaces/{workspace_id}/message`. The domain, location, and offering identifier are different in the new endpoint.
@@ -54,15 +54,16 @@ You can find the URL for your service instance with the service credentials. You
     1.  Click the **Service credentials** tab, and then click **New credential**.
     1.  Expand the new credentials and look for the `url`. The pattern is `api.{location}.{offering}.watson.cloud.ibm.com`.
     1.  Look for the `apikey` in the new credentials.
+1.  Delete the older credentials by clicking the **Delete** icon for the set.
 1.  Update your API calls to use the `watson.cloud.ibm.com` URL and API key values.
 
 ## Updating your API calls
 {: #endpoint-update-code}
 
-Applications and API calls that use `watsonplatform.net` will fail after 26 May 2021.
+After 26 May 2021, your applications and API calls that use `watsonplatform.net` cannot connect.
 {: important}
 
-Update your client applications to use the updated endpoint URL with the pattern `api.{location}.{offering}.watson.cloud.ibm.com`. Although the existing API key will work until you delete the older credentials, consider updating the API key as well. By using the values from the same credential set, you reduce the chance that one value stops working.
+Update your client applications to use the updated endpoint URL with the pattern `api.{location}.{offering}.watson.cloud.ibm.com` and the API key from the same set of credentials. Although the existing API key works with the new endpoint URL until you delete the older credentials, some {{site.data.keyword.watson}} tools might continue to use the old URL if it exists. By deleting the older credential set, you reduce the chance that the call does not succeed.
 
 For more information about setting the URL with the {{site.data.keyword.watson}} SDKs, see the **Endpoint URLs** section of the [API reference](/docs?tab=api-docs&category=ai) for your service.
 
@@ -71,5 +72,5 @@ For more information about setting the URL with the {{site.data.keyword.watson}}
 
 The following links lead to more information about how to update endpoint URLs for specific offerings.
 
-- [{{site.data.keyword.conversationshort}} integrations](/docs/assistant?topic=assistant-release-notes#6April2021) (including web chat, Slack, Facebook Messenger, Jupyter notebooks)
+- [{{site.data.keyword.conversationshort}} integrations](/docs/assistant?topic=assistant-release-notes#6April2021) (including web chat, Slack, Facebook Messenger, Jupyter Notebooks)
 - [{{site.data.keyword.IBM_notm}} Voice Gateway](https://ibm.box.com/s/w6t0pckql87hv84dlxuk9gpiuq960w1g){: external}
