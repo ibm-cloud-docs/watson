@@ -2,7 +2,7 @@
 
 copyright:
    years: 2020, 2021
-lastupdated: "2021-01-20"
+lastupdated: "2021-07-15"
 
 keywords: watson 401 error, watson messages, watson error messages, watson response codes, watson status codes
 
@@ -51,12 +51,11 @@ When you send your credentials through a Watson API, you receive a 401 HTTP stat
 ```
 {: screen}
 
-A 401 HTTP status code indicates that your credentials are invalid for the service instance. 401 is similar to [403](/docs/watson?topic=watson-forbidden-error), but refers only to authentication, not permissions.
+A 401 HTTP status code indicates that you are not authenticated. 401 is similar to [403](/docs/watson?topic=watson-forbidden-error), but refers only to authentication, not permissions or authorization.
 {: tsCauses}
 
 Common causes include these situations:
 
-- The API key or URL is not correct for the instance.
 - The access token is expired.
 - The password or API key values include the placeholder brackets (`{`, `}`).
 - The instance uses username and password authentication.

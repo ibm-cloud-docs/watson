@@ -2,7 +2,7 @@
 
 copyright:
    years: 2020, 2021
-lastupdated: "2021-05-25"
+lastupdated: "2021-07-15"
 
 keywords: watson 403 error, watson messages, watson error messages, watson response codes, watson status codes
 
@@ -51,16 +51,19 @@ When you send a request through a Watson API, you receive a 403 HTTP status code
 ```
 {: screen}
 
-A 403 HTTP status code indicates that you are not allowed to make the request. 403 is similar to [401](/docs/watson?topic=watson-authorization-error), but changing the authentication does not affect the result.
+A 403 HTTP status code indicates that you are not allowed to make the request. 403 is similar to [401](/docs/watson?topic=watson-authorization-error), but the credential is not authorized for the resource or service instance.
 {: tsCauses}
 
 As of 26 May 2021, the `watsonplatform.net` endpoint URLs are blocked, and calls to that domain return a 403. You might have received email to your {{site.data.keyword.cloud_notm}} email address with information about this endpoint change.
 {: important}
 
-Access in {{site.data.keyword.watson}} services can be affected by the endpoint URL and by service roles.
+Access in {{site.data.keyword.watson}} services can be affected by the endpoint URL and by keys, tokens, or service roles that are not authorized.
 {: tsResolve}
 
-- Verify the endpoint URL in your call. Make sure that you're not pointing to `watsonplatform.net`. For more information about the actions to take, see [Updating endpoint URLs from watsonplatform.net](/docs/watson?topic=watson-endpoint-change).
+- Verify the endpoint URL in your call. 
+    - Check that the URL in your call matches the URL in the service instance.
+    - Make sure that you're not pointing to `watsonplatform.net`. For more information about the actions to take, see [Updating endpoint URLs from watsonplatform.net](/docs/watson?topic=watson-endpoint-change).
+- Verify that the API key in your call matches the URL in the service instance.
 - Validate the role that is associated with your credentials. The service access role that is associated with your API key determines which endpoints and methods you can access.
 
     For example, with a Reader role, you might not be able to edit, create, or delete anything, and might not be able to view some details of a resource.
