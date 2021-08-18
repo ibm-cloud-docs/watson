@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2020
-lastupdated: "2020-07-22"
+  years: 2019, 2021
+lastupdated: "2021-08-18"
 
 keywords: service endpoint,private network endpoint,network endpoint
 
@@ -29,8 +29,10 @@ subcollection: watson
 # Public and private network endpoints
 {: #public-private-endpoints}
 
+![IBM Cloud only](images/ibm-cloud.png) **{{site.data.keyword.cloud_notm}} only**
+
 {{site.data.keyword.cloud}} supports both public and private network endpoints for certain plans. Connections to private network endpoints do not require public internet access.
-{:shortdesc}
+{: shortdesc}
 
 Private network endpoints support routing services over the {{site.data.keyword.cloud_notm}} private network instead of the public network. A private network endpoint provides a unique IP address that is accessible to you without a VPN connection.
 

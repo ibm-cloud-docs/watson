@@ -2,7 +2,7 @@
 
 copyright:
    years: 2020, 2021
-lastupdated: "2021-06-04"
+lastupdated: "2021-06-08"
 
 keywords: watsonplatform,migrate watson endpoints,update watson endpoints,update watson url
 
@@ -54,7 +54,7 @@ You can find the URL for your service instance with the service credentials. You
     1.  Click the **Service credentials** tab, and then click **New credential**.
     1.  Expand the new credentials and look for the `url`. The pattern is `api.{location}.{offering}.watson.cloud.ibm.com`.
     1.  Look for the `apikey` in the new credentials.
-1.  Delete the older credentials by clicking the **Delete** icon for the set.
+1.  Delete the older credentials by clicking the **Delete** icon ![Delete icon](../icons/delete.svg "Delete") for the set.
 1.  Update your API calls to use the `watson.cloud.ibm.com` URL and API key values.
 
 ## Updating your API calls
