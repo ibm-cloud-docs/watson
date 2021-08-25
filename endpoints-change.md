@@ -2,7 +2,7 @@
 
 copyright:
    years: 2020, 2021
-lastupdated: "2021-06-08"
+lastupdated: "2021-08-25"
 
 keywords: watsonplatform,migrate watson endpoints,update watson endpoints,update watson url
 
@@ -31,7 +31,7 @@ subcollection: watson
 {:swift: .ph data-hd-programlang='swift'}
 {:unity: .ph data-hd-programlang='unity'}
 
-# Updating endpoint URLs from watsonplatform.net
+# Updating endpoint URLs from `watsonplatform.net`
 {: #endpoint-change}
 
 {{site.data.keyword.watson}} API endpoint URLs at `watsonplatform.net` are changing and will not work after they are retired. Update your calls to use the newer endpoint URLs.
