@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-04-06"
+lastupdated: "2021-09-13"
 
 keywords: IAM tokens,IAM authentication,api key
 
@@ -10,17 +10,7 @@ subcollection: watson
 
 ---
 
-{:shortdesc: .shortdesc}
-{:external: target="_blank" .external}
-{:deprecated: .deprecated}
-{:important: .important}
-{:note: .note}
-{:tip: .tip}
-{:preview: .preview}
-{:beta: .beta}
-{:pre: .pre}
-{:codeblock: .codeblock}
-{:screen: .screen}
+{{site.data.keyword.attribute-definition-list}}
 
 # Authenticating to {{site.data.keyword.watson}} services
 {: #iam}

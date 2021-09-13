@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-05-25"
+lastupdated: "2021-09-13"
 
 keywords: key management,byok,key encryption,encrypt key,root key
 
@@ -10,16 +10,7 @@ subcollection: watson
 
 ---
 
-{:shortdesc: .shortdesc}
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:important: .important}
-{:note: .note}
-{:deprecated: .deprecated}
-{:pre: .pre}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:term: .term}
+{{site.data.keyword.attribute-definition-list}}
 
 # Protecting sensitive information in your {{site.data.keyword.watson}} service
 {: #keyservice}

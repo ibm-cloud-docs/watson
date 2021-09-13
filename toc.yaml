@@ -1,0 +1,60 @@
+toc:
+  properties:
+    subcollection: watson
+    audience: service
+    href: /docs/watson?topic=watson-about#about
+    version: 2
+    path: watson
+    label: Watson
+  entries:
+  - navgroup:
+      id: learn
+      topics:
+      - index.md
+      - topicgroup:
+          label: Additional resources
+          links:
+          - link:
+              label: Blog
+              href: https://developer.ibm.com/technologies/artificial-intelligence/blogs/
+          - link:
+              label: Webinars
+              href: https://www.ibm.com/watson/webinars/
+  - navgroup:
+      id: howto
+      topics:
+      - getting-started-iam.md
+      - service-endpoints.md
+      - getting-started-keyservice.md
+      - endpoints-change.md
+      - getting-started-logging.md
+      - getting-started-gdpr-sar.md
+  - navgroup:
+      id: reference
+      topics:
+      - getting-started-sdks.md
+      links:
+      - link:
+          label: Watson GitHub repos
+          href: https://github.com/watson-developer-cloud/
+      - link:
+          label: Watson docs
+          href: https://cloud.ibm.com/developer/watson/documentation
+  - navgroup:
+      id: help
+      topics:
+      - topicgroup:
+          label: Troubleshooting
+          topics:
+          - 401-authorization.md
+          - 403-forbidden.md
+          - project-use.md
+      - topicgroup:
+          label: Developer resources
+          links:
+          - link:
+              label: Stack Overflow
+              href: https://stackoverflow.com/questions/tagged/ibm-watson-cognitive)
+          - link:
+              label: Join the Slack community
+              href: http://wdc-slack-inviter.mybluemix.net/

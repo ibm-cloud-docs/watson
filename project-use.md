@@ -2,7 +2,7 @@
 
 copyright:
    years: 2021
-lastupdated: "2021-01-20"
+lastupdated: "2021-09-13"
 
 keywords: watson project, studio project
 
@@ -12,22 +12,7 @@ content-type: troubleshoot
 
 ---
 
-{:shortdesc: .shortdesc}
-{:external: target="_blank" .external}
-{:deprecated: .deprecated}
-{:important: .important}
-{:note: .note}
-{:tip: .tip}
-{:preview: .preview}
-{:beta: .beta}
-{:pre: .pre}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tsSymptoms: .tsSymptoms}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:troubleshoot: data-hd-content-type='troubleshoot'}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Why can’t I see my {{site.data.keyword.DSX}} projects that are used with a {{site.data.keyword.watson}} service?
 {: #project-use}

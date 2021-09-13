@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-11-18"
+  years: 2015, 2021
+lastupdated: "2021-09-13"
 
 keywords: logging,service improvements,opt out
 
@@ -10,17 +10,7 @@ subcollection: watson
 
 ---
 
-{:shortdesc: .shortdesc}
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:important: .important}
-{:note: .note}
-{:deprecated: .deprecated}
-{:important: .important}
-{:note: .note}
-{:pre: .pre}
-{:codeblock: .codeblock}
-{:screen: .screen}
+{{site.data.keyword.attribute-definition-list}}
 
 # Controlling request logging for {{site.data.keyword.watson}} services
 {: #gs-logging-overview}
