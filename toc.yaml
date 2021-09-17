@@ -54,7 +54,7 @@ toc:
           links:
           - link:
               label: Stack Overflow
-              href: https://stackoverflow.com/questions/tagged/ibm-watson-cognitive)
+              href: https://stackoverflow.com/questions/tagged/ibm-watson-cognitive
           - link:
               label: Join the Slack community
               href: http://wdc-slack-inviter.mybluemix.net/
