@@ -25,6 +25,7 @@ toc:
       topics:
       - getting-started-iam.md
       - service-endpoints.md
+      - virtual-endpoints.md
       - getting-started-keyservice.md
       - endpoints-change.md
       - getting-started-logging.md
