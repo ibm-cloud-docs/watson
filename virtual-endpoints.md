@@ -31,7 +31,7 @@ Virtual Private Endpoints (VPEs) are available for these services in Dallas, Was
 
 ## Instructions
 
-- Create a VPE Gateway (VPEG) through the [UI](/docs/vpc?topic=vpc-ordering-endpoint-gateway&interface=ui), [CLI](/docs/vpc?topic=vpc-ordering-endpoint-gateway&interface=cli), or [API](/docs/vpc?topic=vpc-ordering-endpoint-gateway&interface=api)
+- Create a VPE Gateway (VPEG) through the [UI](/docs/vpc?topic=vpc-ordering-endpoint-gateway&interface=ui), [CLI](/docs/vpc?topic=vpc-ordering-endpoint-gateway&interface=cli), or [API](/docs/vpc?topic=vpc-ordering-endpoint-gateway&interface=api).
 
 - Creation of the VPEG is confirmed when an IP address is set in the [details view of the VPEG page in the UI](https://cloud.ibm.com/docs/vpc?topic=vpc-vpe-viewing-details-of-an-endpoint-gateway&interface=ui), [CLI output of the `endpoint-gateway` command](https://cloud.ibm.com/docs/vpc?topic=vpc-vpe-viewing-details-of-an-endpoint-gateway&interface=cli), or [API details call](https://cloud.ibm.com/docs/vpc?topic=vpc-vpe-viewing-details-of-an-endpoint-gateway&interface=api).
 
