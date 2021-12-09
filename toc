@@ -17,6 +17,7 @@ Watson
     {: .navgroup id="howto"}
     getting-started-iam.md
     service-endpoints.md
+    virtual-endpoints.md
     getting-started-keyservice.md
 
     endpoints-change.md
