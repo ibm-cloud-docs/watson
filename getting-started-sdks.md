@@ -28,7 +28,7 @@ The following {{site.data.keyword.watson}} SDKs are supported by {{site.data.key
 * [Python SDK](https://github.com/watson-developer-cloud/python-sdk){: external}
 * [.NET SDK](https://github.com/watson-developer-cloud/dotnet-standard-sdk){: external}
 
-The [API reference](https://{DomainName}/docs?tab=api-docs&category=ai%2Ccloud_pak){: external} for each service includes information and examples for many of the SDKs, including Java, Node.js, Python, Go, .Net, Ruby, and Swift.
+The [API reference](https://{DomainName}/docs?tab=api-docs&category=ai%2Ccloud_pak){: external} for each service includes information and examples for these SDKs.
 {: tip}
 
 ## Community SDKs
