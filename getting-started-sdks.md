@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-09-13"
+lastupdated: "2022-04-08"
 
 keywords: Watson SDKs,SDK,software developer kit,programming interfaces,wrappers
 
@@ -23,15 +23,10 @@ SDKs abstract much of the complexity associated with application development. By
 
 The following {{site.data.keyword.watson}} SDKs are supported by {{site.data.keyword.IBM_notm}}:
 
-* [Android SDK](https://github.com/watson-developer-cloud/android-sdk){: external}
-* [Go SDK](https://github.com/watson-developer-cloud/go-sdk){: external}
 * [Java SDK](https://github.com/watson-developer-cloud/java-sdk){: external}
 * [Node.js SDK](https://github.com/watson-developer-cloud/node-sdk){: external}
 * [Python SDK](https://github.com/watson-developer-cloud/python-sdk){: external}
-* [Ruby SDK](https://github.com/watson-developer-cloud/ruby-sdk){: external}
 * [.NET SDK](https://github.com/watson-developer-cloud/dotnet-standard-sdk){: external}
-* [Swift SDK](https://github.com/watson-developer-cloud/swift-sdk){: external}
-* [Unity SDK](https://github.com/watson-developer-cloud/unity-sdk){: external}
 
 The [API reference](https://{DomainName}/docs?tab=api-docs&category=ai%2Ccloud_pak){: external} for each service includes information and examples for many of the SDKs, including Java, Node.js, Python, Go, .Net, Ruby, and Swift.
 {: tip}
@@ -42,7 +37,12 @@ The [API reference](https://{DomainName}/docs?tab=api-docs&category=ai%2Ccloud_p
 The following SDKs are available from the {{site.data.keyword.watson}} community of developers:
 
 * [ABAP SDK for IBM Watson](https://github.com/watson-developer-cloud/abap-sdk-nwas){: external}, using SAP NetWeaver
+* [Android SDK](https://github.com/watson-developer-cloud/android-sdk){: external}
+* [Go SDK](https://github.com/watson-developer-cloud/go-sdk){: external}
+* [Ruby SDK](https://github.com/watson-developer-cloud/ruby-sdk){: external}
 * [Salesforce SDK](https://github.com/watson-developer-cloud/salesforce-sdk){: external}
+* [Swift SDK](https://github.com/watson-developer-cloud/swift-sdk){: external}
+* [Unity SDK](https://github.com/watson-developer-cloud/unity-sdk){: external}
 
 ## SDK updates and deprecation
 {: #sdk-schedule}
