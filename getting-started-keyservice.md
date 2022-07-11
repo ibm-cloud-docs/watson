@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2021-09-13"
+  years: 2019, 2022
+lastupdated: "2022-07-11"
 
 keywords: key management,byok,key encryption,encrypt key,root key
 
@@ -106,9 +106,19 @@ You must be the account owner or administrator on the {{site.data.keyword.keyman
 1.  Click **Create**.
 1.  Select the {{site.data.keyword.watson}} service as the **Source service**. Leave **All resources** selected to scope the access.
 1.  Select {{site.data.keyword.keymanagementserviceshort}} as the **Target service**.
-1.  Select **Resources based on selected attributes**, and then select **Instance ID** for the target service attribute. Select the {{site.data.keyword.keymanagementserviceshort}} service instance that you created earlier.
+1.  Select **Resources based on selected attributes**, and then select **Instance ID** for the target service attribute.
+
+    Select the {{site.data.keyword.keymanagementserviceshort}} service instance that you created earlier.
+    {: important}
 1.  Authorize dependent services by selecting **Enable authorization to be delegated**.
 
+    One of the following criteria MUST be true to authorize:
+
+    - The IAM Policy authorizes a resource group that contains the Key Protect instance to target all instances of the dependent service.
+    - The IAM Policy authorizes a specific instance of Key Protect to target all instances of the dependent service.
+    - The IAM Policy authorizes a specific instance of Key Protect to target a resource group that the new instance of the dependent service would be created in.
+    - The IAM Policy authorizes a resource group that contains the Key Protect instance to target a resource group that the new instance of the dependent service would be created in.
+    
     Delegation allows the {{site.data.keyword.keymanagementserviceshort}} instance to propagate its authorizations to this service.
 1.  Make sure that the **Reader** role is enabled.
 
