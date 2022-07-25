@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-07-11"
+lastupdated: "2022-07-25"
 
 keywords: key management,byok,key encryption,encrypt key,root key
 
@@ -35,7 +35,7 @@ Data encryption of {{site.data.keyword.watson}} services requires a new Premium 
 ## Enabling customer-managed keys with {{site.data.keyword.watson}}
 {: #keyservice-steps}
 
-Some {{site.data.keyword.watson}} services, such as {{site.data.keyword.conversationshort}}, have additional details about how to work with {{site.data.keyword.keymanagementserviceshort}}. For more information, see the [docs](/docs/home/alldocs?category=ai) for the service.
+Some {{site.data.keyword.watson}} services have additional details about how to work with {{site.data.keyword.keymanagementserviceshort}}. For more information, see the [docs](/docs?tab=all-docs&category=ai) for the service.
 {: important}
 
 Integrating {{site.data.keyword.keymanagementserviceshort}} with {{site.data.keyword.watson}} Premium services involves these steps in the {{site.data.keyword.cloud_notm}} console.
@@ -108,16 +108,16 @@ You must be the account owner or administrator on the {{site.data.keyword.keyman
 1.  Select {{site.data.keyword.keymanagementserviceshort}} as the **Target service**.
 1.  Select **Resources based on selected attributes**, and then select **Instance ID** for the target service attribute.
 
-    Select the {{site.data.keyword.keymanagementserviceshort}} service instance that you created earlier.
-    {: important}
-1.  Authorize dependent services by selecting **Enable authorization to be delegated**.
-
     One of the following criteria MUST be true to authorize:
 
     - The IAM Policy authorizes a resource group that contains the Key Protect instance to target all instances of the dependent service.
     - The IAM Policy authorizes a specific instance of Key Protect to target all instances of the dependent service.
     - The IAM Policy authorizes a specific instance of Key Protect to target a resource group that the new instance of the dependent service would be created in.
     - The IAM Policy authorizes a resource group that contains the Key Protect instance to target a resource group that the new instance of the dependent service would be created in.
+
+    Select the {{site.data.keyword.keymanagementserviceshort}} service instance that you created earlier.
+    {: important}
+1.  Authorize dependent services by selecting **Enable authorization to be delegated**.
     
     Delegation allows the {{site.data.keyword.keymanagementserviceshort}} instance to propagate its authorizations to this service.
 1.  Make sure that the **Reader** role is enabled.
@@ -143,6 +143,9 @@ You must have the administrator or editor role on the {{site.data.keyword.watson
     1.  Select **Yes** to "Encrypt service with {{site.data.keyword.keymanagementserviceshort}}."
     1.  Select the {{site.data.keyword.keymanagementserviceshort}} instance that you authorized earlier.
     1.  Select the root key that you authorized earlier.
+
+    If you see a drop-down menu flash and disappear, check that you have correctly followed sub-step 5 of [Step 3. Grant service access](#serviceauth-key)
+    {: tip}
 1.  Click **Create**.
 
 The data that is associated with this {{site.data.keyword.watson}} service instance is now encrypted.
