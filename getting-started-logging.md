@@ -18,7 +18,7 @@ subcollection: watson
 By default, all {{site.data.keyword.ibmwatson}} services log requests and their results. Logging is done only to improve the services for future users. The logged data is not shared or made public.
 {: shortdesc}
 
-If you are concerned with protecting the privacy of users' personal information or otherwise do not want your requests to be used by {{site.data.keyword.IBM_notm}}, you can choose not to have {{site.data.keyword.IBM_notm}} learn from my data (opt out). Choose to opt out at either the account level or at the API request level.
+If you are concerned with protecting the privacy of users' personal information or otherwise do not want your requests to be used by {{site.data.keyword.IBM_notm}}, you can choose not to have {{site.data.keyword.IBM_notm}} learn from your data (opt out). Choose to opt out at either the account level or at the API request level.
 
 - To prevent {{site.data.keyword.IBM_notm}} usage of your data for general service improvements for all services for which you are the owner, select `Do not learn from my data` on the [{{site.data.keyword.watson}} Privacy Settings](https://{DomainName}/watson/settings/){: external} page. To access the setting, you must be the account owner.
 - To prevent {{site.data.keyword.IBM_notm}} usage of your data for an API request, set the **X-Watson-Learning-Opt-Out** header parameter to `true`.
