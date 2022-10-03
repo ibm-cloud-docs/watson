@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2021-10-03"
+lastupdated: "2022-10-03"
 
 keywords: logging,service improvements,opt out
 
