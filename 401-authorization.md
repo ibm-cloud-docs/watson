@@ -1,8 +1,8 @@
 ---
 
 copyright:
-   years: 2020, 2021
-lastupdated: "2021-09-13"
+   years: 2020, 2022
+lastupdated: "2022-10-05"
 
 keywords: watson 401 error, watson messages, watson error messages, watson response codes, watson status codes
 
@@ -18,7 +18,6 @@ content-type: troubleshoot
 {: #authorization-error}
 {: troubleshoot}
 
-<!-- Description of the troubleshooting entry symptom.  -->
 You try to authenticate to a Watson service but receive an error message.
 {: shortdesc}
 

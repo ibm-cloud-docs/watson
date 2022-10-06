@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-07-25"
+lastupdated: "2022-10-05"
 
 keywords: key management,byok,key encryption,encrypt key,root key
 
@@ -117,8 +117,9 @@ You must be the account owner or administrator on the {{site.data.keyword.keyman
 
     Select the {{site.data.keyword.keymanagementserviceshort}} service instance that you created earlier.
     {: important}
+
 1.  Authorize dependent services by selecting **Enable authorization to be delegated**.
-    
+
     Delegation allows the {{site.data.keyword.keymanagementserviceshort}} instance to propagate its authorizations to this service.
 1.  Make sure that the **Reader** role is enabled.
 
@@ -146,6 +147,7 @@ You must have the administrator or editor role on the {{site.data.keyword.watson
 
     If you see a drop-down menu flash and disappear, check that you have correctly followed sub-step 5 of [Step 3. Grant service access](#serviceauth-key)
     {: tip}
+
 1.  Click **Create**.
 
 The data that is associated with this {{site.data.keyword.watson}} service instance is now encrypted.
@@ -182,7 +184,7 @@ To restore access after you temporarily remove it, follow these steps:
 After you re-create the authorization and your CSM confirms {{site.data.keyword.watson}} that any delegated authorizations are reconnected, the {{site.data.keyword.watson}} instance starts accepting connections again.
 
 ### Permanently prevent access to your data
-{: keyservice-delete}
+{: #keyservice-delete}
 
 To delete your data securely, delete both the encrypted {{site.data.keyword.watson}} service instance and the {{site.data.keyword.keymanagementserviceshort}} key.
 
@@ -192,7 +194,7 @@ When you delete a data encryption key, it is not recoverable and you cannot decr
 For more information about deleting keys, see [Deleting keys](/docs/key-protect?topic=key-protect-delete-keys) in the {{site.data.keyword.keymanagementserviceshort}} docs.
 
 ### Rotating keys
-{: keyservice-rotate-keys}
+{: #keyservice-rotate-keys}
 
 Key rotation is an important part of mitigating the risk of a data breach. Periodically changing keys reduces the potential data loss if the key is lost or compromised. For more information, see [Setting a rotation policy](/docs/key-protect?topic=key-protect-set-rotation-policy) in the {{site.data.keyword.keymanagementserviceshort}} docs.
 

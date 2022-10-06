@@ -1,8 +1,8 @@
 ---
 
 copyright:
-   years: 2020, 2021
-lastupdated: "2021-12-09"
+   years: 2020, 2022
+lastupdated: "2022-10-05"
 
 keywords: watsonplatform,virtual private endpoints
 
@@ -20,19 +20,18 @@ subcollection: watson
 {{site.data.keyword.cloud}} Virtual Private Endpoints (VPE) for VPC enables you to connect to supported {{site.data.keyword.cloud}} services from your VPC network by using the IP addresses of your choosing, allocated from a subnet within your VPC. See more details [here](https://cloud.ibm.com/docs/vpc?topic=vpc-about-vpe).
 {: shortdesc}
 
-This document covers {{site.data.keyword.conversationshort}}, {{site.data.keyword.discoveryshort}}, {{site.data.keyword.speechtotextshort}}, and {{site.data.keyword.texttospeechshort}}.
-{: note}
-
-Virtual Private Endpoints (VPEs) are available for these services in Dallas, Washington, Frankfurt, London, Sydney, and Tokyo.
+This document applies to {{site.data.keyword.conversationshort}}, {{site.data.keyword.discoveryshort}}, {{site.data.keyword.speechtotextshort}}, and {{site.data.keyword.texttospeechshort}}. Virtual Private Endpoints (VPEs) are available for these services in the Dallas, Washington, Frankfurt, London, Sydney, and Tokyo locations.
 {: note}
 
 ## Prerequisites
+{: #prereqs-virtual-endpoints}
 
 - Have a [Virtual Private Cloud (VPC)](/docs/vpc?topic=vpc-getting-started)
 
 - Have [private endpoints enabled](/docs/watson?topic=watson-public-private-endpoints#requirements-endpoints) for your service instance
 
 ## Instructions
+{: #instructions-virtual-endpoints}
 
 - Create a VPE Gateway (VPEG) through the [UI](/docs/vpc?topic=vpc-ordering-endpoint-gateway&interface=ui), [CLI](/docs/vpc?topic=vpc-ordering-endpoint-gateway&interface=cli), or [API](/docs/vpc?topic=vpc-ordering-endpoint-gateway&interface=api).
 
@@ -41,12 +40,12 @@ Virtual Private Endpoints (VPEs) are available for these services in Dallas, Was
 You can verify by running `nslookup <endpoint>` on the private service endpoint of the {{site.data.keyword.watson}} service from your VPC, for example:
 
 ```bash
-# nslookup api.private.us-south.assistant.watson.cloud.ibm.com 
+# nslookup api.private.us-south.assistant.watson.cloud.ibm.com
 Server:   127.0.0.53
 Address:  127.0.0.53#53
 
 Non-authoritative answer:
-Name:   api.private.us-south.assistant.watson.cloud.ibm.com 
+Name:   api.private.us-south.assistant.watson.cloud.ibm.com
 Address: 10.240.0.9   <---- your VPE IP address
 ```
 
@@ -61,6 +60,7 @@ curl -X POST "https://api.private.us-south.assistant.watson.cloud.ibm.com/v2/ass
 ```
 
 ## Additional links
+{: #additional-links-virtual-endpoints}
 
 - [IBM Cloud VPC](/docs/vpc)
 - [VPE FAQ](/docs/vpc?topic=vpc-faqs-vpe)
