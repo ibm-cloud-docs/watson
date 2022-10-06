@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2021
-lastupdated: "2022-04-08"
+  years: 2015, 2022
+lastupdated: "2022-10-05"
 
 keywords: Watson SDKs,SDK,software developer kit,programming interfaces,wrappers
 
@@ -50,10 +50,12 @@ The following SDKs are available from the {{site.data.keyword.watson}} community
 The supported {{site.data.keyword.watson}} SDKs are updated according to the following guidelines.
 
 ### Semantic versioning
+{: #sdk-updates-deprecation}
 
 Supported {{site.data.keyword.watson}} SDKs adhere to semantic versioning with releases labeled as `{major}.{minor}.{patch}`.
 
 ### Release frequency
+{: #sdk-release-frequency}
 
 SDKs are released independently and might not update on the same schedule.
 
@@ -61,9 +63,11 @@ SDKs are released independently and might not update on the same schedule.
 * Major updates that might include breaking changes are released approximately every 6 months.
 
 ### Deprecated release
+{: #sdk-deprecated-release}
 
 When a major version is released, support continues on the previous major release for 12 months in a deprecation period. The deprecated release might be updated with bug fixes, but no new features will be added and documentation might not be available.
 
 ### Obsolete release
+{: #sdk-obsolete-release}
 
 After the 12-month deprecation period, a release is obsolete. The release might be functional but is unsupported and not updated. Update to the current release.

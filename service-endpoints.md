@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2021-09-13"
+  years: 2019, 2022
+lastupdated: "2022-10-05"
 
 keywords: service endpoint,private network endpoint,network endpoint
 
@@ -36,6 +36,7 @@ Your account must be configured before you can use private endpoints. To use pri
 To enable VRF, you create a support case. To enable service endpoints, you use the {{site.data.keyword.Bluemix_notm}} CLI. For more information about how to enable your account, see [Enabling VRF and service endpoints](/docs/account?topic=account-vrf-service-endpoint).
 
 ## Setting a private endpoint
+{: #setting-private-endpoints}
 
 After your account is enabled for VRF and service endpoints, you can add a private network endpoint to a service instance.
 
@@ -46,6 +47,7 @@ A service instance can have a private network endpoint, a public network endpoin
 - Both public and private: Service endpoints that allow access over both networks.
 
 ### Adding a private network endpoint
+{: #adding-private-network-endpoints}
 
 You add a private endpoint to a paid service instance from the service details page if you have a Manager or Writer service access role.
 
@@ -55,6 +57,7 @@ You add a private endpoint to a paid service instance from the service details p
 1.  Click **Add private network endpoint**.
 
 ## Viewing your endpoint URL
+{: #viewing-url-endpoints}
 
 The service endpoint URLs are different for private and public network endpoints. You can view the URL for an endpoint from the service details page.
 
@@ -63,6 +66,8 @@ The service endpoint URLs are different for private and public network endpoints
 1.  In the service details page, click the **Manage** tab, and then click **Private Network Endpoint**.
 
 ## What to do next
+{: #what-next-endpoints}
+
 - [Configure your account](/docs/account?topic=account-vrf-service-endpoint) for VRF and Service endpoints.
 - Modify your applications to use the new service endpoint URL.
 - Read more about [service endpoints](/docs/account?topic=account-service-endpoints-overview).

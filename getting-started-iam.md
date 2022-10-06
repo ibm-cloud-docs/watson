@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2021
-lastupdated: "2021-09-13"
+  years: 2015, 2022
+lastupdated: "2022-10-06"
 
 keywords: IAM tokens,IAM authentication,api key
 
@@ -15,30 +15,70 @@ subcollection: watson
 # Authenticating to {{site.data.keyword.watson}} services
 {: #iam}
 
-You use {{site.data.keyword.iamlong}} (IAM) to make authenticated requests to public {{site.data.keyword.ibmwatson}} services. With IAM access policies, you can assign access to more than one resource from a single key. In addition, a user, service ID, and service instance can hold multiple API keys.
+{{site.data.keyword.ibmwatson}} services on {{site.data.keyword.cloud}} use {{site.data.keyword.iamlong}} (IAM) for authentication. Services installed on {{site.data.keyword.icp4dfull}} support more methods. With IAM access policies, you can assign access to more than one resource from a single key. In addition, a user, service ID, and service instance can hold multiple API keys.
 {: shortdesc}
 
-Add-ons to {{site.data.keyword.cpd_full_notm}} use a different authentication mechanism. For more information, see the documentation for your add-on.
-{: tip}
-
-## Credentials
+## Passing credentials
 {: #gs-iam-credentials}
 
-To authenticate to a service through its API, pass your credentials to the API. You can pass either a bearer token in an authorization header or an API key.
+To authenticate to a service through its API, pass your credentials to the API. How you authenticate can vary depending on security needs and whether the service is on {{site.data.keyword.cloud}} or installed on {{site.data.keyword.icp4dfull}}.
 
-- Authenticate with an IAM token.
+### Authenticating to {{site.data.keyword.cloud_notm}}
+{: #gs-credential-cloud}
+
+![IBM Cloud only](images/ibm-cloud.png) **{{site.data.keyword.cloud}} only**
+
+You use {{site.data.keyword.iamlong}} (IAM) to make authenticated requests to public {{site.data.keyword.ibmwatson}} services. You can pass either a bearer token in an authorization header or an API key.
+
+-   Authenticate with an IAM token.
 
     IAM tokens are temporary security credentials that are valid for up to 60 minutes. When a token expires, you generate a new one. Tokens can be useful for temporary access to resources. For more information, see [Generating an IBM Cloud IAM token by using an API key](/docs/account?topic=account-iamtoken_from_apikey).
 
-- Authenticate with an {{site.data.keyword.cloud_notm}} API key, a service ID API key, or a service-specific API key.
+    The following Curl command generates and IAM access token. Replace `{apikey}` with the value of your API key.
+
+    ```sh
+    curl -X POST \
+    -header "Content-Type: application/x-www-form-urlencoded" \
+    -data "grant_type=urn:ibm:params:oauth:grant-type:apikey&apikey={apikey}" \
+    "https://iam.cloud.ibm.com/identity/token"
+    ```
+    {: pre}
+
+    The response includes an `access_token` property. To authenticate a request to the service, replace `{access_token}` with the token from the response.
+
+    ```sh
+    curl -header "Authorization: Bearer {access_token}" \
+    "{url}/v1/{method}"
+    ```
+    {: pre}
+
+-   Authenticate with an {{site.data.keyword.cloud_notm}} API key, a service ID API key, or a service-specific API key.
 
     API keys are simple to use and don't automatically expire. Anyone with a valid key can access the resource. You can create separate API keys for different users, different applications, or to support key rotation scenarios. You can revoke API keys from the console without interfering with other API keys or the user.
 
+    The following example Curl command authenticates with the API key `f5sAznhrKQyvBFFaZbtF60m5tzLbqWhyALQawBg5TjRI`.
+
+    ```sh
+    curl -u "apikey:f5sAznhrKQyvBFFaZbtF60m5tzLbqWhyALQawBg5TjRI" \
+    "{url}/v1/{method}"
+    ```
+    {: pre}
+
 For testing and development, you can pass in an API key directly. However, for production use, unless you use the {{site.data.keyword.watson}} SDKs, use an IAM token. When you pass an API key, the service looks up the API key details, so it might affect performance. For more information, see [Invoking IBM Cloud service APIs](/docs/account?topic=account-iamapikeysforservices).
 
-The {{site.data.keyword.watson}} SDKs support both methods. For more information, see the **Authentication** section of the [API reference](https://{DomainName}/apidocs?category=ai){: external} for your service and SDK.
+The {{site.data.keyword.watson}} SDKs support both methods. For more information, see the **Authentication** section of the [API reference](https://{DomainName}/docs?tab=api-docs&category=ai){: external} for your service and SDK.
 
-Users on Premium plans can also use {{site.data.keyword.keymanagementservicefull}} to control access to data. For more information, see [Protecting sensitive information in your {{site.data.keyword.watson}} service](/docs/watson?topic=watson-keyservice).
+Some service plans support {{site.data.keyword.keymanagementservicefull}} to control access to data. For more information, see [Protecting sensitive information in your {{site.data.keyword.watson}} service](/docs/watson?topic=watson-keyservice).
+{: note}
+
+### Authenticating to {{site.data.keyword.icp4dfull_notm}}
+{: #gs-credential-cpd}
+
+![Cloud Pak for Data only](images/cloud-pak.png) **{{site.data.keyword.icp4dfull}} only**
+
+You authenticate to the service by passing an access token with each request. You pass a bearer token in an `Authorization` header to authenticate. Several methods exist to generate the token, including by using an API key or by username. For more information, see [Generating an authorization token](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=resources-generating-authorization-token).
+
+For more information about authentication methods that are supported by the {{site.data.keyword.watson}} SDKs for services installed on {{site.data.keyword.icp4dfull_notm}}, see the **Authentication** section of the [API reference](https://{DomainName}/docs?tab=api-docs&category=ai){: external} for your service and SDK.
 
 ## About API keys
 {: #gs-iam-keys}
