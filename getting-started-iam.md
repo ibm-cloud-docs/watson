@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-10-06"
+lastupdated: "2022-10-26"
 
 keywords: IAM tokens,IAM authentication,api key
 
@@ -34,7 +34,7 @@ You use {{site.data.keyword.iamlong}} (IAM) to make authenticated requests to pu
 
     IAM tokens are temporary security credentials that are valid for up to 60 minutes. When a token expires, you generate a new one. Tokens can be useful for temporary access to resources. For more information, see [Generating an IBM Cloud IAM token by using an API key](/docs/account?topic=account-iamtoken_from_apikey).
 
-    The following Curl command generates and IAM access token. Replace `{apikey}` with the value of your API key.
+    The following Curl command generates an IAM access token. Replace `{apikey}` with the value of your API key.
 
     ```sh
     curl -X POST \
