@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-10-05"
+lastupdated: "2022-12-06"
 
 keywords: key management,byok,key encryption,encrypt key,root key
 
@@ -51,9 +51,7 @@ Integrating {{site.data.keyword.keymanagementserviceshort}} with {{site.data.key
 Create an instance of {{site.data.keyword.keymanagementserviceshort}} to hold your root keys.
 
 1.  Go to the [{{site.data.keyword.keymanagementserviceshort}}](https://{DomainName}/catalog/key-protect){: external} page in the {{site.data.keyword.cloud_notm}} catalog **Security and Identity** category.
-1.  Select a region.
-
-    Make sure to create the instance in the same location as the {{site.data.keyword.watson}} services you want to encrypt.
+1.  Select a region. Make sure to create the instance in the same location as the {{site.data.keyword.watson}} services you want to encrypt.
 1.  Name the service and click **Create**.
 
 ### Step 2. Add a key
@@ -72,9 +70,7 @@ After you create an instance of the service, add a root key.
 1.  Add a {{site.data.keyword.keymanagementserviceshort}} [root key](#x6946961){: term}:
     1.  Click **Manage** from the left navigation pane of the service details and click **Add key**.
     1.  Select **Create a key** and the **Root key** [type](/docs/key-protect?topic=key-protect-envelope-encryption#key-types).
-    1.  Give the key a name that you can recognize and click **Create key**.
-
-        Make sure that the key name does not contain personal information, such as your name or location.
+    1.  Give the key a name that you can recognize and click **Create key**. Make sure that the key name does not contain personal information, such as your name or location.
 
 #### Import a key
 {: #import-key}
@@ -91,9 +87,7 @@ After you create an instance of the service, add a root key.
 
         - The key must be 128, 192, or 256 bits.
         - The bytes of data, for example 32 bytes for 256 bits, must be encoded by using base64 encoding.
-    1.  Give the key a name that you can recognize and click **Import key**.
-
-        Make sure that the key name does not contain personal information, such as your name or location.
+    1.  Give the key a name that you can recognize and click **Import key**. Make sure that the key name does not contain personal information, such as your name or location.
 
 ### Step 3. Grant service access to {{site.data.keyword.keymanagementserviceshort}}
 {: #serviceauth-key}
@@ -106,9 +100,7 @@ You must be the account owner or administrator on the {{site.data.keyword.keyman
 1.  Click **Create**.
 1.  Select the {{site.data.keyword.watson}} service as the **Source service**. Leave **All resources** selected to scope the access.
 1.  Select {{site.data.keyword.keymanagementserviceshort}} as the **Target service**.
-1.  Select **Resources based on selected attributes**, and then select **Instance ID** for the target service attribute.
-
-    One of the following criteria MUST be true to authorize:
+1.  Select **Resources based on selected attributes**, and then select **Instance ID** for the target service attribute. One of the following criteria *must* be true to authorize:
 
     - The IAM Policy authorizes a resource group that contains the Key Protect instance to target all instances of the dependent service.
     - The IAM Policy authorizes a specific instance of Key Protect to target all instances of the dependent service.
@@ -118,12 +110,8 @@ You must be the account owner or administrator on the {{site.data.keyword.keyman
     Select the {{site.data.keyword.keymanagementserviceshort}} service instance that you created earlier.
     {: important}
 
-1.  Authorize dependent services by selecting **Enable authorization to be delegated**.
-
-    Delegation allows the {{site.data.keyword.keymanagementserviceshort}} instance to propagate its authorizations to this service.
-1.  Make sure that the **Reader** role is enabled.
-
-    Reader permissions allow the {{site.data.keyword.watson}} service to see the root keys in the {{site.data.keyword.keymanagementserviceshort}} instance.
+1.  Authorize dependent services by selecting **Enable authorization to be delegated**. Delegation allows the {{site.data.keyword.keymanagementserviceshort}} instance to propagate its authorizations to this service.
+1.  Make sure that the **Reader** role is enabled. Reader permissions allow the {{site.data.keyword.watson}} service to see the root keys in the {{site.data.keyword.keymanagementserviceshort}} instance.
 1.  Click **Authorize** and confirm delegated authorization.
 
 ### Step 4. Encrypt the {{site.data.keyword.watson}} service data
@@ -133,11 +121,9 @@ After you grant the {{site.data.keyword.watson}} service the authorization to us
 
 You must have the administrator or editor role on the {{site.data.keyword.watson}} service.
 
-1.  Go to [**AI**](https://{DomainName}/catalog/?category=ai){: external} category page.
+1.  Go to the [**AI / Machine Learning**](https://{DomainName}/catalog/?category=ai){: external} category page.
 1.  Select the {{site.data.keyword.watson}} service that you authorized in [Step 3. Grant service access](#serviceauth-key)
-1.  Select a region.
-
-    Make sure to create the instance in the same location as the {{site.data.keyword.keymanagementserviceshort}} service that you created in Step 1.
+1.  Select a region. Make sure to create the instance in the same location as the {{site.data.keyword.keymanagementserviceshort}} service that you created in Step 1.
 1.  Select the Premium plan. This feature is supported on the Premium plan only.
 1.  Encrypt the service data with {{site.data.keyword.keymanagementserviceshort}}:
 

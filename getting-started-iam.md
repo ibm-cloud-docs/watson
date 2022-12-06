@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-10-26"
+lastupdated: "2022-12-06"
 
 keywords: IAM tokens,IAM authentication,api key
 
@@ -34,7 +34,7 @@ You use {{site.data.keyword.iamlong}} (IAM) to make authenticated requests to pu
 
     IAM tokens are temporary security credentials that are valid for up to 60 minutes. When a token expires, you generate a new one. Tokens can be useful for temporary access to resources. For more information, see [Generating an IBM Cloud IAM token by using an API key](/docs/account?topic=account-iamtoken_from_apikey).
 
-    The following Curl command generates an IAM access token. Replace `{apikey}` with the value of your API key.
+    The following `curl` command generates an IAM access token. Replace `{apikey}` with the value of your API key.
 
     ```sh
     curl -X POST \
@@ -44,7 +44,7 @@ You use {{site.data.keyword.iamlong}} (IAM) to make authenticated requests to pu
     ```
     {: pre}
 
-    The response includes an `access_token` property. To authenticate a request to the service, replace `{access_token}` with the token from the response.
+    The response includes an `access_token` property. To authenticate a request to the service, replace `{access_token}` with the token from the response. Replace `{url}` with the value of the URL for your service instance, which you can find by clicking **Show Credentials** in the **Credentials** box of the **Manage** page for your service instance.
 
     ```sh
     curl -header "Authorization: Bearer {access_token}" \
@@ -52,11 +52,11 @@ You use {{site.data.keyword.iamlong}} (IAM) to make authenticated requests to pu
     ```
     {: pre}
 
--   Authenticate with an {{site.data.keyword.cloud_notm}} API key, a service ID API key, or a service-specific API key.
+-   Authenticate with an {{site.data.keyword.cloud_notm}} API key, a service ID API key, or a service-specific API key. Replace `{url}` with the value of the URL for your service instance, which you can find by clicking **Show Credentials** in the **Credentials** box of the **Manage** page for your service instance.
 
     API keys are simple to use and don't automatically expire. Anyone with a valid key can access the resource. You can create separate API keys for different users, different applications, or to support key rotation scenarios. You can revoke API keys from the console without interfering with other API keys or the user.
 
-    The following example Curl command authenticates with the API key `f5sAznhrKQyvBFFaZbtF60m5tzLbqWhyALQawBg5TjRI`.
+    The following example `curl` command authenticates with the API key `f5sAznhrKQyvBFFaZbtF60m5tzLbqWhyALQawBg5TjRI`.
 
     ```sh
     curl -u "apikey:f5sAznhrKQyvBFFaZbtF60m5tzLbqWhyALQawBg5TjRI" \

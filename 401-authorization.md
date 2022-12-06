@@ -2,7 +2,7 @@
 
 copyright:
    years: 2020, 2022
-lastupdated: "2022-10-05"
+lastupdated: "2022-12-06"
 
 keywords: watson 401 error, watson messages, watson error messages, watson response codes, watson status codes
 
@@ -50,7 +50,7 @@ Validate your credentials or try to authenticate with a different command.
 
 - Check your API key and endpoint URL against the service instance by clicking the name of the service instance in the [Resource list](https://{DomainName}/resources?groups=resource-instance){: external} and verifying the credentials.
 - If you are using an authorization or service ID to grant access, make sure that you use an endpoint URL that includes the service instance ID. You can find the instance ID by clicking the name of the service instance in the [Resource list](https://{DomainName}/resources?groups=resource-instance){: external} and looking at the credentials URL.
-- If you are authenticating through an SDK or other wrapper, call the method with a curl command. Using curl can help isolate whether you have an authentication issue.
+- If you are authenticating through an SDK or other wrapper, call the method with a `curl` command. Using `curl` can help isolate whether you have an authentication issue.
 
     ```sh
     curl -X {request_method} -u "apikey:{apikey}" "{url}/{method}"
