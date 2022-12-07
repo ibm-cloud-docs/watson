@@ -2,7 +2,7 @@
 
 copyright:
    years: 2020, 2022
-lastupdated: "2022-10-05"
+lastupdated: "2022-12-07"
 
 keywords: watsonplatform,virtual private endpoints
 
@@ -48,16 +48,19 @@ Non-authoritative answer:
 Name:   api.private.us-south.assistant.watson.cloud.ibm.com
 Address: 10.240.0.9   <---- your VPE IP address
 ```
+{: codeblock}
 
 To make requests using the assigned IP address instead of just the private service endpoint as suggested [here](/docs/vpc?topic=vpc-faqs-vpe#faq-access-using-cse-adn), you must do your own hostname resolution. For example:
 
 ```bash
 curl -X POST "https://api.private.us-south.assistant.watson.cloud.ibm.com/v2/assistants" --connect ::10.240.0.9
 ```
+{: codeblock}
 
 ```bash
 curl -X POST "https://api.private.us-south.assistant.watson.cloud.ibm.com/v2/assistants" --resolve api.private.us-south.assistant.watson.cloud.ibm.com:443:10.240.0.9
 ```
+{: codeblock}
 
 ## Additional links
 {: #additional-links-virtual-endpoints}
