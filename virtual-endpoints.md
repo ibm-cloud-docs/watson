@@ -2,7 +2,7 @@
 
 copyright:
    years: 2020, 2022
-lastupdated: "2022-12-07"
+lastupdated: "2022-12-09"
 
 keywords: watsonplatform,virtual private endpoints
 
@@ -39,7 +39,7 @@ This document applies to {{site.data.keyword.conversationshort}}, {{site.data.ke
 
 You can verify by running `nslookup <endpoint>` on the private service endpoint of the {{site.data.keyword.watson}} service from your VPC, for example:
 
-```bash
+```sh
 # nslookup api.private.us-south.assistant.watson.cloud.ibm.com
 Server:   127.0.0.53
 Address:  127.0.0.53#53
@@ -52,15 +52,15 @@ Address: 10.240.0.9   <---- your VPE IP address
 
 To make requests using the assigned IP address instead of just the private service endpoint as suggested [here](/docs/vpc?topic=vpc-faqs-vpe#faq-access-using-cse-adn), you must do your own hostname resolution. For example:
 
-```bash
+```sh
 curl -X POST "https://api.private.us-south.assistant.watson.cloud.ibm.com/v2/assistants" --connect ::10.240.0.9
 ```
-{: codeblock}
+{: pre}
 
-```bash
+```sh
 curl -X POST "https://api.private.us-south.assistant.watson.cloud.ibm.com/v2/assistants" --resolve api.private.us-south.assistant.watson.cloud.ibm.com:443:10.240.0.9
 ```
-{: codeblock}
+{: pre}
 
 ## Additional links
 {: #additional-links-virtual-endpoints}
