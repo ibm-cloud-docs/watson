@@ -23,6 +23,7 @@ toc:
   - navgroup:
       id: howto
       topics:
+      - getting-started-curl.md
       - getting-started-iam.md
       - service-endpoints.md
       - virtual-endpoints.md
