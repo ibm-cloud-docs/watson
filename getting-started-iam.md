@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-12-09"
+lastupdated: "2022-12-12"
 
 keywords: IAM tokens,IAM authentication,api key
 
@@ -76,7 +76,7 @@ Some service plans support {{site.data.keyword.keymanagementservicefull}} to con
 
 ![Cloud Pak for Data only](images/cloud-pak.png) **{{site.data.keyword.icp4dfull_notm}} only**
 
-You authenticate to the service by passing an access token with each request. You pass a bearer token in an `Authorization` header to authenticate. Several methods exist to generate the token, including by using an API key or by username. For more information, see [Generating an authorization token](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=resources-generating-authorization-token).
+You authenticate to the service by passing an access token with each request. You pass a bearer token in an `Authorization` header to authenticate. Several methods exist to generate the token, including by using an API key or by username. For more information, see [Generating an authorization token or API key](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.6.x?topic=resources-generating-authorization-token-api-key).
 
 For more information about authentication methods that are supported by the {{site.data.keyword.watson}} SDKs for services installed on {{site.data.keyword.icp4dfull_notm}}, see the **Authentication** section of the [API reference](https://{DomainName}/docs?tab=api-docs&category=ai){: external} for your service and SDK.
 
