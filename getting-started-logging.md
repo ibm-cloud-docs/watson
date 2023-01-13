@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2022
-lastupdated: "2022-10-03"
+  years: 2015, 2023
+lastupdated: "2023-01-13"
 
 keywords: logging,service improvements,opt out
 
@@ -15,8 +15,11 @@ subcollection: watson
 # Controlling request logging for {{site.data.keyword.watson}} services
 {: #gs-logging-overview}
 
-By default, all {{site.data.keyword.ibmwatson}} services log requests and their results. Logging is done only to improve the services for future users. The logged data is not shared or made public.
+By default, most {{site.data.keyword.ibmwatson}} services log requests and their results. Logging is done only to improve the services for future users. The logged data is not shared or made public.
 {: shortdesc}
+
+The {{site.data.keyword.languagetranslatorshort}} and {{site.data.keyword.toneanalyzershort}} services do not log any request data. You cannot opt in to request logging at the request level or at the account level.
+{: note}
 
 If you are concerned with protecting the privacy of users' personal information or otherwise do not want your requests to be used by {{site.data.keyword.IBM_notm}}, you can choose not to have {{site.data.keyword.IBM_notm}} learn from your data (opt out). Choose to opt out at either the account level or at the API request level.
 
