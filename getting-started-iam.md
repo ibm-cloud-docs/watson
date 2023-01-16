@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2022
-lastupdated: "2022-12-12"
+  years: 2015, 2023
+lastupdated: "2023-01-14"
 
 keywords: IAM tokens,IAM authentication,api key
 
@@ -26,7 +26,7 @@ To authenticate to a service through its API, pass your credentials to the API. 
 ### Authenticating to {{site.data.keyword.cloud_notm}}
 {: #gs-credential-cloud}
 
-![IBM Cloud only](images/ibm-cloud.png) **{{site.data.keyword.cloud_notm}} only**
+[IBM Cloud]{: tag-ibm-cloud}
 
 You use {{site.data.keyword.iamlong}} (IAM) to make authenticated requests to public {{site.data.keyword.ibmwatson}} services. You can pass either a bearer token in an authorization header or an API key.
 
@@ -74,7 +74,7 @@ Some service plans support {{site.data.keyword.keymanagementservicefull}} to con
 ### Authenticating to {{site.data.keyword.icp4dfull_notm}}
 {: #gs-credential-cpd}
 
-![Cloud Pak for Data only](images/cloud-pak.png) **{{site.data.keyword.icp4dfull_notm}} only**
+[IBM Cloud Pak for Data]{: tag-cp4d}
 
 You authenticate to the service by passing an access token with each request. You pass a bearer token in an `Authorization` header to authenticate. Several methods exist to generate the token, including by using an API key or by username. For more information, see [Generating an authorization token or API key](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.6.x?topic=resources-generating-authorization-token-api-key).
 

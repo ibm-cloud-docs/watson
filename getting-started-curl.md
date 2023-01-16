@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2022
-lastupdated: "2022-12-09"
+  years: 2015, 2023
+lastupdated: "2023-01-14"
 
 keywords: watson,curl
 
@@ -48,7 +48,7 @@ Enabling SSL verification is highly recommended. Disabling SSL jeopardizes the s
 
 The following examples demonstrate the use of `curl`. The requests use the {{site.data.keyword.speechtotextshort}} service to transcribe audio to text with both {{site.data.keyword.cloud}} and {{site.data.keyword.icp4dfull}}.
 
-![IBM Cloud only](images/ibm-cloud.png) **{{site.data.keyword.cloud_notm}}**
+[IBM Cloud]{: tag-ibm-cloud}
 
 ```sh
 curl -X POST -u "apikey:{apikey}" \
@@ -58,7 +58,7 @@ curl -X POST -u "apikey:{apikey}" \
 ```
 {: pre}
 
-![Cloud Pak for Data only](images/cloud-pak.png) **{{site.data.keyword.icp4dfull_notm}}**
+[IBM Cloud Pak for Data]{: tag-cp4d}
 
 ```sh
 curl -X POST \

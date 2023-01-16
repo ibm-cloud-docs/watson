@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2022
-lastupdated: "2022-10-05"
+  years: 2019, 2023
+lastupdated: "2023-01-14"
 
 keywords: service endpoint,private network endpoint,network endpoint
 
@@ -15,7 +15,7 @@ subcollection: watson
 # Public and private network endpoints
 {: #public-private-endpoints}
 
-![IBM Cloud only](images/ibm-cloud.png) **{{site.data.keyword.cloud_notm}} only**
+[IBM Cloud]{: tag-ibm-cloud}
 
 {{site.data.keyword.cloud}} supports both public and private network endpoints for certain plans. Connections to private network endpoints do not require public internet access.
 {: shortdesc}

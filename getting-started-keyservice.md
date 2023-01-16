@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2022
-lastupdated: "2022-12-06"
+  years: 2019, 2023
+lastupdated: "2023-01-14"
 
 keywords: key management,byok,key encryption,encrypt key,root key
 
@@ -15,7 +15,7 @@ subcollection: watson
 # Protecting sensitive information in your {{site.data.keyword.watson}} service
 {: #keyservice}
 
-![IBM Cloud only](images/ibm-cloud.png) **{{site.data.keyword.cloud_notm}} only**
+[IBM Cloud]{: tag-ibm-cloud}
 
 You can add a higher level of encryption protection and control to your data at rest (when it is stored) and data in motion (when it is transported) by enabling integration with {{site.data.keyword.keymanagementservicefull}}.
 {: shortdesc}
