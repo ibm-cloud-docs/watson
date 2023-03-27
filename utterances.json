@@ -13,10 +13,10 @@
     "403 HTTP status code using a Watson API",
     "403 error trying to use Watson API",
     "I get a 403 error when accessing speech-to-text",
-    "what does a 403 response mean in Assistant",
+    "what does a 403 response mean in Watson Assistant",
     "getting a 403 error in Watson Assistant",
-    "chatbot giving 403 response code",
-    "The API query failed with status code Forbidden",
+    "chatbot giving 403 response code with Watson API",
+    "Watson API request gives the API query failed with status code Forbidden",
     "watsonplatform.net endpoint URL retired"
   ],
   "project-use": [
