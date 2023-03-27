@@ -17,7 +17,7 @@ subcollection: watson
 
 [IBM Cloud]{: tag-ibm-cloud}
 
-{{site.data.keyword.cloud}} Virtual Private Endpoints (VPE) for VPC enables you to connect to supported {{site.data.keyword.cloud}} services from your VPC network by using the IP addresses of your choosing, allocated from a subnet within your VPC. See more details [here](https://cloud.ibm.com/docs/vpc?topic=vpc-about-vpe).
+{{site.data.keyword.cloud}} Virtual Private Endpoints (VPE) for VPC enables you to connect to supported {{site.data.keyword.cloud}} services from your VPC network by using the IP addresses of your choosing, allocated from a subnet within your VPC.  See more details [here](https://cloud.ibm.com/docs/vpc?topic=vpc-about-vpe).
 {: shortdesc}
 
 This document applies to {{site.data.keyword.conversationshort}}, {{site.data.keyword.discoveryshort}}, {{site.data.keyword.speechtotextshort}}, and {{site.data.keyword.texttospeechshort}}. Virtual Private Endpoints (VPEs) are available for these services in the Dallas, Washington, Frankfurt, London, Sydney, and Tokyo locations.
