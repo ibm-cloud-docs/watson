@@ -27,7 +27,7 @@ toc:
       - getting-started-iam.md
       - service-endpoints.md
       - virtual-endpoints.md
-      - endpoints-change.md
+      - endpoints-change.md    
       - getting-started-logging.md
       - getting-started-gdpr-sar.md
   - navgroup:
