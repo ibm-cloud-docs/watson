@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2022
-lastupdated: "2022-10-05"
+  years: 2015, 2025
+lastupdated: "2025-01-13"
 
 keywords: Watson SDKs,SDK,software developer kit,programming interfaces,wrappers
 
@@ -26,7 +26,6 @@ The following {{site.data.keyword.watson}} SDKs are supported by {{site.data.key
 * [Java SDK](https://github.com/watson-developer-cloud/java-sdk){: external}
 * [Node.js SDK](https://github.com/watson-developer-cloud/node-sdk){: external}
 * [Python SDK](https://github.com/watson-developer-cloud/python-sdk){: external}
-* [.NET SDK](https://github.com/watson-developer-cloud/dotnet-standard-sdk){: external}
 
 The [API reference](https://{DomainName}/docs?tab=api-docs&category=ai%2Ccloud_pak){: external} for each service includes information and examples for these SDKs.
 {: tip}
