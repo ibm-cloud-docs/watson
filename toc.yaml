@@ -2,7 +2,7 @@ toc:
   properties:
     subcollection: watson
     audience: service
-    href: /docs/watson?topic=watson-about#about
+    href: /docs/watson
     version: 2
     path: watson
     label: Watson
@@ -38,9 +38,6 @@ toc:
       - link:
           label: Watson GitHub repos
           href: https://github.com/watson-developer-cloud/
-      - link:
-          label: Watson docs
-          href: https://cloud.ibm.com/developer/watson/documentation
   - navgroup:
       id: help
       topics:
