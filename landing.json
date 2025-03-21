@@ -1,0 +1,55 @@
+
+{
+    "version": 2,
+    "title": "IBM Watson",
+    "introduction": "This documentation describes the usage of IBM Watson.",
+    "product_page": "https://www.ibm.com/watson",
+    "console_page": "/catalog/services/watsonx-assistant",
+    "section_topics": {
+      "links": [
+        {
+          "title": "Getting started with Watson and IBM Cloud",
+          "href": "/docs/watson?topic=watson-about"
+        },
+        {
+          "title": "Watson SDKs",
+          "href": "/docs/watson?topic=watson-using-sdks"
+        },
+        {
+          "title": "Using curl with Watson examples",
+          "href": "/docs/watson?topic=watson-using-curl"
+        },
+        {
+          "title": "Authenticating to Watson services",
+          "href": "/docs/watson?topic=watson-iam"
+        }
+      ]
+    },
+    "section_highlights": [
+      {
+        "title": "Stack Overflow",
+        "description": "To discuss questions with developers",
+        "href": "https://stackoverflow.com/questions/tagged/ibm-watson-cognitive",
+        "type": "blog"
+      },
+      {
+        "title": "Blog",
+        "description": "To get various kinds of information about Watson",
+        "href": "https://developer.ibm.com/technologies/artificial-intelligence/blogs/",
+        "type": "blog",
+        "recommended": true
+      }
+    ],
+    "section_architectures": [
+        {
+          "title": "Virtual Private Endpoints",
+          "href": "/docs/watson?topic=watson-virtual-private-endpoints",
+          "deployable": true
+        },
+        {
+            "title": "Public and private network endpoints",
+            "href": "/docs/watson?topic=watson-public-private-endpoints",
+            "deployable": true
+        }
+    ]
+  }

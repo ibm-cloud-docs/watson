@@ -70,4 +70,4 @@ curl -X POST "https://api.private.us-south.assistant.watson.cloud.ibm.com/v2/ass
 - [Accessing the VPE after setup](/docs/vpc?topic=vpc-accessing-vpe-after-setup)
 - [Viewing Details of a VPE Gateway](/docs/vpc?topic=vpc-vpe-viewing-details-of-an-endpoint-gateway&interface=ui)
 - [VPE Limitations](/docs/vpc?topic=vpc-limitations-vpe)
-- [Full VPC CLI reference](/docs/vpc?topic=vpc-infrastructure-cli-plugin-vpc-reference)
+- [Full VPC CLI reference](/docs/vpc?topic=vpc-vpc-reference&interface=cli)
