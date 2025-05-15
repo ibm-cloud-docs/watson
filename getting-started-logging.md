@@ -23,7 +23,8 @@ The {{site.data.keyword.languagetranslatorshort}} and {{site.data.keyword.tonean
 
 If you are concerned with protecting the privacy of users' personal information or otherwise do not want your requests to be used by {{site.data.keyword.IBM_notm}}, you can choose not to have {{site.data.keyword.IBM_notm}} learn from your data (opt out). Choose to opt out at either the account level or at the API request level.
 
-- To prevent {{site.data.keyword.IBM_notm}} usage of your data for general service improvements for all services for which you are the owner, select `Do not learn from my data` on the [{{site.data.keyword.watson}} Privacy Settings](https://{DomainName}/watson/settings/){: external} page. To access the setting, you must be the account owner.
+- To prevent {{site.data.keyword.IBM_notm}} usage of your data for general service improvements for all services for which you are the owner, see [Preventing data use in privacy settings for Watson services](#preventing-data-use-in-privacy-settings-for-watson-services). To access the setting, you must be the account owner.
+
 - To prevent {{site.data.keyword.IBM_notm}} usage of your data for an API request, set the **X-Watson-Learning-Opt-Out** header parameter to `true`.
 
 A choice to opt out from logging data at either level overrides a choice to opt in.
@@ -32,3 +33,18 @@ You cannot opt in at the request level if you opt out at the account level. Howe
 {: tip}
 
 For more information about specific use, see the [API reference](https://{DomainName}/developer/watson/documentation){: external} for the {{site.data.keyword.watson}} service.
+
+## Preventing data use in privacy settings for Watson services
+{: #preventing-data-use-in-privacy-settings-for-watson-services}
+
+To prevent {{site.data.keyword.IBM_notm}} from using your data for general service improvements, complete the following steps:
+
+1. Navigate to the [{{site.data.keyword.watson}} Privacy Settings](https://{DomainName}/watson/settings/){: external} page.
+
+    - If you see Learn from my data, your setting is configured to prevent {{site.data.keyword.IBM_notm}} from using your data.{: note}
+
+1. Click **Do not learn from my data**.
+
+1. The text updates. If you see **Learn from my data**, your data is not used for general service improvements.
+
+For more details on how data is processed for specific IBM products, visit [IBM Compatibility Report](https://www.ibm.com/software/reports/compatibility/clarity/index.html).{: external} 
