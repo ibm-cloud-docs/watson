@@ -29,7 +29,7 @@ The `curl` utility is installed by default with recent versions of Apple® macOS
 ## Using curl for secure communications
 {: #using-curl-secure}
 
- To test whether `curl` is installed on your system, run the following command at a terminal prompt:
+To test whether `curl` is installed on your system, run the following command at a terminal prompt:
 
 ```sh
 curl -V
